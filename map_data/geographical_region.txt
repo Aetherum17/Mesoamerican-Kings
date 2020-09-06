@@ -1,0 +1,343 @@
+world_aegean = {
+	duchies = {
+		d_kissamos
+		d_kydonia
+		d_knossos
+		d_eleutherna
+		d_phaistos
+		d_zakros
+		d_north_cyclades
+		d_west_cyclades
+		d_south_cyclades
+		d_east_cyclades
+		d_ialyssos
+		d_lindos
+		d_kos
+		d_karpathos
+		d_samos
+		d_khios
+		d_lezpa
+		d_poliochne
+	}
+	counties = {
+		c_skyros
+		c_dolopes
+		c_thasos
+	}
+}
+world_persian_gulf = {
+	duchies = {
+		d_bayofbahrain
+		d_failaka
+		d_tarut
+		d_khor
+		d_alahsa
+		d_hili
+		d_ummannar
+		d_tellabraq
+		d_gulfislands
+	}
+}
+world_levant = {
+	regions = {
+		world_canaan
+	}
+	duchies = {
+		d_ledra d_philia d_vounous d_rialonsa
+		d_ugarit d_suksi d_arwada
+		d_amatu d_qatna d_qadesh d_nazala
+		d_qatan d_ebla d_tavneel d_dinanu
+		d_hazazu d_halab d_qatuma
+		d_alalakh d_meroe d_mukis
+		d_zalwar d_samalla d_marqasa d_bulbulhum
+		d_urshu d_karkamisa d_halpi
+		d_emar d_dub d_azu
+		d_tadmor_oasis d_akash
+		d_jawbas d_hermesh
+	}
+}
+world_canaan = {
+	duchies = {
+		#Empire of Canaan
+		d_gaza d_ashkalon d_jerusalem d_lakish d_simon
+		d_yapo d_jericho d_megiddo d_eprayim d_dor d_samaria
+		d_qamon d_gilad d_mahanayim d_rabbatammon
+		d_dibon d_ar
+		d_soar d_nabatea d_petra d_elath
+		d_land_of_turquoise d_south_sinai d_east_sinai
+		d_gubla d_halpa d_sigata d_sidon
+		d_raqqat d_hazor d_tyre
+		d_orontes_source d_hazabu
+		d_damascus_oasis d_yabrudu d_saaru
+		d_kanatha d_sirbasani d_qarnayim
+	}
+}
+world_elam = {
+	duchies = {
+		d_liyan d_humbabitu d_zilittu d_kurangun
+		d_anshan d_dena d_shub d_sinser d_dalhu
+		d_susa d_duryakin d_urua d_habannatu d_madaktu d_etuti d_nagitu d_adamdun d_tuklati
+		d_malamir d_huhnuri d_salahu
+		d_qirbit d_zagmi d_rabi d_bitbunakki
+		d_nikkur d_iskakku d_marubishtu d_akkuddu d_bagistana
+	}
+}
+world_greekaegean = {
+	duchies = {
+		d_karystos
+		d_chalkis
+		d_artemisio
+		d_kissamos
+		d_kydonia
+		d_knossos
+		d_eleutherna
+		d_phaistos
+		d_zakros
+		d_north_cyclades
+		d_west_cyclades
+		d_south_cyclades
+		d_east_cyclades
+		d_athens
+		d_oropos
+		d_thebes
+		d_orchomenos
+		d_kirra
+		d_lokris
+		d_lakonia
+		d_thyrea
+		d_kythera
+		d_taenaron_cape
+		d_mesene
+		d_pylos
+		d_triphylia
+		d_pednelissos
+		d_erymanthos
+		d_tegea
+		d_tiryns
+		d_aroania
+		d_ermione
+		d_korinthos
+		d_kyllene
+		d_panormos
+		d_lamia
+		d_iolkos
+		d_magnesia
+		d_alos
+		d_pharsalos
+		d_larissa
+		d_hestiaiotis
+		d_kalydon
+		d_oinaidai
+		d_lefkas
+		d_kefalonia
+		d_aperantia
+		d_molossis
+		d_ephyre
+		d_dodona
+		d_kerkyra
+		d_epeiros
+		d_athamania
+		d_ambrakia
+		d_amyron
+		d_aoos
+		d_parauaia
+		d_argyas
+		d_khanoia
+		d_boion
+		d_orestis
+		d_tymphaia
+		d_prespa
+		d_herakleo
+		d_perraibia
+		d_elimeia
+		d_eordaia
+		d_erigon_source
+		d_almopia
+		d_amphaxitis
+		d_dojran
+		d_loudias
+		d_thessaloniki
+		d_khalkidike
+		d_sithonia
+		d_volvi
+		d_koroneia
+		d_bisaltia
+		d_strymon
+		d_pangaion
+		d_sitagroi
+		d_nestos
+		d_vistonidas
+		d_sapaike
+		d_karpathos d_kos d_sporades d_samos
+		d_lindos d_ialyssos
+		d_lezpa
+		d_poliochne d_khersonesos d_mouth_of_hebros d_kainike d_khios
+	}
+}
+world_africa = {
+	duchies = {
+		d_ammonia d_aghilasse d_timsahe d_tablate d_bitelma d_itbirane d_siwa
+		d_white_walls d_foreleg d_west d_western_harpoon d_northern_shield d_calf_and_cow d_mountain_bull d_throne_of_horus d_black_ox d_hesbu d_andjety d_southern_shield d_prospering_scepter d_eastern_harpoon d_plumed_falcon_of_sopedew d_foremost_of_the_east d_prince_of_the_south d_prince_of_the_nord d_ibis
+		d_tuatta d_wadi_hammamat d_aswan d_knife d_lower_sycamore d_upper_sycamore d_two_scepters d_nemty d_jackal d_oryx d_hare d_lower_viper d_upper_viper d_viper_mountain d_set d_wadjet d_min d_great_land d_bat d_crocodile d_two_gods d_sceptre d_shrine d_upper_horus d_land_of_the_bow
+		d_kerma d_first_cataract d_qereti d_sinisri d_medjay d_semna d_dal d_sye
+		d_kharga_oasis d_dakhla_oasis d_bahariya_oasis d_farafra_oasis
+		d_quseir d_berenike d_gulf_of_suez d_sekhaat
+	}
+}
+world_mesopotamia = {
+	duchies = {
+		#Empire of Akkad
+		d_tagriatanu d_shashrum d_ebeh d_ekallatum
+		d_asbu d_emutbal d_abatu d_durnabu d_yamutbal d_der
+		d_larak d_gushkin d_uruk d_ur d_isin d_tummal d_umma d_adab d_larsa d_lagash
+		d_mashkanshapir d_apak d_aplak d_babylon d_marad d_eresh d_sippar d_kish d_nippur
+		d_simudar d_durpapsukkal d_meturna d_tilsaabtani d_akkad d_ampihabi d_kutha d_malgum d_diniktum d_wuuru d_mankisum d_pus d_eshnunna
+		d_hit d_anat d_rapiqu d_yabliya
+		#Empire of Subartum
+		d_lubda d_tursana d_sinnu d_gasur
+		d_pilu d_simurrum d_shurudhum d_halman d_namarum d_nikum
+		d_kakmum d_zamua d_kanara
+		d_ahazum d_qabra d_sare d_durtaliti d_arrapha
+		d_susarra d_tas d_hiptuna
+		d_quqahu d_kilizi d_zabuelu d_ashur d_nineveh d_urbilum
+		d_andarig d_nisutu d_binanu d_tartara d_apku
+		d_haburatum d_qana d_tille d_halziatbari
+
+		d_mari d_terqa d_haradu d_usala d_kipina
+
+		d_qattanun d_razanma d_rapsu d_habur
+		d_dibar d_saha d_arnabani
+		d_kaprabi d_habhu d_qipanu
+		d_kummuhi d_sarugu d_upperpurattu
+		d_hasamu d_sahlala d_harran
+		d_siimme d_nagar d_nawar d_nabada d_hurra d_sudu d_wassukanni d_urkesh
+		d_upumu d_habhutu d_kulimmeri d_diglat d_qilissa d_zamani
+		d_katmuhi d_kasiyari d_simanum
+
+		d_bitadini d_halabit d_abattum d_tuttul
+
+		d_amorite_homeland
+
+		d_eluhat d_amadani d_tushan d_bityahiri
+	}
+}
+world_cyprus = {
+	duchies = {
+		d_kouklia d_amorosa d_kalabasos d_alasiya 
+	}
+}
+world_anatolia = {
+	duchies = {
+		d_sallusa d_saranduwa d_tarhuntassa d_zarhassa d_lahhwiyassi
+		d_pahara d_zaruna d_samura d_lamiya d_tarsa d_silvermountain d_adaniya d_malluma d_izziya d_urussa d_kumanni d_lawazantiya
+		d_kastaraya d_eurymedon d_melas
+		d_kussara d_shamuha d_marishta d_hashikkashnawanda d_karahna
+		d_ussuna d_sherigga d_hurma d_kanesh
+		d_ulma d_maiszasti d_uda d_hupishna
+		d_arawana d_kassiya d_hartana d_wahshushana
+		d_aura d_shalatiwara d_lalanda
+		d_shinuwa d_malidiya d_ambara d_ishuwa
+		d_hulaya d_shinnuwanda
+		d_naniziti d_walma d_marasha d_wibassa
+		d_katapa d_shappiduwa d_altanna d_washaniya d_harshamna d_tuhuppiya d_ankuwa d_shapinuwa d_hattusa
+
+		d_wilion d_dardanos d_granikos d_tawis
+		d_antandros
+		d_mouth_of_warmala d_erythras d_lebedos d_smyrne
+		d_lower_seha d_lower_warmala d_upper_seha
+		d_marmara d_lydia_lykos
+		d_kaunos d_utima d_zepura d_millawanda d_waliwanda d_irfo
+		d_ilaniya d_kuwalapassa d_uwassa d_zippasla d_patara d_hinduwa d_zumarri d_wiyanawanda
+		d_harpasos d_sallawassa
+		d_kaystros d_thyaira
+		d_maiandros d_brioula
+		d_lykos d_mira d_halluwa d_huwalusha d_ura
+	}
+}
+world_egypt = {
+	duchies = {
+		d_white_walls d_foreleg d_west d_western_harpoon d_northern_shield d_calf_and_cow d_mountain_bull d_throne_of_horus d_black_ox d_hesbu d_andjety d_southern_shield d_prospering_scepter d_eastern_harpoon d_plumed_falcon_of_sopedew d_foremost_of_the_east d_prince_of_the_south d_prince_of_the_nord d_ibis
+		d_tuatta d_wadi_hammamat d_knife d_lower_sycamore d_upper_sycamore d_two_scepters d_nemty d_jackal d_oryx d_hare d_lower_viper d_upper_viper d_viper_mountain d_set d_wadjet d_min d_great_land d_bat d_crocodile d_two_gods d_sceptre d_shrine d_upper_horus
+		d_land_of_the_bow d_aswan
+	}
+}
+world_nile_valley = {
+	duchies = {
+		d_white_walls d_foreleg d_west d_western_harpoon d_northern_shield d_calf_and_cow d_mountain_bull d_throne_of_horus d_black_ox d_hesbu d_andjety d_southern_shield d_prospering_scepter d_eastern_harpoon d_plumed_falcon_of_sopedew d_foremost_of_the_east d_prince_of_the_south d_prince_of_the_nord d_ibis
+		d_tuatta d_wadi_hammamat d_knife d_lower_sycamore d_upper_sycamore d_two_scepters d_nemty d_jackal d_oryx d_hare d_lower_viper d_upper_viper d_viper_mountain d_set d_wadjet d_min d_great_land d_bat d_crocodile d_two_gods d_sceptre d_shrine d_upper_horus
+		d_kerma d_first_cataract d_qereti d_sinisri d_medjay d_semna d_dal d_sye
+	}
+}
+world_nubia = {
+	duchies = {
+		d_kerma d_first_cataract d_qereti d_sinisri d_medjay d_semna d_dal d_sye d_land_of_the_bow d_aswan
+	}
+}
+world_sumer = {
+	duchies = {
+		d_larak d_gushkin d_uruk d_ur d_isin d_tummal d_umma d_adab d_larsa d_lagash
+		d_mashkanshapir d_apak d_aplak d_babylon d_marad d_eresh d_sippar d_kish d_nippur
+		d_simudar d_durpapsukkal d_meturna d_tilsaabtani d_akkad d_ampihabi d_kutha d_malgum
+
+		d_abatu d_emutbal
+	}
+}
+world_sumerian_revolt_flip = {
+	regions = {
+		world_sumer
+	}
+}
+world_innovation_elephants = {
+	regions = {
+		world_africa
+		world_elam
+		world_persian_gulf
+		world_mesopotamia
+		world_levant
+	}
+	duchies = {
+		
+	}
+}
+world_innovation_camels = {
+	duchies = {
+		d_hili
+		d_ummannar
+		d_tellabraq
+	}
+}
+world_sumerian_elective_region = {
+	regions = {
+		world_sumer #fix to real region
+	}
+}
+world_southern_marshland = {
+	duchies = {
+		d_ur d_uruk d_larsa d_lagash d_gushkin d_umma
+	}
+}
+graphical_mena = {
+	graphical = yes
+	regions = {
+		world_persian_gulf
+		world_mesopotamia
+		world_africa
+		world_levant
+	}
+}
+
+graphical_india = {
+	graphical = yes
+	regions = {
+		world_elam
+	}
+}
+
+graphical_mediterranean = {
+	graphical = yes
+	regions = {
+		world_greekaegean
+		world_cyprus
+		world_anatolia
+	}
+}

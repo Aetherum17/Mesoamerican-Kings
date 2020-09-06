@@ -1,0 +1,39 @@
+﻿infanticide_interaction = {
+
+	category = interaction_category_hostile
+
+	desc = designate_heir_interaction_desc
+
+	is_shown = {
+		scope:recipient = {
+			is_child_of = scope:actor
+		}
+		scope:actor = {
+			faith = { has_doctrine_parameter = infanticide_any }
+		}
+		scope:recipient.employer = scope:actor
+		scope:recipient = { age < 4 }
+	}
+
+	is_valid_showing_failures_only = {
+		scope:recipient = { is_diplomatically_available = yes }
+	}
+
+	on_auto_accept = {
+	}
+
+	on_accept = {
+		scope:recipient = {
+			add_character_flag = infanticide
+			death = {
+				killer = root
+				death_reason = death_infanticide
+			}
+		}
+		ba_impact_from_infanticide_effect = {
+			CHILD = scope:recipient
+		}
+	}
+
+	auto_accept = yes
+}

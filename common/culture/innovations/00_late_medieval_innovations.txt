@@ -1,0 +1,191 @@
+﻿#### Local Types ####
+@administration_1 = "gfx/interface/icons/culture_innovations/innovation_administration_01.dds"
+@administration_2 = "gfx/interface/icons/culture_innovations/innovation_administration_02.dds"
+@administration_3 = "gfx/interface/icons/culture_innovations/innovation_administration_03.dds"
+@civil_construction_1 = "gfx/interface/icons/culture_innovations/innovation_civil_construction_01.dds"
+@civil_construction_2 = "gfx/interface/icons/culture_innovations/innovation_civil_construction_02.dds"
+@leadership_1 = "gfx/interface/icons/culture_innovations/innovation_leadership_01.dds"
+@leadership_2 = "gfx/interface/icons/culture_innovations/innovation_leadership_02.dds"
+@raised_banner = "gfx/interface/icons/culture_innovations/innovation_raised_banner.dds"
+@fortifications = "gfx/interface/icons/culture_innovations/innovation_fortifications.dds"
+@siege_weapons = "gfx/interface/icons/culture_innovations/innovation_siege_weapons.dds"
+@levy_building = "gfx/interface/icons/culture_innovations/innovation_levy_building.dds"
+@maa_01 = "gfx/interface/icons/culture_innovations/innovation_maa_01.dds"
+@maa_02 = "gfx/interface/icons/culture_innovations/innovation_maa_02.dds"
+@weapons_and_armor_01 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_01.dds"
+@weapons_and_armor_02 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_02.dds"
+@knight = "gfx/interface/icons/culture_innovations/innovation_knight.dds"
+@majesty_01 = "gfx/interface/icons/culture_innovations/innovation_majesty_01.dds"
+@majesty_02 = "gfx/interface/icons/culture_innovations/innovation_majesty_02.dds"
+@majesty_03 = "gfx/interface/icons/culture_innovations/innovation_majesty_03.dds"
+@nobility_01 = "gfx/interface/icons/culture_innovations/innovation_nobility_01.dds"
+@nobility_02 = "gfx/interface/icons/culture_innovations/innovation_nobility_02.dds"
+@nobility_03 = "gfx/interface/icons/culture_innovations/innovation_nobility_03.dds"
+@nobility_04 = "gfx/interface/icons/culture_innovations/innovation_nobility_04.dds"
+@misc_inventions = "gfx/interface/icons/culture_innovations/innovation_misc_inventions.dds"
+
+@camel = "gfx/interface/icons/culture_innovations/innovation_camel.dds"
+@elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
+@special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
+@special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
+
+#culture_group_military
+innovation_fortification_4 = { # Fort 4
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon = @fortifications
+
+	custom = unlock_early_iron_age_fortification_buildings
+	
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_barracks_4 = { # Military 4
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon = @levy_building
+	
+	custom = unlock_early_iron_age_military_buildings
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_tbd_41 = { # Misc
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon = @weapons_and_armor_01
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_standing_armies = { # Maa cap 4
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon = @leadership_2
+	
+	modifier = {
+		men_at_arms_cap = 1
+		men_at_arms_limit = 5
+	}
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_early_cavalry = { # Misc
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon =  @weapons_and_armor_02
+	
+	unlock_maa = early_cavalry
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_siege_engineers = { # Maa 3
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon = @siege_weapons
+
+	unlock_maa = siege_engineers
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+#culture_group_civic
+innovation_development_4 = { #Development 4
+	group = culture_group_civic
+	culture_era = culture_era_late_medieval
+	icon = @misc_inventions
+
+	custom = development_4_base_development
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_distance_efficiency_4 = { #Misc
+	group = culture_group_civic
+	culture_era = culture_era_late_medieval
+	icon = @administration_1
+
+	custom = less_negative_impact_from_distance_04
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_agri_4 = { #Agri 4
+	group = culture_group_civic
+	culture_era = culture_era_late_medieval
+	icon = @majesty_01
+	
+	custom = unlock_early_iron_age_agriculture_buildings
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_econ_4 = { #Econ 4
+	group = culture_group_civic
+	culture_era = culture_era_late_medieval
+	icon = @civil_construction_1
+	
+	custom = unlock_early_iron_age_economic_buildings
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_iron_bloomeries = { # Misc
+	group = culture_group_civic
+	culture_era = culture_era_late_medieval
+	icon = @nobility_03
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_tbd_46 = { # Misc
+	group = culture_group_civic
+	culture_era = culture_era_late_medieval
+	icon = @leadership_1
+	
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_tbd_48 = { # Law 4
+	group = culture_group_civic
+	culture_era = culture_era_late_medieval
+	icon = @majesty_03
+	
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_tbd_47 = { # Misc
+	group = culture_group_civic
+	culture_era = culture_era_late_medieval
+	icon = @nobility_02
+	
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+#culture_group_regional
+
+innovation_neo_pyramids = { #
+	group = culture_group_regional
+	culture_era = culture_era_late_medieval
+	region = world_nubia
+	icon = @nobility_01
+
+	flag = global_regional
+	flag = late_medieval_era_regular
+}

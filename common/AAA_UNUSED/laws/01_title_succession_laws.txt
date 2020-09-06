@@ -1,0 +1,123 @@
+﻿title_succession_laws = {
+	#Default Feudal Elective
+	feudal_elective_succession_law = {
+		can_have = {
+			has_government = feudal_government
+			highest_held_title_tier >= tier_duchy
+			always = no
+		}
+		can_pass = {
+			can_change_title_law_trigger = yes
+		}
+		can_title_have = {
+			tier >= tier_duchy
+		}
+		succession = {
+			order_of_succession = election
+			election_type = feudal_elective
+		}
+		flag = elective_succession_law
+		modifier = {
+			direct_vassal_opinion = 10
+		}
+		revoke_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+		pass_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+	}
+
+	#Sumerian Succession
+	sumerian_elective_succession_law = {
+		can_have = {
+			highest_held_title_tier >= tier_duchy
+			has_government = feudal_government
+		}
+		can_pass = {
+			can_change_title_law_trigger = yes
+			always = no #Only through decision to restore the Kingship
+		}
+		can_title_have = {
+			tier >= tier_duchy
+			this = title:k_sumer
+		}
+		succession = {
+			order_of_succession = election
+			election_type = sumerian_elective
+		}
+		flag = elective_succession_law
+		modifier = {
+			monthly_prestige_gain_mult = 0.1
+			monthly_piety_gain_mult = 0.1
+			direct_vassal_opinion = 10
+			vassal_limit = 25
+		}
+		revoke_cost = {
+			prestige = change_hre_title_succession_law_prestige_cost
+		}
+		pass_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+	}
+	city_confederation_elective_succession_law = {
+		can_have = {
+			highest_held_title_tier >= tier_duchy
+			has_government = feudal_government
+		}
+		can_pass = {
+			can_change_title_law_trigger = yes
+		}
+		can_title_have = {
+			tier >= tier_duchy
+			NOT = { this = title:k_sumer }
+		}
+		succession = {
+			order_of_succession = election
+			election_type = city_confederation_elective
+		}
+		flag = elective_succession_law
+		modifier = {
+			direct_vassal_opinion = 10
+			vassal_limit = 10
+		}
+		revoke_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+		pass_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+	}
+	dynastic_elective_succession_law = {
+		can_have = {
+			highest_held_title_tier >= tier_duchy
+			has_government = feudal_government
+			culture = {
+				has_innovation = innovation_empowered_aristocracy
+			}
+		}
+		can_pass = {
+			can_change_title_law_trigger = yes
+		}
+		can_title_have = {
+			tier >= tier_duchy
+		}
+		succession = {
+			order_of_succession = election
+			election_type = dynastic_elective
+		}
+		flag = elective_succession_law
+		modifier = {
+			monthly_dynasty_prestige_mult = 0.05
+			monthly_prestige_gain_per_happy_powerful_vassal_mult = 0.025
+			direct_vassal_opinion = 5
+			vassal_limit = 10
+		}
+		revoke_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+		pass_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+	}
+}

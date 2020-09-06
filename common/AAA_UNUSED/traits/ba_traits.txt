@@ -1,0 +1,191 @@
+﻿# Standard Values
+@pos_compat_high = 30
+@pos_compat_medium = 15
+@pos_compat_low = 5
+
+@neg_compat_high = -30
+@neg_compat_medium = -15
+@neg_compat_low = -5
+
+charioteer_1 = {
+	index = 280
+	lifestyle = yes
+	negate_health_penalty_add = 0.25
+	prowess = 6
+
+	group = lifestyle_charioteer
+	level = 1
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_charioteer_1_desc
+			}
+			desc = trait_charioteer_1_character_desc
+		}
+	}
+
+	compatibility = {
+		charioteer_1 = @pos_compat_medium
+		charioteer_2 = @pos_compat_medium
+		charioteer_3 = @pos_compat_medium
+		brave = @pos_compat_low
+		craven = @neg_compat_low
+	}
+}
+charioteer_2 = {
+	index = 281
+	lifestyle = yes
+	negate_health_penalty_add = 0.5
+	prowess = 12
+
+	group = lifestyle_charioteer
+	level = 2
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_charioteer_2_desc
+			}
+			desc = trait_charioteer_2_character_desc
+		}
+	}
+	
+
+	compatibility = {
+		charioteer_1 = @pos_compat_medium
+		charioteer_2 = @pos_compat_medium
+		charioteer_3 = @pos_compat_medium
+		brave = @pos_compat_low
+		craven = @neg_compat_low
+	}
+}
+charioteer_3 = {
+	index = 282
+	lifestyle = yes
+	negate_health_penalty_add = 1
+	prowess = 18
+
+	group = lifestyle_charioteer
+	level = 3
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_charioteer_3_desc
+			}
+			desc = trait_charioteer_3_character_desc
+		}
+	}
+
+	compatibility = {
+		charioteer_1 = @pos_compat_medium
+		charioteer_2 = @pos_compat_medium
+		charioteer_3 = @pos_compat_medium
+		brave = @pos_compat_low
+		craven = @neg_compat_low
+	}
+}
+
+scribe_1 = {
+	index = 283
+	lifestyle = yes
+	learning = 4
+	stewardship = 2
+	diplomacy = 1
+
+	group = lifestyle_scribe
+	level = 1
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_scribe_1_desc
+			}
+			desc = trait_scribe_1_character_desc
+		} 
+	}
+
+	compatibility = {
+		scribe_1 = @pos_compat_medium
+		scribe_2 = @pos_compat_medium
+		scribe_3 = @pos_compat_medium
+		patient = @pos_compat_low
+		impatient = @neg_compat_low
+	}
+}
+scribe_2 = {
+	index = 284
+	lifestyle = yes
+	learning = 6
+	stewardship = 3
+	diplomacy = 2
+	monthly_learning_lifestyle_xp_gain_mult = 0.05
+
+	group = lifestyle_scribe
+	level = 2
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_scribe_2_desc
+			}
+			desc = trait_scribe_2_character_desc
+		}
+	}
+	
+
+	compatibility = {
+		scribe_1 = @pos_compat_medium
+		scribe_2 = @pos_compat_medium
+		scribe_3 = @pos_compat_medium
+		patient = @pos_compat_low
+		impatient = @neg_compat_low
+	}
+}
+scribe_3 = {
+	index = 285
+	lifestyle = yes
+	learning = 8
+	stewardship = 5
+	diplomacy = 3
+	monthly_learning_lifestyle_xp_gain_mult = 0.1
+
+	group = lifestyle_scribe
+	level = 3
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_scribe_3_desc
+			}
+			desc = trait_scribe_3_character_desc
+		}
+	}
+
+	compatibility = {
+		scribe_1 = @pos_compat_medium
+		scribe_2 = @pos_compat_medium
+		scribe_3 = @pos_compat_medium
+		patient = @pos_compat_low
+		impatient = @neg_compat_low
+	}
+}

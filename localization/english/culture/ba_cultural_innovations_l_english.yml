@@ -1,0 +1,313 @@
+﻿l_english:
+ #Custom
+ can_designate_heir:0 "Rulers can designate their [heir|E]"
+ unlocks_duchy_buildings:0 "Unlocks an additional tier of [duchy_buildings|E]"
+ less_negative_impact_from_distance_01:0 "[distance_efficiency|E]: #P +20.00%#!"
+ less_negative_impact_from_distance_02:0 "$less_negative_impact_from_distance_01$"
+ less_negative_impact_from_distance_03:0 "$less_negative_impact_from_distance_01$"
+ less_negative_impact_from_distance_04:0 "$less_negative_impact_from_distance_01$"
+ enables_writing:0 "Unlocks Writing"
+ enables_charioteering:0 "Enables Charioteering"
+ unlocks_dynastic_elective_succession:0 "Enables Dynastic Elective Succession Law"
+ unlock_governor_contract:0 "Unlock Governor Vassal Contract"
+ can_construct_new_capital:0 "Can found a new city as a capital"
+ development_1_base_development:0 "Counties [developmental_decay|E] now starts at 10 [development|E]"
+ development_2_base_development:0 "Counties [developmental_decay|E] now starts at 20 [development|E]"
+ development_3_base_development:0 "Counties [developmental_decay|E] now starts at 30 [development|E]"
+ development_4_base_development:0 "Counties [developmental_decay|E] now starts at 40 [development|E]"
+ unlock_early_bronze_age_economic_buildings:0 "Unlocks all Early Bronze Age [economic_buildings|E]"
+ unlock_early_bronze_age_agriculture_buildings:0 "Unlocks all Early Bronze Age [agricultural_buildings|E]"
+ unlock_early_bronze_age_military_buildings:0 "Unlocks all Early Bronze Age [military_buildings|E]"
+ unlock_early_bronze_age_fortification_buildings:0 "Unlocks all Early Bronze Age [fortification_buildings|E]"
+ unlock_middle_bronze_age_agriculture_buildings:0 "Unlocks all Middle Bronze Age [agricultural_buildings|E]"
+ unlock_middle_bronze_age_economic_buildings:0 "Unlocks all Middle Bronze Age [economic_buildings|E]"
+ unlock_middle_bronze_age_military_buildings:0 "Unlocks all Middle Bronze Age [military_buildings|E]"
+ unlock_middle_bronze_age_fortification_buildings:0 "Unlocks all Middle Bronze Age [fortification_buildings|E]"
+ unlock_late_bronze_age_agriculture_buildings:0 "Unlocks all Late Bronze Age [agricultural_buildings|E]"
+ unlock_late_bronze_age_economic_buildings:0 "Unlocks all Late Bronze Age [economic_buildings|E]"
+ unlock_late_bronze_age_military_buildings:0 "Unlocks all Late Bronze Age [military_buildings|E]"
+ unlock_late_bronze_age_fortification_buildings:0 "Unlocks all Late Bronze Age [fortification_buildings|E]"
+ unlock_early_iron_age_agriculture_buildings:0 "Unlocks all Early Bronze Age [agricultural_buildings|E]"
+ unlock_early_iron_age_economic_buildings:0 "Unlocks all Early Iron Age [economic_buildings|E]"
+ unlock_early_iron_age_military_buildings:0 "Unlocks all Early Iron Age [military_buildings|E]"
+ unlock_early_iron_age_fortification_buildings:0 "Unlocks all Early Iron Age [fortification_buildings|E]"
+ 
+##############
+# Early Bronze Age #
+##############
+
+ #Military
+ innovation_earthworks:0 "Earthworks"
+ innovation_earthworks_desc:0 ""
+
+ #innovation_barracks:0 "City Barracks"
+ #innovation_barracks_desc:0 ""
+ 
+ innovation_raiding_parties:0 "Raiding Expeditions"
+ innovation_raiding_parties_desc:0 ""
+ 
+ #innovation_mustering_grounds:0 "Mustering Ground"
+ #innovation_mustering_grounds_desc:0 ""
+ 
+ innovation_tribal_vassals:0 "Tribal Vassals"
+ innovation_tribal_vassals_desc:0 ""
+ 
+ innovation_bronze_socket_axe:0 "Bronze Socket Axe"
+ innovation_bronze_socket_axe_desc:0 ""
+ 
+ #Civic
+
+ #innovation_city_planning:0 "City Planning"
+ #innovation_city_planning_desc:0 ""
+ 
+ innovation_early_palaces:0 "Early Palaces"
+ innovation_early_palaces_desc:0 ""
+ 
+ innovation_centralized_irrigation:0 "Centralized Irrigation"
+ innovation_centralized_irrigation_desc:0 ""
+ 
+ innovation_potters_wheel:0 "Potters Wheel"
+ innovation_potters_wheel_desc:0 ""
+ 
+ innovation_city_states:0 "City-States"
+ innovation_city_states_desc:0 ""
+ 
+ innovation_kingship:0 "Kingship"
+ innovation_kingship_desc:0 ""
+ 
+ innovation_kings_justice:0 "Kings Justice"
+ innovation_kings_justice_desc:0 ""
+ 
+ innovation_border_stones:0 "Border Stones"
+ innovation_border_stones_desc:0 ""
+ 
+ #Regional
+
+ innovation_aegean_raiders:0 "Aegean Raiders"
+ innovation_aegean_raiders_desc:0 ""
+ 
+ innovation_dilmun_magan_seafarers:0 "Dilmunite Seafarers"
+ innovation_dilmun_magan_seafarers_desc:0 ""
+ 
+ innovation_papyrus:0 "Papyrus"
+ innovation_papyrus_desc:0 ""
+ 
+ innovation_grain_rations:0 "Grain Rations"
+ innovation_grain_rations_desc:0 ""
+
+ innovation_marsh_raider:0 "Marsh Raiders"
+ innovation_marsh_raider_desc:0 "In Southern Sumer a vast marshland can be found which grows ever-larger as each year the discharge from the Euphrat and the Tigris fills in new lands. The peoples who call this land their home has over time developed an adaptitude to the swampy terrain and are well positioned to resist any foreign incursions."
+ 
+ innovation_writing:0 "Writing"
+ innovation_writing_desc:0 ""
+ 
+ innovation_spoked_wheel:0 "Spoked Wheel"
+ innovation_spoked_wheel_desc:0 ""
+ 
+ innovation_composite_bow:0 "Composite Bows"
+ innovation_composite_bow_desc:0 ""
+ 
+ innovation_gutian_raiders:0 "Gutian Raiders"
+ innovation_gutian_raiders_desc:0 ""
+ 
+######################
+# Middle Bronze Age #
+###################### 
+ 
+ #Military 
+ innovation_fortifications_2:0 "Fortifications II"
+ innovation_fortifications_2_desc:0 ""
+ 
+ innovation_barracks_2:0 "Barracks II"
+ innovation_barracks_2_desc:0 ""
+ 
+ innovation_conscription:0 "Conscription"
+ innovation_conscription_desc:0 ""
+ 
+ innovation_maa_cap_2:0 "Men-at-Arms Capacity II"
+ innovation_maa_cap_2_desc:0 ""
+ 
+ innovation_tributaries:0 "Tributaries"
+ innovation_tributaries_desc:0 ""
+ 
+ innovation_swords:0 "Swords"
+ innovation_swords_desc:0 ""
+ 
+ #Civic
+
+ innovation_development_2:0 "Development II"
+ innovation_development_2_desc:0 ""
+ 
+ innovation_palatial:0 "Palatial"
+ innovation_palatial_desc:0 ""
+ 
+ innovation_artificial_resorvoirs:0 "Artificial Resorvoirs"
+ innovation_artificial_resorvoirs_desc:0 ""
+ 
+ innovation_economic_2:0 "Economic II"
+ innovation_economic_2_desc:0 ""
+ 
+ innovation_regional_divisioning:0 "Regional Divisioning"
+ innovation_regional_divisioning_desc:0 ""
+ 
+ innovation_empowered_aristocracy:0 "Empowered Aristocracy"
+ innovation_empowered_aristocracy_desc:0 ""
+ 
+ innovation_law_code:0 "Law Code"
+ innovation_law_code_desc:0 ""
+ 
+ innovation_designate_heir:0 "Designate Heir"
+ innovation_designate_heir_desc:0 ""
+ #Regional
+
+ innovation_frescoes:0 "Frescoes"
+ innovation_frescoes_desc:0 ""
+ 
+ innovation_camel_domestication:0 "Camel Domestication"
+ innovation_camel_domestication_desc:0 ""
+ 
+#####################
+# Late Bronze Age #
+#####################
+
+ 
+ innovation_fortifications_3:0 "Fortifications III"
+ innovation_fortifications_3_desc:0 ""
+ 
+ innovation_barracks_3:0 "Barracks III"
+ innovation_barracks_3_desc:0 ""
+ 
+ innovation_puppet_rulers:0 "Puppet Rulers"
+ innovation_puppet_rulers_desc:0 ""
+ 
+ innovation_maa_cap_3:0 "Man-at-Arms Capacity III"
+ innovation_maa_cap_3_desc:0 ""
+ 
+ innovation_charioteer_elite:0 "Maryannu"
+ innovation_charioteer_elite_desc:0 ""
+ 
+ innovation_scale_armor:0 "Scale Armor"
+ innovation_scale_armor_desc:0 ""
+ 
+ #Civic
+
+ innovation_development_3:0 "Development III"
+ innovation_development_3_desc:0 ""
+ 
+ innovation_imperial_palaces:0 "Imperial Palaces"
+ innovation_imperial_palaces_desc:0 ""
+ 
+ innovation_agri_3:0 "Agriculture III"
+ innovation_agri_3_desc:0 ""
+ 
+ innovation_econ_3:0 "Economic III"
+ innovation_econ_3_desc:0 ""
+ 
+ innovation_diplomatic_missions:0 "Diplomatic Missions"
+ innovation_diplomatic_missions_desc:0 ""
+ 
+ innovation_governors:0 "Governors"
+ innovation_governors_desc:0 ""
+ 
+ innovation_imperial_authority:0 "Imperial Authority"
+ innovation_imperial_authority_desc:0 ""
+ 
+ innovation_new_capitals:0 "New Capital"
+ innovation_new_capitals_desc:0 ""
+ 
+ #Regional
+
+ innovation_medjay:0 "Medjay"
+ innovation_medjay_desc:0 ""
+ 
+ innovation_cyclopean_walls:0 "Cyclopean Walls"
+ innovation_cyclopean_walls_desc:0 ""
+ 
+#####################
+# Early Iron Age #
+##################### 
+ 
+ 
+ innovation_fortification_4:0 "Fortifications IV"
+ innovation_fortification_4_desc:0 ""
+ 
+ innovation_barracks_4:0 "Barracks IV"
+ innovation_barracks_4_desc:0 ""
+ 
+ innovation_tbd_41:0 "TBD"
+ innovation_tbd_41_desc:0 ""
+ 
+ #innovation_standing_armies:0 "Standing Armies"
+ #innovation_standing_armies_desc:0 ""
+ 
+ innovation_early_cavalry:0 "Early Cavalry"
+ innovation_early_cavalry_desc:0 ""
+ 
+ innovation_siege_engineers:0 "Siege Engineers"
+ innovation_siege_engineers_desc:0 ""
+ 
+ #Civic
+
+ innovation_development_4:0 "Development IV"
+ innovation_development_4_desc:0 ""
+ 
+ innovation_distance_efficiency_4:0 "Distance Efficiency IV"
+ innovation_distance_efficiency_4_desc:0 ""
+ 
+ innovation_agri_4:0 "Agriculture IV"
+ innovation_agri_4_desc:0 ""
+ 
+ innovation_econ_4:0 "Economic IV"
+ innovation_econ_4_desc:0 ""
+ 
+ innovation_iron_bloomeries:0 "Iron Bloomeries"
+ innovation_iron_bloomeries_desc:0 ""
+ 
+ innovation_tbd_46:0 "TBD"
+ innovation_tbd_46_desc:0 ""
+ 
+ innovation_tbd_48:0 "TBD"
+ innovation_tbd_48_desc:0 ""
+ 
+ innovation_tbd_47:0 "TBD"
+ innovation_tbd_47_desc:0 ""
+ 
+ #Regional
+
+ innovation_neo_pyramids:0 "Neo-Pyramids"
+ innovation_neo_pyramids_desc:0 ""
+
+ #Maa
+
+ innovation_war_cart:0 "War Cart"
+ innovation_war_cart_desc:0 ""
+
+ innovation_ta_seti_bowmen:0 "Ta-Seti Bowmen"
+ innovation_ta_seti_bowmen_desc:0 ""
+
+ innovation_aegean_maceman:0 "Aegean Macemen"
+ innovation_aegean_maceman_desc:0 ""
+
+ innovation_boar_tusk_warrior:0 "Boar-Tusk Warrior"
+ innovation_boar_tusk_warrior_desc:0 ""
+
+ innovation_axe_and_bow_warriors:0 "Axe & Bow Warriors"
+ innovation_axe_and_bow_warriors_desc:0 ""
+
+ innovation_khopesh:0 "Khopesh"
+ innovation_khopesh_desc:0 ""
+
+ innovation_hyksos_charioteers:0 "Hyksos Charioteers"
+ innovation_hyksos_charioteers_desc:0 ""
+
+ innovation_early_hoplite:0 "Early Hoplites"
+ innovation_early_hoplite_desc:0 ""
+
+ innovation_haibrw_cavalry:0 "Haibrw Cavalry"
+ innovation_haibrw_cavalry_desc:0 ""
+
+ innovation_panoply_warrior:0 "Panoply Warrior"
+ innovation_panoply_warrior_desc:0 ""
+
+ innovation_hittite_chariot:0 "Hittite Chariot"
+ innovation_hittite_chariot_desc:0 ""

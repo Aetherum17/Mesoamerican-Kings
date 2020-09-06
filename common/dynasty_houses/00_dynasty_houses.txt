@@ -1,0 +1,5 @@
+﻿
+house_alalakh_yamhad = {
+	name = "dynn_Alalakh_Yamhad"
+	dynasty = dynn_2halab1
+} 

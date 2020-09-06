@@ -1,0 +1,92 @@
+#max_provinces = 1466
+definitions = "definition.csv"
+provinces = "provinces.png"
+#positions = "positions.txt"
+rivers = "rivers.png"
+#terrain_definition = "terrain.txt"
+topology = "heightmap.heightmap"
+#tree_definition = "trees.bmp"
+continent = "continent.txt"
+adjacencies = "adjacencies.csv"
+#climate = "climate.txt"
+island_region = "island_region.txt"
+geographical_region = "geographical_region.txt"
+seasons = "seasons.txt"
+
+#Seazones, list:
+#Seazones, Ranges:
+sea_zones = RANGE {642 644}
+sea_zones = RANGE {650 659}
+sea_zones = RANGE {662 667}
+sea_zones = RANGE {680 693}
+sea_zones = RANGE {695 712}
+sea_zones = RANGE {714 733}
+sea_zones = RANGE {735 795}
+sea_zones = RANGE {799 825}
+sea_zones = RANGE {827 828}
+sea_zones = RANGE {830 832}
+sea_zones = RANGE {837 856}
+sea_zones = RANGE {861 867}
+sea_zones = RANGE {872 896}
+sea_zones = RANGE {898 946}
+sea_zones = RANGE {948 956}
+sea_zones = RANGE {958 961}
+sea_zones = RANGE {963 968}
+sea_zones = RANGE {970 971}
+sea_zones = RANGE {973 979}
+sea_zones = RANGE {981 982}
+sea_zones = RANGE {984 999}
+sea_zones = RANGE {2741 2934}
+sea_zones = LIST { 646 669 671 674 676 678 797 834 859 869 870 4744}
+
+sea_zones = RANGE {6800 6811}
+sea_zones = RANGE {6815 6830}
+
+#impassable_mountainss, List:
+impassable_mountains = LIST {46 2660 2678 2662 2718 2679 2661 2681 2683 2685 2687 2714 2719 289 4949 4950 4951 2713 2027 319 2665 105 305 2721}				#impassable - will never be colored in any map mode
+impassable_mountains = RANGE {4815 4834}
+impassable_mountains = RANGE {4887 4889}
+impassable_mountains = RANGE {5121 5189}
+impassable_mountains = RANGE {4841 4844}
+#Unused provinces
+
+#Impassables, Ranges:
+impassable_mountains = RANGE { 33 45 }
+impassable_mountains = RANGE { 69 104 }
+impassable_mountains = RANGE { 278 288 }
+impassable_mountains = RANGE { 290 304 }
+impassable_mountains = RANGE { 306 318 }
+
+impassable_mountains = RANGE { 1047 1070 }
+impassable_mountains = RANGE { 1686 1699 }
+impassable_mountains = RANGE { 1701 1714 }
+impassable_mountains = RANGE { 2000 2026 }
+impassable_mountains = RANGE { 2028 2052 }
+impassable_mountains = RANGE { 2666 2678 }
+impassable_mountains = RANGE { 2688 2712 }
+impassable_mountains = RANGE { 2722 2740 }
+impassable_mountains = RANGE {4835 4840}
+impassable_mountains = RANGE {4845 4886}
+impassable_mountains = RANGE {4890 4901}
+impassable_mountains = RANGE {5000 5120}
+	#impassable - will get neighboring provinces' color in some map modes
+
+#Impassables, List:
+impassable_mountains = LIST {58 346 1142 2686 2684 2682 2680 2716 2715 2717 1716 1715 2663 2664 2720 320 321}
+#impassable_mountainss, Ranges:
+#impassable_mountainss, List:
+#impassable_mountains = LIST { 4417 4418 4176 4415 4410 4324 4323 4138 4139 4411 4412 4413 4326 4325 4044 4014 3817 4023 3816 4004 4414 4430 3920 3930 1463 1461 1527 4786 4785 4784 4783 4781 4775 4774 4773 4780 4779 4777 4778 4776 4772 4771 4766 4767 4768 4769 4770 4787 4788 4789 4758 4790 4759 4760 4761 4754 4755 4756 4757 4627 3795 1540 4748 4750 4752 6570 6571 6572 6646 6720 6721 116 2089 2253 23 1722 3009 110 148 6857 9 }
+
+#Lakes, Ranges:
+lakes = RANGE {353 361}
+lakes = RANGE {1873 1884}
+lakes = RANGE {2523 2534}
+lakes = LIST {7086 7087}
+
+#Lakes, List:
+
+river_provinces = LIST { 957 660 661 858 649 648 796 835 980 734 836 860 798 897 868 673 871 962 947 677 679 670 672 969 675 668 826 713 972 645 983 647 829 833 857 694}
+river_provinces = RANGE {4448 4465}
+
+river_provinces = RANGE {6741 6799}
+river_provinces = RANGE {6812 6814}

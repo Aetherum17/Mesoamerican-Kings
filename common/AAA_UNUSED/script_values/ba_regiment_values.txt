@@ -1,0 +1,27 @@
+﻿@ba_maint_mult = 0.004
+@ba_high_maint_mult = 3
+@ba_very_high_base = 200
+@ba_high_base = 150
+@ba_normal_base = 100
+@ba_low_base = 75
+@ba_very_low_base = 50
+# Very High
+ba_very_high_cost = @ba_very_high_base
+ba_very_high_low_maint = @[ba_very_high_base * ba_maint_mult]
+ba_very_high_high_maint = @[ba_very_high_base * ba_maint_mult * ba_high_maint_mult]
+# High
+ba_high_cost = @ba_high_base
+ba_high_low_maint = @[ba_high_base * ba_maint_mult]
+ba_high_high_maint = @[ba_high_base * ba_maint_mult * ba_high_maint_mult]
+# Normal
+ba_normal_cost = @ba_normal_base
+ba_normal_low_maint = @[ba_normal_base * ba_maint_mult]
+ba_normal_high_maint = @[ba_normal_base * ba_maint_mult * ba_high_maint_mult]
+# Low
+ba_low_cost = @ba_low_base
+ba_low_low_maint = @[ba_low_base * ba_maint_mult]
+ba_low_high_maint = @[ba_low_base * ba_maint_mult * ba_high_maint_mult]
+# Very Low
+ba_very_low_cost = @ba_very_low_base
+ba_very_low_low_maint = @[ba_very_low_base * ba_maint_mult]
+ba_very_low_high_maint = @[ba_very_low_base * ba_maint_mult * ba_high_maint_mult]

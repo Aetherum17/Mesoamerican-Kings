@@ -1,0 +1,6840 @@
+﻿3 = {
+	name = "dynn_Apries-Set"
+	culture = "upper_egyptian"
+}
+4 = {
+	name = "dynn_Meryatum-Wosret"
+	culture = "lower_egyptian"
+}
+5 = {
+	name = "dynn_Rashepses-Renenutet"
+	culture = "lower_egyptian"
+}
+6 = {
+	name = "dynn_Apries-Set"
+	culture = "lower_egyptian"
+}
+7 = {
+	name = "dynn_Harkhuf-Wadjet"
+	culture = "lower_egyptian"
+}
+8 = {
+	name = "dynn_QakareIbi-Anuket"
+	culture = "lower_egyptian"
+}
+9 = {
+	name = "dynn_Bek-Sopdu"
+	culture = "lower_egyptian"
+}
+10 = {
+	name = "dynn_Isesi-Menhit"
+	culture = "lower_egyptian"
+}
+11 = {
+	name = "dynn_Qareh-Bat"
+	culture = "lower_egyptian"
+}
+12 = {
+	name = "dynn_Baskakeren-Heqet"
+	culture = "lower_egyptian"
+}
+13 = {
+	name = "dynn_Wegaf"
+	culture = "lower_egyptian"
+}
+14 = {
+	name = "dynn_Shemai-Khonsu"
+	culture = "lower_egyptian"
+}
+15 = {
+	name = "dynn_Qareh-Bat"
+	culture = "lower_egyptian"
+}
+16 = {
+	name = "dynn_Minmose-Pakhet"
+	culture = "lower_egyptian"
+}
+17 = {
+	name = "dynn_Kakhent-Wosret"
+	culture = "lower_egyptian"
+}
+18 = {
+	name = "dynn_Wakhare-Wosret"
+	culture = "lower_egyptian"
+}
+19 = {
+	name = "dynn_Senusret-Wadj-wer"
+	culture = "lower_egyptian"
+}
+20 = {
+	name = "dynn_Wahibre-Geb"
+	culture = "lower_egyptian"
+}
+21 = {
+	name = "dynn_Nebwy-Wadjet"
+	culture = "lower_egyptian"
+}
+22 = {
+	name = "dynn_Huni-Renenutet"
+	culture = "lower_egyptian"
+}
+23 = {
+	name = "dynn_Teritedakhatey-Yeturow"
+	culture = "nubian"
+}
+24 = {
+	name = "dynn_Harkhuf-Wadjet"
+	culture = "upper_egyptian"
+}
+25 = {
+	name = "dynn_QakareIbi-Anuket"
+	culture = "upper_egyptian"
+}
+26 = {
+	name = "dynn_Bek-Sopdu"
+	culture = "upper_egyptian"
+}
+27 = {
+	name = "dynn_Isesi-Menhit"
+	culture = "upper_egyptian"
+}
+28 = {
+	name = "dynn_Qareh-Bat"
+	culture = "upper_egyptian"
+}
+29 = {
+	name = "dynn_Baskakeren-Heqet"
+	culture = "upper_egyptian"
+}
+30 = {
+	name = "dynn_Wegaf"
+	culture = "upper_egyptian"
+}
+31 = {
+	name = "dynn_Shemai-Khonsu"
+	culture = "upper_egyptian"
+}
+32 = {
+	name = "dynn_Qareh-Bat"
+	culture = "upper_egyptian"
+}
+33 = {
+	name = "dynn_Minmose-Pakhet"
+	culture = "upper_egyptian"
+}
+34 = {
+	name = "dynn_Kakhent-Wosret"
+	culture = "upper_egyptian"
+}
+35 = {
+	name = "dynn_Wakhare-Wosret"
+	culture = "upper_egyptian"
+}
+36 = {
+	name = "dynn_Senusret-Wadj-wer"
+	culture = "upper_egyptian"
+}
+37 = {
+	name = "dynn_Wahibre-Geb"
+	culture = "upper_egyptian"
+}
+40 = {
+	name = "dynn_Wegaf-Anhur"
+	culture = "upper_egyptian"
+}
+41 = {
+	name = "dynn_Karkamani-Kdimnle"
+	culture = "nubian"
+}
+42 = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "sinaian"
+}
+43 = {
+	name = "dynn_Malchus-Shachar"
+	culture = "sinaian"
+}
+44 = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "sinaian"
+}
+45 = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "moabite"
+}
+46 = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "edomite"
+}
+47 = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "phoenician"
+}
+48 = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "canaanite"
+}
+49 = {
+	name = "dynn_Malchus-Shachar"
+	culture = "phoenician"
+}
+50 = {
+	name = "dynn_Malchus-Shachar"
+	culture = "canaanite"
+}
+51 = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "canaanite"
+}
+52 = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "canaanite"
+}
+53 = {
+	name = "dynn_Pummay-Yam"
+	culture = "canaanite"
+}
+54 = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "ammonite"
+}
+55 = {
+	name = "dynn_Malchus-Shachar"
+	culture = "moabite"
+}
+56 = {
+	name = "dynn_Malchus-Shachar"
+	culture = "ammonite"
+}
+57 = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "ammonite"
+}
+58 = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "ammonite"
+}
+59 = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "canaanite"
+}
+60 = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "canaanite"
+}
+61 = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "bedu"
+}
+62 = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "canaanite"
+}
+63 = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "canaanite"
+}
+64 = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "canaanite"
+}
+65 = {
+	name = "dynn_Eugoras-Chemosh"
+	culture = "canaanite"
+}
+66 = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "golanite"
+}
+67 = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "phoenician"
+}
+68 = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "aramean"
+}
+69 = {
+	name = "dynn_Malchus-Shachar"
+	culture = "aramean"
+}
+70 = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "eblaite"
+}
+71 = {
+	name = "dynn_Malchus-Shachar"
+	culture = "eblaite"
+}
+72 = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "eblaite"
+}
+73 = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "amoritic"
+}
+74 = {
+	name = "dynn_Malchus-Shachar"
+	culture = "amoritic"
+}
+75 = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "phoenician"
+}
+76 = {
+	name = "dynn_Malchus-Shachar"
+	culture = "golanite"
+}
+77 = {
+	name = "dynn_Gisgo-Shadrafa"
+	culture = "canaanite"
+}
+78 = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "aramean"
+}
+79 = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "aramean"
+}
+80 = {
+	name = "dynn_Pummay-Yam"
+	culture = "phoenician"
+}
+81 = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "golanite"
+}
+82 = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "golanite"
+}
+83 = {
+	name = "dynn_Pummay-Yam"
+	culture = "aramean"
+}
+84 = {
+	name = "dynn_Malchus-Shachar"
+	culture = "edomite"
+}
+86 = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "amoritic"
+}
+87 = {
+	name = "dynn_Pummay-Yam"
+	culture = "eblaite"
+}
+88 = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "eblaite"
+}
+89 = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "eblaite"
+}
+90 = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "amoritic"
+}
+91 = {
+	name = "dynn_Pummay-Yam"
+	culture = "amoritic"
+}
+92 = {
+	name = "dynn_Hari-yazu-Shaushka"
+	culture = "zalwari"
+}
+93 = {
+	name = "dynn_Hama-nna-Nubadig"
+	culture = "zalwari"
+}
+94 = {
+	name = "dynn_Aki-ya-Nubadig"
+	culture = "zalwari"
+}
+95 = {
+	name = "dynn_Ima-ku-Rashap"
+	culture = "zalwari"
+}
+96 = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "amoritic"
+}
+97 = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "amoritic"
+}
+98 = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "amoritic"
+}
+99 = {
+	name = "dynn_Pirhen-saki-Adamma"
+	culture = "harrani"
+}
+100 = {
+	name = "dynn_Uni-na-Kumarbi"
+	culture = "harrani"
+}
+101 = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "amoritic"
+}
+102 = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "amoritic"
+}
+103 = {
+	name = "dynn_Eugoras-Chemosh"
+	culture = "amoritic"
+}
+104 = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "eblaite"
+}
+105 = {
+	name = "dynn_Gisgo-Shadrafa"
+	culture = "amoritic"
+}
+106 = {
+	name = "dynn_Iphurkura-Adonis"
+	culture = "amoritic"
+}
+107 = {
+	name = "dynn_Baaliaton-Azizos"
+	culture = "amoritic"
+}
+108 = {
+	name = "dynn_Luli-Arsay"
+	culture = "amoritic"
+}
+109 = {
+	name = "dynn_Tupanamuta"
+	culture = "tarhuntassan"
+}
+110 = {
+	name = "dynn_Pirhen-saki-Adamma"
+	culture = "kizzuni"
+}
+111 = {
+	name = "dynn_Uni-na-Kumarbi"
+	culture = "kizzuni"
+}
+112 = {
+	name = "dynn_Alli-turah-Shaushka"
+	culture = "kizzuni"
+}
+113 = {
+	name = "dynn_Hazip-Tesub-Ningal"
+	culture = "kizzuni"
+}
+114 = {
+	name = "dynn_Sahhi-ya-Shaushka"
+	culture = "kizzuni"
+}
+115 = {
+	name = "dynn_Ammen-ammume-Kushuh"
+	culture = "kizzuni"
+}
+116 = {
+	name = "dynn_Ari-tupki-Ebrimusha"
+	culture = "kizzuni"
+}
+117 = {
+	name = "dynn_Sehlum-naya-Sharruma"
+	culture = "kizzuni"
+}
+118 = {
+	name = "dynn_Tupanamuta"
+	culture = "tarhuntassan"
+}
+119 = {
+	name = "dynn_Anatar"
+	culture = "tarhuntassan"
+}
+120 = {
+	name = "dynn_Asinamuna"
+	culture = "tarhuntassan"
+}
+121 = {
+	name = "dynn_Anawatta"
+	culture = "tarhuntassan"
+}
+122 = {
+	name = "dynn_Anawatta"
+	culture = "tarhuntassan"
+}
+123 = {
+	name = "dynn_Kattaziti"
+	culture = "tarhuntassan"
+}
+124 = {
+	name = "dynn_Tupanamuta"
+	culture = "lukkan"
+}
+125 = {
+	name = "dynn_Tarhunatala"
+	culture = "tarhuntassan"
+}
+126 = {
+	name = "dynn_Tupanamuta"
+	culture = "lukkan"
+}
+127 = {
+	name = "dynn_Anatar"
+	culture = "lukkan"
+}
+128 = {
+	name = "dynn_Asinamuna"
+	culture = "lukkan"
+}
+129 = {
+	name = "dynn_Anawatta"
+	culture = "lukkan"
+}
+130 = {
+	name = "dynn_Anawatta"
+	culture = "lukkan"
+}
+131 = {
+	name = "dynn_Anatar"
+	culture = "tarhuntassan"
+}
+132 = {
+	name = "dynn_Tuwaruntiya"
+	culture = "tarhuntassan"
+}
+133 = {
+	name = "dynn_Tuwar"
+	culture = "tarhuntassan"
+}
+134 = {
+	name = "dynn_Kattaziti"
+	culture = "lukkan"
+}
+135 = {
+	name = "dynn_Tarhunatala"
+	culture = "lukkan"
+}
+136 = {
+	name = "dynn_Lorumathe"
+	culture = "telchines"
+}
+137 = {
+	name = "dynn_Lorumathe"
+	culture = "cypriot"
+}
+138 = {
+	name = "dynn_Sedamnathe"
+	culture = "cypriot"
+}
+139 = {
+	name = "dynn_Aptarathe"
+	culture = "cypriot"
+}
+140 = {
+	name = "dynn_Kaduiethe"
+	culture = "cypriot"
+}
+141 = {
+	name = "dynn_Naruxathe"
+	culture = "cypriot"
+}
+142 = {
+	name = "dynn_Lorumathe"
+	culture = "minoan"
+}
+143 = {
+	name = "dynn_Kalydna"
+	culture = "minoan"
+}
+144 = {
+	name = "dynn_Kaduiethe"
+	culture = "minoan"
+}
+145 = {
+	name = "dynn_Latmathe"
+	culture = "minoan"
+}
+146 = {
+	name = "dynn_Aziottenathe"
+	culture = "minoan"
+}
+147 = {
+	name = "dynn_Nirale"
+	culture = "minoan"
+}
+148 = {
+	name = "dynn_Lorumathe"
+	culture = "karpathan"
+}
+149 = {
+	name = "dynn_Pandarna"
+	culture = "minoan"
+}
+150 = {
+	name = "dynn_Lorumathe"
+	culture = "leleges"
+}
+151 = {
+	name = "dynn_Lorumathe"
+	culture = "cycladic"
+}
+152 = {
+	name = "dynn_Tupanamuta"
+	culture = "carian"
+}
+153 = {
+	name = "dynn_Tupanamuta"
+	culture = "carian"
+}
+154 = {
+	name = "dynn_Anatar"
+	culture = "carian"
+}
+155 = {
+	name = "dynn_Anatar"
+	culture = "lukkan"
+}
+156 = {
+	name = "dynn_Asinamuna"
+	culture = "carian"
+}
+157 = {
+	name = "dynn_Anawatta"
+	culture = "carian"
+}
+158 = {
+	name = "dynn_Anawatta"
+	culture = "carian"
+}
+159 = {
+	name = "dynn_Lorumathe"
+	culture = "tyrsenian"
+}
+160 = {
+	name = "dynn_Tupanamuta"
+	culture = "wilusan"
+}
+161 = {
+	name = "dynn_Tupanamuta"
+	culture = "wilusan"
+}
+162 = {
+	name = "dynn_Sedamnathe"
+	culture = "leleges"
+}
+163 = {
+	name = "dynn_Tupanamuta"
+	culture = "sehan"
+}
+164 = {
+	name = "dynn_Aptarathe"
+	culture = "leleges"
+}
+165 = {
+	name = "dynn_Kaduiethe"
+	culture = "leleges"
+}
+166 = {
+	name = "dynn_Tupanamuta"
+	culture = "lydian"
+}
+167 = {
+	name = "dynn_Anatar"
+	culture = "wilusan"
+}
+168 = {
+	name = "dynn_Asinamuna"
+	culture = "wilusan"
+}
+169 = {
+	name = "dynn_Anawatta"
+	culture = "wilusan"
+}
+170 = {
+	name = "dynn_Tuwaruntiya"
+	culture = "lukkan"
+}
+171 = {
+	name = "dynn_Kattaziti"
+	culture = "carian"
+}
+172 = {
+	name = "dynn_Tupanamuta"
+	culture = "lydian"
+}
+173 = {
+	name = "dynn_Anatar"
+	culture = "lydian"
+}
+174 = {
+	name = "dynn_Tupanamuta"
+	culture = "miran"
+}
+175 = {
+	name = "dynn_Naruxathe"
+	culture = "leleges"
+}
+176 = {
+	name = "dynn_Lorumathe"
+	culture = "helladic"
+}
+177 = {
+	name = "dynn_Lorumathe"
+	culture = "kranaoi"
+}
+178 = {
+	name = "dynn_Sedamnathe"
+	culture = "helladic"
+}
+179 = {
+	name = "dynn_Lorumathe"
+	culture = "hektenas"
+}
+180 = {
+	name = "dynn_Kyparisioi"
+	culture = "proto_greek"
+}
+181 = {
+	name = "dynn_Lorumathe"
+	culture = "hyades"
+}
+182 = {
+	name = "dynn_Lorumathe"
+	culture = "dryopes"
+}
+183 = {
+	name = "dynn_Lakedamnios"
+	culture = "proto_greek"
+}
+184 = {
+	name = "dynn_Dynios"
+	culture = "proto_greek"
+}
+185 = {
+	name = "dynn_Artarwaios"
+	culture = "proto_greek"
+}
+186 = {
+	name = "dynn_Malathiwes"
+	culture = "proto_greek"
+}
+187 = {
+	name = "dynn_Lorumathe"
+	culture = "athamanes"
+}
+188 = {
+	name = "dynn_Sedamnathe"
+	culture = "dryopes"
+}
+189 = {
+	name = "dynn_Dywoios"
+	culture = "proto_greek"
+}
+190 = {
+	name = "dynn_Sosthenid"
+	culture = "bryges"
+}
+191 = {
+	name = "dynn_Kerkios"
+	culture = "proto_greek"
+}
+192 = {
+	name = "dynn_Sedamnathe"
+	culture = "kranaoi"
+}
+193 = {
+	name = "dynn_Aptarathe"
+	culture = "helladic"
+}
+194 = {
+	name = "dynn_Malthiwios"
+	culture = "proto_greek"
+}
+195 = {
+	name = "dynn_Idomeneios"
+	culture = "proto_greek"
+}
+196 = {
+	name = "dynn_Oichaleai"
+	culture = "proto_greek"
+}
+197 = {
+	name = "dynn_Sphakosios"
+	culture = "proto_greek"
+}
+198 = {
+	name = "dynn_Hippostratid"
+	culture = "bryges"
+}
+199 = {
+	name = "dynn_Aratid"
+	culture = "bryges"
+}
+200 = {
+	name = "dynn_Therid"
+	culture = "bryges"
+}
+201 = {
+	name = "dynn_Malthiwios"
+	culture = "proto_greek"
+}
+202 = {
+	name = "dynn_Nikoklid"
+	culture = "bryges"
+}
+203 = {
+	name = "dynn_Aratid"
+	culture = "bryges"
+}
+204 = {
+	name = "dynn_Omirid"
+	culture = "bryges"
+}
+205 = {
+	name = "dynn_Sedamnathe"
+	culture = "tyrsenian"
+}
+206 = {
+	name = "dynn_Nikoklid"
+	culture = "bryges"
+}
+207 = {
+	name = "dynn_Helladid"
+	culture = "bryges"
+}
+208 = {
+	name = "dynn_Aptarathe"
+	culture = "tyrsenian"
+}
+209 = {
+	name = "dynn_Kaduiethe"
+	culture = "tyrsenian"
+}
+210 = {
+	name = "dynn_Naruxathe"
+	culture = "tyrsenian"
+}
+211 = {
+	name = "dynn_Aradnethe"
+	culture = "tyrsenian"
+}
+212 = {
+	name = "dynn_Kaduiethe"
+	culture = "helladic"
+}
+213 = {
+	name = "dynn_Naruxathe"
+	culture = "helladic"
+}
+214 = {
+	name = "dynn_Sedamnathe"
+	culture = "hektenas"
+}
+215 = {
+	name = "dynn_Korinsios"
+	culture = "proto_greek"
+}
+216 = {
+	name = "dynn_Esalewia"
+	culture = "proto_greek"
+}
+217 = {
+	name = "dynn_Odrywia"
+	culture = "proto_greek"
+}
+218 = {
+	name = "dynn_Aziottenathe"
+	culture = "tyrsenian"
+}
+219 = {
+	name = "dynn_Lorumathe"
+	culture = "kuretes"
+}
+220 = {
+	name = "dynn_Lousios"
+	culture = "proto_greek"
+}
+221 = {
+	name = "dynn_Amnisios"
+	culture = "proto_greek"
+}
+222 = {
+	name = "dynn_Medeios"
+	culture = "proto_greek"
+}
+223 = {
+	name = "dynn_Onomastid"
+	culture = "bryges"
+}
+224 = {
+	name = "dynn_Philonid"
+	culture = "bryges"
+}
+225 = {
+	name = "dynn_Amnisios"
+	culture = "proto_greek"
+}
+226 = {
+	name = "dynn_Aptarathe"
+	culture = "hektenas"
+}
+227 = {
+	name = "dynn_Nikoklid"
+	culture = "bryges"
+}
+228 = {
+	name = "dynn_Oichaleai"
+	culture = "proto_greek"
+}
+229 = {
+	name = "dynn_Aradnethe"
+	culture = "helladic"
+}
+230 = {
+	name = "dynn_Aziottenathe"
+	culture = "helladic"
+}
+231 = {
+	name = "dynn_Nelinthos"
+	culture = "helladic"
+}
+232 = {
+	name = "dynn_Alli-turah-Shaushka"
+	culture = "harrani"
+}
+233 = {
+	name = "dynn_Hamilcar-El"
+	culture = "amoritic"
+}
+234 = {
+	name = "dynn_Milkyaton-Kotharat"
+	culture = "amoritic"
+}
+235 = {
+	name = "dynn_Hazip-Tesub-Ningal"
+	culture = "harrani"
+}
+236 = {
+	name = "dynn_Sahhi-ya-Shaushka"
+	culture = "harrani"
+}
+237 = {
+	name = "dynn_Ammen-ammume-Kushuh"
+	culture = "harrani"
+}
+238 = {
+	name = "dynn_Iphurkura-Adonis"
+	culture = "amoritic"
+}
+239 = {
+	name = "dynn_Mattan-Manuzi"
+	culture = "amoritic"
+}
+241 = {
+	name = "dynn_Yehomilk-Ashtar"
+	culture = "amoritic"
+}
+242 = {
+	name = "dynn_Melqartshama-Arsu"
+	culture = "amoritic"
+}
+243 = {
+	name = "dynn_Melqartpilles-Horon"
+	culture = "amoritic"
+}
+244 = {
+	name = "dynn_Azimilik-Athirat"
+	culture = "amoritic"
+}
+245 = {
+	name = "dynn_Bomilcar-Baalah"
+	culture = "amoritic"
+}
+246 = {
+	name = "dynn_Limer-Adad"
+	culture = "south_akkadian"
+}
+266 = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "south_akkadian"
+}
+269 = {
+	name = "dynn_Limer-Adad"
+	culture = "dilmunite"
+}
+270 = {
+	name = "dynn_Ilulu-Sin"
+	culture = "dilmunite"
+}
+271 = {
+	name = "dynn_Iltasadum-Nabu"
+	culture = "maganite"
+}
+272 = {
+	name = "dynn_Iltasadum-Nabu"
+	culture = "maganite"
+}
+273 = {
+	name = "dynn_Lullaya-Shamash"
+	culture = "maganite"
+}
+274 = {
+	name = "dynn_Kulumum-Ninurta"
+	culture = "maganite"
+}
+275 = {
+	name = "dynn_Lullaya-Shamash"
+	culture = "dilmunite"
+}
+276 = {
+	name = "dynn_Kulumum-Ninurta"
+	culture = "dilmunite"
+}
+277 = {
+	name = "dynn_Akurgal-Geshtinanna"
+	culture = "sumerian"
+}
+278 = {
+	name = "dynn_Udul-Utu"
+	culture = "sumerian"
+}
+279 = {
+	name = "dynn_Ishu-Enki"
+	culture = "sumerian"
+}
+280 = {
+	name = "dynn_Kakug-Ninlil"
+	culture = "sumerian"
+}
+281 = {
+	name = "dynn_Untash-Nahhunte"
+	culture = "ellipian"
+}
+282 = {
+	name = "dynn_Untash-Nahhunte"
+	culture = "anshanian"
+}
+283 = {
+	name = "dynn_Ukku-Tarana"
+	culture = "anshanian"
+}
+284 = {
+	name = "dynn_Attar-Halki"
+	culture = "anshanian"
+}
+285 = {
+	name = "dynn_Pahir-Hutran"
+	culture = "anshanian"
+}
+286 = {
+	name = "dynn_Untash-Nahhunte"
+	culture = "liyan"
+}
+287 = {
+	name = "dynn_Napi-Nashur"
+	culture = "anshanian"
+}
+288 = {
+	name = "dynn_Ige-Kittah"
+	culture = "anshanian"
+}
+290 = {
+	name = "dynn_Ukku-Tarana"
+	culture = "susanian"
+}
+291 = {
+	name = "dynn_Attar-Halki"
+	culture = "susanian"
+}
+292 = {
+	name = "dynn_Pahir-Hutran"
+	culture = "susanian"
+}
+293 = {
+	name = "dynn_Napi-Nashur"
+	culture = "susanian"
+}
+294 = {
+	name = "dynn_Ige-Kittah"
+	culture = "susanian"
+}
+295 = {
+	name = "dynn_Ige-Kittah"
+	culture = "susanian"
+}
+296 = {
+	name = "dynn_Napi-Nashur"
+	culture = "susanian"
+}
+297 = {
+	name = "dynn_Meryatum-Wosret"
+	culture = "mu_kedi"
+}
+298 = {
+	name = "dynn_Rashepses-Renenutet"
+	culture = "mu_kedi"
+}
+299 = {
+	name = "dynn_Sekhemib-Neper"
+	culture = "upper_egyptian"
+}
+300 = {
+	name = "dynn_Apries-Set"
+	culture = "mu_kedi"
+}
+301 = {
+	name = "dynn_Khamudi-Sopdu"
+	culture = "upper_egyptian"
+}
+302 = {
+	name = "dynn_Harkhuf-Wadjet"
+	culture = "mu_kedi"
+}
+303 = {
+	name = "dynn_Ige-Kittah"
+	culture = "susanian"
+}
+304 = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "susanian"
+}
+305 = {
+	name = "dynn_Suhlamu-Inzak"
+	culture = "gutian"
+}
+306 = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "gutian"
+}
+307 = {
+	name = "dynn_Hurba-Bugash"
+	culture = "gutian"
+}
+308 = {
+	name = "dynn_Ukku-Tarana"
+	culture = "ellipian"
+}
+309 = {
+	name = "dynn_Attar-Halki"
+	culture = "ellipian"
+}
+310 = {
+	name = "dynn_Gabnila-Sah"
+	culture = "gutian"
+}
+311 = {
+	name = "dynn_Apa-Zini"
+	culture = "gutian"
+}
+312 = {
+	name = "dynn_Pahir-Hutran"
+	culture = "ellipian"
+}
+313 = {
+	name = "dynn_Limer-Adad"
+	culture = "south_akkadian"
+}
+314 = {
+	name = "dynn_Hayani-Ereshkigal"
+	culture = "south_akkadian"
+}
+315 = {
+	name = "dynn_Ige-Kittah"
+	culture = "anshanian"
+}
+316 = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "phoenician"
+}
+318 = {
+	name = "dynn_Xrnxble-Qalhata"
+	culture = "nubian"
+}
+319 = {
+	name = "dynn_Amanikhabale-Ametelis"
+	culture = "nubian"
+}
+320 = {
+	name = "dynn_Amereye-Deketen"
+	culture = "nubian"
+}
+321 = {
+	name = "dynn_Yesbokheamani-Xdekmli"
+	culture = "nubian"
+}
+322 = {
+	name = "dynn_Altanersa-Abar"
+	culture = "nubian"
+}
+323 = {
+	name = "dynn_Meryatum-Wosret"
+	culture = "wahenian"
+}
+324 = {
+	name = "dynn_Adherba"
+	culture = "berber"
+}
+325 = {
+	name = "dynn_Vermina"
+	culture = "berber"
+}
+326 = {
+	name = "dynn_Ahmid"
+	culture = "berber"
+}
+327 = {
+	name = "dynn_Penamid"
+	culture = "berber"
+}
+328 = {
+	name = "dynn_Masinna"
+	culture = "berber"
+}
+329 = {
+	name = "dynn_Galesta"
+	culture = "berber"
+}
+330 = {
+	name = "dynn_Galesta"
+	culture = "berber"
+}
+331 = {
+	name = "dynn_Masinna"
+	culture = "berber"
+}
+332 = {
+	name = "dynn_Pirhen-saki-Adamma"
+	culture = "haburi"
+}
+333 = {
+	name = "dynn_Uni-na-Kumarbi"
+	culture = "haburi"
+}
+334 = {
+	name = "dynn_Alli-turah-Shaushka"
+	culture = "haburi"
+}
+335 = {
+	name = "dynn_Hazip-Tesub-Ningal"
+	culture = "haburi"
+}
+336 = {
+	name = "dynn_Sahhi-ya-Shaushka"
+	culture = "haburi"
+}
+337 = {
+	name = "dynn_Ammen-ammume-Kushuh"
+	culture = "haburi"
+}
+338 = {
+	name = "dynn_Ari-tupki-Ebrimusha"
+	culture = "harrani"
+}
+339 = {
+	name = "dynn_Sehlum-naya-Sharruma"
+	culture = "harrani"
+}
+340 = {
+	name = "dynn_Ara-zah-Sherri"
+	culture = "harrani"
+}
+341 = {
+	name = "dynn_Tahi-ya-Kushuh"
+	culture = "harrani"
+}
+342 = {
+	name = "dynn_Hadda-ahu-Arsay"
+	culture = "amoritic"
+}
+343 = {
+	name = "dynn_Ari-tupki-Ebrimusha"
+	culture = "haburi"
+}
+344 = {
+	name = "dynn_Sehlum-naya-Sharruma"
+	culture = "haburi"
+}
+345 = {
+	name = "dynn_Azzu-kki-Rashap"
+	culture = "harrani"
+}
+346 = {
+	name = "dynn_Sehrum-nirzi-Shimegi"
+	culture = "harrani"
+}
+347 = {
+	name = "dynn_Pirhen-saki-Adamma"
+	culture = "shubrian"
+}
+348 = {
+	name = "dynn_Uni-na-Kumarbi"
+	culture = "shubrian"
+}
+349 = {
+	name = "dynn_Alli-turah-Shaushka"
+	culture = "shubrian"
+}
+350 = {
+	name = "dynn_Hazip-Tesub-Ningal"
+	culture = "shubrian"
+}
+351 = {
+	name = "dynn_Sahhi-ya-Shaushka"
+	culture = "shubrian"
+}
+352 = {
+	name = "dynn_Ara-zah-Sherri"
+	culture = "haburi"
+}
+353 = {
+	name = "dynn_Ammen-ammume-Kushuh"
+	culture = "shubrian"
+}
+354 = {
+	name = "dynn_Tahi-ya-Kushuh"
+	culture = "haburi"
+}
+355 = {
+	name = "dynn_Azzu-kki-Rashap"
+	culture = "haburi"
+}
+356 = {
+	name = "dynn_Sehrum-nirzi-Shimegi"
+	culture = "haburi"
+}
+357 = {
+	name = "dynn_Pirhen-saki-Adamma"
+	culture = "tukri"
+}
+358 = {
+	name = "dynn_Papu-zi-Tashmisu"
+	culture = "haburi"
+}
+359 = {
+	name = "dynn_Kuzi-Allani"
+	culture = "haburi"
+}
+360 = {
+	name = "dynn_Sur-siya-Shalash"
+	culture = "haburi"
+}
+361 = {
+	name = "dynn_Zitu-ya-Hutelluri"
+	culture = "haburi"
+}
+362 = {
+	name = "dynn_Tushratta-Ningal"
+	culture = "haburi"
+}
+363 = {
+	name = "dynn_Uni-na-Kumarbi"
+	culture = "tukri"
+}
+364 = {
+	name = "dynn_Alli-turah-Shaushka"
+	culture = "tukri"
+}
+365 = {
+	name = "dynn_Limer-Adad"
+	culture = "assyrian"
+}
+366 = {
+	name = "dynn_Ilulu-Sin"
+	culture = "assyrian"
+}
+367 = {
+	name = "dynn_Ari-tupki-Ebrimusha"
+	culture = "shubrian"
+}
+368 = {
+	name = "dynn_Sehlum-naya-Sharruma"
+	culture = "shubrian"
+}
+369 = {
+	name = "dynn_Papu-zi-Tashmisu"
+	culture = "harrani"
+}
+370 = {
+	name = "dynn_Ara-zah-Sherri"
+	culture = "shubrian"
+}
+371 = {
+	name = "dynn_Asu-zi-Hutelluri"
+	culture = "haburi"
+}
+372 = {
+	name = "dynn_Hazip-Tesub-Ningal"
+	culture = "tukri"
+}
+373 = {
+	name = "dynn_Sahhi-ya-Shaushka"
+	culture = "tukri"
+}
+374 = {
+	name = "dynn_Lullaya-Shamash"
+	culture = "assyrian"
+}
+376 = {
+	name = "dynn_Ammen-ammume-Kushuh"
+	culture = "tukri"
+}
+378 = {
+	name = "dynn_Ipashi-Sali"
+	culture = "gutian"
+}
+379 = {
+	name = "dynn_Sehlum-naya-Sharruma"
+	culture = "tukri"
+}
+380 = {
+	name = "dynn_Ara-zah-Sherri"
+	culture = "tukri"
+}
+381 = {
+	name = "dynn_Tahi-ya-Kushuh"
+	culture = "tukri"
+}
+382 = {
+	name = "dynn_Azzu-kki-Rashap"
+	culture = "tukri"
+}
+383 = {
+	name = "dynn_Sehrum-nirzi-Shimegi"
+	culture = "tukri"
+}
+384 = {
+	name = "dynn_Kulumum-Ninurta"
+	culture = "assyrian"
+}
+386 = {
+	name = "dynn_Papu-zi-Tashmisu"
+	culture = "tukri"
+}
+387 = {
+	name = "dynn_Lullaya-Shamash"
+	culture = "assyrian"
+}
+388 = {
+	name = "dynn_Samani-Enlil"
+	culture = "assyrian"
+}
+389 = {
+	name = "dynn_Kuzi-Allani"
+	culture = "tukri"
+}
+390 = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "south_akkadian"
+}
+391 = {
+	name = "dynn_Suhlamu-Inzak"
+	culture = "south_akkadian"
+}
+392 = {
+	name = "dynn_Jushur-Sin"
+	culture = "south_akkadian"
+}
+393 = {
+	name = "dynn_Hameru-Shipak"
+	culture = "gutian"
+}
+394 = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "assyrian"
+}
+395 = {
+	name = "dynn_Lullaya-Shamash"
+	culture = "gutian"
+}
+396 = {
+	name = "dynn_Hala-Duniash"
+	culture = "gutian"
+}
+397 = {
+	name = "dynn_Hayani-Ereshkigal"
+	culture = "gutian"
+}
+398 = {
+	name = "dynn_Suhlamu-Inzak"
+	culture = "gutian"
+}
+399 = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "dilmunite"
+}
+400 = {
+	name = "dynn_Sur-siya-Shalash"
+	culture = "tukri"
+}
+401 = {
+	name = "dynn_Lullaya-Shamash"
+	culture = "assyrian"
+}
+402 = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "assyrian"
+}
+403 = {
+	name = "dynn_Hazip-Nawar-Hutelluri"
+	culture = "haburi"
+}
+404 = {
+	name = "dynn_Tahi-Shimegi"
+	culture = "haburi"
+}
+405 = {
+	name = "dynn_Samani-Enlil"
+	culture = "south_akkadian"
+}
+406 = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "assyrian"
+}
+407 = {
+	name = "dynn_Aruna-Duzagash"
+	culture = "gutian"
+}
+408 = {
+	name = "dynn_Shipta-Alban"
+	culture = "gutian"
+}
+411 = {
+	name = "dynn_Tupanamuta"
+	culture = "nesili"
+}
+412 = {
+	name = "dynn_Hari-yazu-Shaushka"
+	culture = "ishuwan"
+}
+413 = {
+	name = "dynn_Taruntiya"
+	culture = "hattian"
+}
+414 = {
+	name = "dynn_Anatar"
+	culture = "hattian"
+}
+415 = {
+	name = "dynn_Tupanamuta"
+	culture = "miran"
+}
+416 = {
+	name = "dynn_Anatar"
+	culture = "miran"
+}
+417 = {
+	name = "dynn_Tupanamuta"
+	culture = "hapallan"
+}
+418 = {
+	name = "dynn_Tupanamuta"
+	culture = "hapallan"
+}
+419 = {
+	name = "dynn_Tupanamuta"
+	culture = "tarhuntassan"
+}
+420 = {
+	name = "dynn_Taruntiya"
+	culture = "tarhuntassan"
+}
+421 = {
+	name = "dynn_Asinamuna"
+	culture = "tarhuntassan"
+}
+422 = {
+	name = "dynn_Tarhunatala"
+	culture = "tarhuntassan"
+}
+423 = {
+	name = "dynn_Tuwar"
+	culture = "tarhuntassan"
+}
+424 = {
+	name = "dynn_Anatar"
+	culture = "nesili"
+}
+425 = {
+	name = "dynn_Asinamuna"
+	culture = "nesili"
+}
+426 = {
+	name = "dynn_Tupanamuta"
+	culture = "palaic"
+}
+427 = {
+	name = "dynn_Anatar"
+	culture = "hapallan"
+}
+428 = {
+	name = "dynn_Asinamuna"
+	culture = "hapallan"
+}
+429 = {
+	name = "dynn_Tupanamuta"
+	culture = "palaic"
+}
+430 = {
+	name = "dynn_Anawatta"
+	culture = "hapallan"
+}
+431 = {
+	name = "dynn_Anatar"
+	culture = "palaic"
+}
+432 = {
+	name = "dynn_Anawatta"
+	culture = "hapallan"
+}
+433 = {
+	name = "dynn_Asinamuna"
+	culture = "palaic"
+}
+434 = {
+	name = "dynn_Anawatta"
+	culture = "palaic"
+}
+435 = {
+	name = "dynn_Anawatta"
+	culture = "palaic"
+}
+436 = {
+	name = "dynn_Asinamuna"
+	culture = "hattian"
+}
+437 = {
+	name = "dynn_Anawatta"
+	culture = "nesili"
+}
+438 = {
+	name = "dynn_Anawatta"
+	culture = "nesili"
+}
+439 = {
+	name = "dynn_Kattaziti"
+	culture = "nesili"
+}
+440 = {
+	name = "dynn_Tarhunatala"
+	culture = "hattian"
+}
+441 = {
+	name = "dynn_Tuwar"
+	culture = "hattian"
+}
+442 = {
+	name = "dynn_Tuwar"
+	culture = "hattian"
+}
+443 = {
+	name = "dynn_Tarhunatala"
+	culture = "hattian"
+}
+444 = {
+	name = "dynn_Tuwar"
+	culture = "hattian"
+}
+445 = {
+	name = "dynn_Tarkasziti"
+	culture = "hattian"
+}
+446 = {
+	name = "dynn_Tarkasa"
+	culture = "hattian"
+}
+447 = {
+	name = "dynn_Tarkasziti"
+	culture = "hattian"
+}
+448 = {
+	name = "dynn_Anawatta"
+	culture = "hattian"
+}
+449 = {
+	name = "dynn_Hama-nna-Nubadig"
+	culture = "ishuwan"
+}
+450 = {
+	name = "dynn_Aki-ya-Nubadig"
+	culture = "ishuwan"
+}
+451 = {
+	name = "dynn_Ima-ku-Rashap"
+	culture = "ishuwan"
+}
+452 = {
+	name = "dynn_Sedamnathe"
+	culture = "kuretes"
+}
+453 = {
+	name = "dynn_Aptarathe"
+	culture = "kuretes"
+}
+454 = {
+	name = "dynn_Kaduiethe"
+	culture = "kuretes"
+}
+455 = {
+	name = "dynn_Naruxathe"
+	culture = "kuretes"
+}
+456 = {
+	name = "dynn_Aradnethe"
+	culture = "kuretes"
+}
+457 = {
+	name = "dynn_Aziottenathe"
+	culture = "kuretes"
+}
+458 = {
+	name = "dynn_Nelinthos"
+	culture = "kuretes"
+}
+459 = {
+	name = "dynn_Brugindarathe"
+	culture = "minoan"
+}
+460 = {
+	name = "dynn_Larumnathe"
+	culture = "minoan"
+}
+461 = {
+	name = "dynn_Kogamathe"
+	culture = "minoan"
+}
+462 = {
+	name = "dynn_Milatathe"
+	culture = "minoan"
+}
+463 = {
+	name = "dynn_Amarunthathe"
+	culture = "minoan"
+}
+464 = {
+	name = "dynn_Tenedathe"
+	culture = "minoan"
+}
+465 = {
+	name = "dynn_Sedamnathe"
+	culture = "cycladic"
+}
+466 = {
+	name = "dynn_Aptarathe"
+	culture = "cycladic"
+}
+467 = {
+	name = "dynn_Kaduiethe"
+	culture = "cycladic"
+}
+468 = {
+	name = "dynn_Naruxathe"
+	culture = "cycladic"
+}
+469 = {
+	name = "dynn_Aradnethe"
+	culture = "cycladic"
+}
+470 = {
+	name = "dynn_Aziottenathe"
+	culture = "cycladic"
+}
+471 = {
+	name = "dynn_Nelinthos"
+	culture = "cycladic"
+}
+472 = {
+	name = "dynn_Astupalathe"
+	culture = "cycladic"
+}
+473 = {
+	name = "dynn_Pandarna"
+	culture = "cycladic"
+}
+474 = {
+	name = "dynn_Epidaurathe"
+	culture = "cycladic"
+}
+475 = {
+	name = "dynn_Nelinthos"
+	culture = "cycladic"
+}
+476 = {
+	name = "dynn_Leukopale"
+	culture = "cycladic"
+}
+477 = {
+	name = "dynn_Kissamathe"
+	culture = "cycladic"
+}
+478 = {
+	name = "dynn_Onkestathe"
+	culture = "cycladic"
+}
+479 = {
+	name = "dynn_Teutamna"
+	culture = "cycladic"
+}
+480 = {
+	name = "dynn_Alasarnathe"
+	culture = "cycladic"
+}
+481 = {
+	name = "dynn_Aptarathe"
+	culture = "kranaoi"
+}
+482 = {
+	name = "dynn_Kaduiethe"
+	culture = "kranaoi"
+}
+483 = {
+	name = "dynn_Naruxathe"
+	culture = "kranaoi"
+}
+484 = {
+	name = "dynn_Kaduiethe"
+	culture = "hektenas"
+}
+485 = {
+	name = "dynn_Aptarathe"
+	culture = "dryopes"
+}
+486 = {
+	name = "dynn_Sedamnathe"
+	culture = "hyades"
+}
+487 = {
+	name = "dynn_Aptarathe"
+	culture = "hyades"
+}
+488 = {
+	name = "dynn_Kaduiethe"
+	culture = "dryopes"
+}
+489 = {
+	name = "dynn_Astupalathe"
+	culture = "helladic"
+}
+490 = {
+	name = "dynn_Pandarna"
+	culture = "helladic"
+}
+491 = {
+	name = "dynn_Epidaurathe"
+	culture = "helladic"
+}
+492 = {
+	name = "dynn_Nelinthos"
+	culture = "helladic"
+}
+493 = {
+	name = "dynn_Leukopale"
+	culture = "helladic"
+}
+494 = {
+	name = "dynn_Kissamathe"
+	culture = "helladic"
+}
+495 = {
+	name = "dynn_Onkestathe"
+	culture = "helladic"
+}
+496 = {
+	name = "dynn_Teutamna"
+	culture = "helladic"
+}
+497 = {
+	name = "dynn_Alasarnathe"
+	culture = "helladic"
+}
+498 = {
+	name = "dynn_Dandexathe"
+	culture = "helladic"
+}
+499 = {
+	name = "dynn_Kadmale"
+	culture = "helladic"
+}
+500 = {
+	name = "dynn_Pandarle"
+	culture = "helladic"
+}
+501 = {
+	name = "dynn_Tegurathe"
+	culture = "helladic"
+}
+502 = {
+	name = "dynn_Labdakale"
+	culture = "helladic"
+}
+503 = {
+	name = "dynn_Kantanathe"
+	culture = "helladic"
+}
+504 = {
+	name = "dynn_Pholegandrathe"
+	culture = "helladic"
+}
+505 = {
+	name = "dynn_Tulisathe"
+	culture = "helladic"
+}
+506 = {
+	name = "dynn_Nirna"
+	culture = "helladic"
+}
+507 = {
+	name = "dynn_Kastabathe"
+	culture = "helladic"
+}
+508 = {
+	name = "dynn_Epopale"
+	culture = "helladic"
+}
+509 = {
+	name = "dynn_Patmathe"
+	culture = "helladic"
+}
+510 = {
+	name = "dynn_Phaistathe"
+	culture = "helladic"
+}
+511 = {
+	name = "dynn_Epidaurathe"
+	culture = "helladic"
+}
+512 = {
+	name = "dynn_Aradnethe"
+	culture = "kranaoi"
+}
+513 = {
+	name = "dynn_Aziottenathe"
+	culture = "kranaoi"
+}
+514 = {
+	name = "dynn_Patmathe"
+	culture = "helladic"
+}
+515 = {
+	name = "dynn_Mosukhlathe"
+	culture = "helladic"
+}
+516 = {
+	name = "dynn_Patmathe"
+	culture = "helladic"
+}
+517 = {
+	name = "dynn_Sedamnathe"
+	culture = "athamanes"
+}
+518 = {
+	name = "dynn_Aptarathe"
+	culture = "athamanes"
+}
+519 = {
+	name = "dynn_Kaduiethe"
+	culture = "athamanes"
+}
+520 = {
+	name = "dynn_Nelinthos"
+	culture = "tyrsenian"
+}
+521 = {
+	name = "dynn_Astupalathe"
+	culture = "tyrsenian"
+}
+522 = {
+	name = "dynn_Naruxathe"
+	culture = "athamanes"
+}
+523 = {
+	name = "dynn_Aradnethe"
+	culture = "athamanes"
+}
+524 = {
+	name = "dynn_Lawranthios"
+	culture = "proto_greek"
+}
+525 = {
+	name = "dynn_Xivia"
+	culture = "proto_greek"
+}
+526 = {
+	name = "dynn_Atreiwios"
+	culture = "proto_greek"
+}
+527 = {
+	name = "dynn_Sphagianiai"
+	culture = "proto_greek"
+}
+528 = {
+	name = "dynn_Tylisios"
+	culture = "proto_greek"
+}
+529 = {
+	name = "dynn_Malitas"
+	culture = "proto_greek"
+}
+530 = {
+	name = "dynn_Dawios"
+	culture = "proto_greek"
+}
+531 = {
+	name = "dynn_Sphakosios"
+	culture = "proto_greek"
+}
+532 = {
+	name = "dynn_Owitonioi"
+	culture = "proto_greek"
+}
+533 = {
+	name = "dynn_Phasgianiai"
+	culture = "proto_greek"
+}
+534 = {
+	name = "dynn_Sphakosios"
+	culture = "proto_greek"
+}
+535 = {
+	name = "dynn_Owitonioi"
+	culture = "proto_greek"
+}
+536 = {
+	name = "dynn_Kythereai"
+	culture = "proto_greek"
+}
+537 = {
+	name = "dynn_Owitonioi"
+	culture = "proto_greek"
+}
+538 = {
+	name = "dynn_Kyprios"
+	culture = "proto_greek"
+}
+539 = {
+	name = "dynn_Dawios"
+	culture = "proto_greek"
+}
+540 = {
+	name = "dynn_Phasgianiai"
+	culture = "proto_greek"
+}
+541 = {
+	name = "dynn_Xivia"
+	culture = "proto_greek"
+}
+542 = {
+	name = "dynn_Maranenioi"
+	culture = "proto_greek"
+}
+543 = {
+	name = "dynn_Sphakosios"
+	culture = "proto_greek"
+}
+544 = {
+	name = "dynn_Malthiwios"
+	culture = "proto_greek"
+}
+545 = {
+	name = "dynn_Malitas"
+	culture = "proto_greek"
+}
+546 = {
+	name = "dynn_Doriewes"
+	culture = "proto_greek"
+}
+547 = {
+	name = "dynn_Korinsia"
+	culture = "proto_greek"
+}
+548 = {
+	name = "dynn_Witimios"
+	culture = "proto_greek"
+}
+549 = {
+	name = "dynn_Odrywios"
+	culture = "proto_greek"
+}
+550 = {
+	name = "dynn_Oichaleai"
+	culture = "proto_greek"
+}
+551 = {
+	name = "dynn_Lakedamnios"
+	culture = "proto_greek"
+}
+552 = {
+	name = "dynn_Doriewes"
+	culture = "proto_greek"
+}
+553 = {
+	name = "dynn_Ewitaios"
+	culture = "proto_greek"
+}
+554 = {
+	name = "dynn_Opilimnios"
+	culture = "proto_greek"
+}
+555 = {
+	name = "dynn_Keios"
+	culture = "proto_greek"
+}
+556 = {
+	name = "dynn_Petonios"
+	culture = "proto_greek"
+}
+557 = {
+	name = "dynn_Lamniai"
+	culture = "proto_greek"
+}
+558 = {
+	name = "dynn_Tauriskid"
+	culture = "bryges"
+}
+559 = {
+	name = "dynn_Pelopid"
+	culture = "bryges"
+}
+560 = {
+	name = "dynn_Leukonid"
+	culture = "bryges"
+}
+561 = {
+	name = "dynn_Megalid"
+	culture = "bryges"
+}
+562 = {
+	name = "dynn_Alcetid"
+	culture = "bryges"
+}
+563 = {
+	name = "dynn_Peneid"
+	culture = "bryges"
+}
+564 = {
+	name = "dynn_Tauromeneid"
+	culture = "bryges"
+}
+565 = {
+	name = "dynn_Onomastid"
+	culture = "bryges"
+}
+566 = {
+	name = "dynn_Helenid"
+	culture = "bryges"
+}
+567 = {
+	name = "dynn_Zenonid"
+	culture = "bryges"
+}
+568 = {
+	name = "dynn_Pandarna"
+	culture = "tyrsenian"
+}
+569 = {
+	name = "dynn_Epidaurathe"
+	culture = "tyrsenian"
+}
+570 = {
+	name = "dynn_Nelinthos"
+	culture = "tyrsenian"
+}
+571 = {
+	name = "dynn_Timolid"
+	culture = "bryges"
+}
+572 = {
+	name = "dynn_Nikokrid"
+	culture = "bryges"
+}
+573 = {
+	name = "dynn_Dydid"
+	culture = "bryges"
+}
+574 = {
+	name = "dynn_Nikoklid"
+	culture = "bryges"
+}
+575 = {
+	name = "dynn_Leukopale"
+	culture = "tyrsenian"
+}
+576 = {
+	name = "dynn_Kissamathe"
+	culture = "tyrsenian"
+}
+577 = {
+	name = "dynn_Onkestathe"
+	culture = "tyrsenian"
+}
+578 = {
+	name = "dynn_Teutamna"
+	culture = "tyrsenian"
+}
+579 = {
+	name = "dynn_Alasarnathe"
+	culture = "tyrsenian"
+}
+580 = {
+	name = "dynn_Dandexathe"
+	culture = "tyrsenian"
+}
+581 = {
+	name = "dynn_Kadmale"
+	culture = "tyrsenian"
+}
+582 = {
+	name = "dynn_Pandarle"
+	culture = "tyrsenian"
+}
+583 = {
+	name = "dynn_Tegurathe"
+	culture = "tyrsenian"
+}
+584 = {
+	name = "dynn_Labdakale"
+	culture = "tyrsenian"
+}
+585 = {
+	name = "dynn_Kantanathe"
+	culture = "tyrsenian"
+}
+586 = {
+	name = "dynn_Pholegandrathe"
+	culture = "tyrsenian"
+}
+587 = {
+	name = "dynn_Tulisathe"
+	culture = "tyrsenian"
+}
+588 = {
+	name = "dynn_Nirna"
+	culture = "tyrsenian"
+}
+589 = {
+	name = "dynn_Kastabathe"
+	culture = "tyrsenian"
+}
+590 = {
+	name = "dynn_Epopale"
+	culture = "tyrsenian"
+}
+591 = {
+	name = "dynn_Anawatta"
+	culture = "wilusan"
+}
+592 = {
+	name = "dynn_Kattaziti"
+	culture = "wilusan"
+}
+593 = {
+	name = "dynn_Aradnethe"
+	culture = "leleges"
+}
+594 = {
+	name = "dynn_Aziottenathe"
+	culture = "leleges"
+}
+595 = {
+	name = "dynn_Sedamnathe"
+	culture = "telchines"
+}
+596 = {
+	name = "dynn_Aptarathe"
+	culture = "telchines"
+}
+597 = {
+	name = "dynn_Nelinthos"
+	culture = "leleges"
+}
+598 = {
+	name = "dynn_Kaduiethe"
+	culture = "telchines"
+}
+599 = {
+	name = "dynn_Astupalathe"
+	culture = "leleges"
+}
+600 = {
+	name = "dynn_Pandarna"
+	culture = "leleges"
+}
+601 = {
+	name = "dynn_Naruxathe"
+	culture = "telchines"
+}
+602 = {
+	name = "dynn_Epidaurathe"
+	culture = "leleges"
+}
+603 = {
+	name = "dynn_Nelinthos"
+	culture = "leleges"
+}
+604 = {
+	name = "dynn_Leukopale"
+	culture = "leleges"
+}
+605 = {
+	name = "dynn_Kissamathe"
+	culture = "leleges"
+}
+606 = {
+	name = "dynn_Onkestathe"
+	culture = "leleges"
+}
+607 = {
+	name = "dynn_Teutamna"
+	culture = "leleges"
+}
+608 = {
+	name = "dynn_Alasarnathe"
+	culture = "leleges"
+}
+609 = {
+	name = "dynn_Dandexathe"
+	culture = "leleges"
+}
+610 = {
+	name = "dynn_Kadmale"
+	culture = "leleges"
+}
+611 = {
+	name = "dynn_Pandarle"
+	culture = "leleges"
+}
+612 = {
+	name = "dynn_Tegurathe"
+	culture = "leleges"
+}
+613 = {
+	name = "dynn_Labdakale"
+	culture = "leleges"
+}
+614 = {
+	name = "dynn_Asinamuna"
+	culture = "lydian"
+}
+615 = {
+	name = "dynn_Kantanathe"
+	culture = "leleges"
+}
+616 = {
+	name = "dynn_Anawatta"
+	culture = "lydian"
+}
+617 = {
+	name = "dynn_Tarhunatala"
+	culture = "wilusan"
+}
+618 = {
+	name = "dynn_Tupanamuta"
+	culture = "sehan"
+}
+619 = {
+	name = "dynn_Anatar"
+	culture = "sehan"
+}
+620 = {
+	name = "dynn_Asinamuna"
+	culture = "sehan"
+}
+621 = {
+	name = "dynn_Anawatta"
+	culture = "sehan"
+}
+622 = {
+	name = "dynn_Anawatta"
+	culture = "sehan"
+}
+623 = {
+	name = "dynn_Kattaziti"
+	culture = "sehan"
+}
+624 = {
+	name = "dynn_Tarhunatala"
+	culture = "sehan"
+}
+625 = {
+	name = "dynn_Tarhunatala"
+	culture = "carian"
+}
+626 = {
+	name = "dynn_Anatar"
+	culture = "carian"
+}
+627 = {
+	name = "dynn_Tuwaruntiya"
+	culture = "carian"
+}
+628 = {
+	name = "dynn_Tuwar"
+	culture = "carian"
+}
+629 = {
+	name = "dynn_Tupanamuta"
+	culture = "carian"
+}
+630 = {
+	name = "dynn_Taruntiya"
+	culture = "carian"
+}
+631 = {
+	name = "dynn_Asinamuna"
+	culture = "carian"
+}
+632 = {
+	name = "dynn_Tarhunatala"
+	culture = "carian"
+}
+633 = {
+	name = "dynn_Tuwar"
+	culture = "lukkan"
+}
+634 = {
+	name = "dynn_Tupanamuta"
+	culture = "lukkan"
+}
+635 = {
+	name = "dynn_Taruntiya"
+	culture = "lukkan"
+}
+636 = {
+	name = "dynn_Asinamuna"
+	culture = "lukkan"
+}
+637 = {
+	name = "dynn_Tarhunatala"
+	culture = "lukkan"
+}
+638 = {
+	name = "dynn_Tuwar"
+	culture = "lukkan"
+}
+639 = {
+	name = "dynn_Kattaziti"
+	culture = "lukkan"
+}
+640 = {
+	name = "dynn_Tuwar"
+	culture = "carian"
+}
+641 = {
+	name = "dynn_Kattaziti"
+	culture = "carian"
+}
+642 = {
+	name = "dynn_Taruntiya"
+	culture = "carian"
+}
+643 = {
+	name = "dynn_Tarkasa"
+	culture = "carian"
+}
+644 = {
+	name = "dynn_Anawatta"
+	culture = "lydian"
+}
+645 = {
+	name = "dynn_Kattaziti"
+	culture = "lydian"
+}
+646 = {
+	name = "dynn_Asinamuna"
+	culture = "miran"
+}
+647 = {
+	name = "dynn_Anawatta"
+	culture = "miran"
+}
+648 = {
+	name = "dynn_Anawatta"
+	culture = "miran"
+}
+649 = {
+	name = "dynn_Kattaziti"
+	culture = "miran"
+}
+650 = {
+	name = "dynn_Tarhunatala"
+	culture = "miran"
+}
+651 = {
+	name = "dynn_Iphurkura-Adonis"
+	culture = "canaanite"
+}
+652 = {
+	name = "dynn_Baaliaton-Azizos"
+	culture = "canaanite"
+}
+653 = {
+	name = "dynn_Luli-Arsay"
+	culture = "canaanite"
+}
+654 = {
+	name = "dynn_Hamilcar-El"
+	culture = "canaanite"
+}
+655 = {
+	name = "dynn_Milkyaton-Kotharat"
+	culture = "canaanite"
+}
+656 = {
+	name = "dynn_Iphurkura-Adonis"
+	culture = "canaanite"
+}
+657 = {
+	name = "dynn_Mattan-Manuzi"
+	culture = "canaanite"
+}
+658 = {
+	name = "dynn_Pummay-Yam"
+	culture = "ammonite"
+}
+659 = {
+	name = "dynn_Paltibaal-Shadrafa"
+	culture = "canaanite"
+}
+660 = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "moabite"
+}
+661 = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "moabite"
+}
+662 = {
+	name = "dynn_Pummay-Yam"
+	culture = "moabite"
+}
+663 = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "moabite"
+}
+664 = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "edomite"
+}
+665 = {
+	name = "dynn_Malchus-Shachar"
+	culture = "bedu"
+}
+666 = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "bedu"
+}
+667 = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "edomite"
+}
+668 = {
+	name = "dynn_Pummay-Yam"
+	culture = "edomite"
+}
+669 = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "bedu"
+}
+670 = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "edomite"
+}
+671 = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "sinaian"
+}
+672 = {
+	name = "dynn_Pummay-Yam"
+	culture = "sinaian"
+}
+673 = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "sinaian"
+}
+674 = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "phoenician"
+}
+675 = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "phoenician"
+}
+676 = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "phoenician"
+}
+677 = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "phoenician"
+}
+678 = {
+	name = "dynn_Eugoras-Chemosh"
+	culture = "phoenician"
+}
+679 = {
+	name = "dynn_Gisgo-Shadrafa"
+	culture = "phoenician"
+}
+680 = {
+	name = "dynn_Iphurkura-Adonis"
+	culture = "phoenician"
+}
+681 = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "aramean"
+}
+682 = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "aramean"
+}
+683 = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "aramean"
+}
+684 = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "aramean"
+}
+685 = {
+	name = "dynn_Pummay-Yam"
+	culture = "golanite"
+}
+686 = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "golanite"
+}
+687 = {
+	name = "dynn_Galesta"
+	culture = "berber"
+}
+688 = {
+	name = "dynn_Tacfarina"
+	culture = "berber"
+}
+689 = {
+	name = "dynn_Kenamid"
+	culture = "berber"
+}
+690 = {
+	name = "dynn_Tacfarina"
+	culture = "berber"
+}
+691 = {
+	name = "dynn_Wegaf-Anhur"
+	culture = "lower_egyptian"
+}
+692 = {
+	name = "dynn_Sekhemib-Neper"
+	culture = "lower_egyptian"
+}
+693 = {
+	name = "dynn_Inenek-Inti-Nefertum"
+	culture = "upper_egyptian"
+}
+694 = {
+	name = "dynn_Tao-Bat"
+	culture = "upper_egyptian"
+}
+695 = {
+	name = "dynn_Neferkare-Nepit"
+	culture = "upper_egyptian"
+}
+696 = {
+	name = "dynn_Apile-Tabiry"
+	culture = "nubian"
+}
+697 = {
+	name = "dynn_Apilye-Kdimnli"
+	culture = "nubian"
+}
+698 = {
+	name = "dynn_Bashkakeren-Ametsl"
+	culture = "nubian"
+}
+699 = {
+	name = "dynn_Aritenyesbokhe-Apetikde"
+	culture = "nubian"
+}
+700 = {
+	name = "dynn_Rashepses-Renenutet"
+	culture = "wahenian"
+}
+701 = {
+	name = "dynn_Apries-Set"
+	culture = "wahenian"
+}
+702 = {
+	name = "dynn_Harkhuf-Wadjet"
+	culture = "wahenian"
+}
+703 = {
+	name = "dynn_QakareIbi-Anuket"
+	culture = "wahenian"
+}
+704 = {
+	name = "dynn_Bek-Sopdu"
+	culture = "wahenian"
+}
+705 = {
+	name = "dynn_Isesi-Menhit"
+	culture = "wahenian"
+}
+706 = {
+	name = "dynn_Qareh-Bat"
+	culture = "wahenian"
+}
+707 = {
+	name = "dynn_Baskakeren-Heqet"
+	culture = "wahenian"
+}
+708 = {
+	name = "dynn_Wegaf"
+	culture = "wahenian"
+}
+709 = {
+	name = "dynn_Shemai-Khonsu"
+	culture = "wahenian"
+}
+710 = {
+	name = "dynn_QakareIbi-Anuket"
+	culture = "mu_kedi"
+}
+711 = {
+	name = "dynn_Bek-Sopdu"
+	culture = "mu_kedi"
+}
+712 = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "sinaian"
+}
+713 = {
+	name = "dynn_Isesi-Menhit"
+	culture = "mu_kedi"
+}
+714 = {
+	name = "dynn_Ukku-Tarana"
+	culture = "liyan"
+}
+715 = {
+	name = "dynn_Attar-Halki"
+	culture = "liyan"
+}
+716 = {
+	name = "dynn_Pahir-Hutran"
+	culture = "liyan"
+}
+717 = {
+	name = "dynn_Napi-Nashur"
+	culture = "anshanian"
+}
+718 = {
+	name = "dynn_Ige-Kittah"
+	culture = "anshanian"
+}
+719 = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "anshanian"
+}
+720 = {
+	name = "dynn_Ata-Halki"
+	culture = "anshanian"
+}
+721 = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "anshanian"
+}
+722 = {
+	name = "dynn_Untash-Nahhunte"
+	culture = "anshanian"
+}
+723 = {
+	name = "dynn_Ata-Halki"
+	culture = "susanian"
+}
+724 = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "susanian"
+}
+725 = {
+	name = "dynn_Numena-Humban"
+	culture = "anshanian"
+}
+726 = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "anshanian"
+}
+727 = {
+	name = "dynn_Temti-Inshushinak"
+	culture = "anshanian"
+}
+728 = {
+	name = "dynn_Attar-Halki"
+	culture = "anshanian"
+}
+729 = {
+	name = "dynn_Napi-Nashur"
+	culture = "ellipian"
+}
+730 = {
+	name = "dynn_Ige-Kittah"
+	culture = "ellipian"
+}
+731 = {
+	name = "dynn_Ige-Kittah"
+	culture = "ellipian"
+}
+732 = {
+	name = "dynn_Napi-Nashur"
+	culture = "ellipian"
+}
+733 = {
+	name = "dynn_Ige-Kittah"
+	culture = "ellipian"
+}
+734 = {
+	name = "dynn_Huta-Tassi"
+	culture = "gutian"
+}
+735 = {
+	name = "dynn_Kulumum-Ninurta"
+	culture = "south_akkadian"
+}
+736 = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "ellipian"
+}
+737 = {
+	name = "dynn_Ata-Halki"
+	culture = "ellipian"
+}
+738 = {
+	name = "dynn_Zuqaqip-Bau"
+	culture = "gutian"
+}
+739 = {
+	name = "dynn_Pirigme-Ishkur"
+	culture = "sumerian"
+}
+740 = {
+	name = "dynn_Akurgal-Geshtinanna"
+	culture = "sumerian"
+}
+741 = {
+	name = "dynn_Nanni-Enlil"
+	culture = "sumerian"
+}
+742 = {
+	name = "dynn_Ishu-Enki"
+	culture = "sumerian"
+}
+743 = {
+	name = "dynn_Lugula-Ningal"
+	culture = "sumerian"
+}
+745 = {
+	name = "dynn_Shulgi-Ninhursag"
+	culture = "sumerian"
+}
+746 = {
+	name = "dynn_Shulgi-Ninhursag"
+	culture = "sumerian"
+}
+747 = {
+	name = "dynn_Nanni-Enlil"
+	culture = "sumerian"
+}
+748 = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "south_akkadian"
+}
+749 = {
+	name = "dynn_Babum-Geshtinanna"
+	culture = "south_akkadian"
+}
+750 = {
+	name = "dynn_Zuqaqip-Bau"
+	culture = "south_akkadian"
+}
+751 = {
+	name = "dynn_Sargon-Ea"
+	culture = "south_akkadian"
+}
+752 = {
+	name = "dynn_Nanniya-Meskilak"
+	culture = "sumerian"
+}
+753 = {
+	name = "dynn_Puannum-Ningal"
+	culture = "south_akkadian"
+}
+754 = {
+	name = "dynn_Ipashi-Sali"
+	culture = "gutian"
+}
+755 = {
+	name = "dynn_Aruna-Duzagash"
+	culture = "gutian"
+}
+756 = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "ellipian"
+}
+757 = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "gutian"
+}
+758 = {
+	name = "dynn_Samani"
+	culture = "south_akkadian"
+}
+759 = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "south_akkadian"
+}
+760 = {
+	name = "dynn_Limer-Adad"
+	culture = "maganite"
+}
+761 = {
+	name = "dynn_Limer-Adad"
+	culture = "maganite"
+}
+762 = {
+	name = "dynn_Lullaya-Shamash"
+	culture = "dilmunite"
+}
+763 = {
+	name = "dynn_Samani-Enlil"
+	culture = "dilmunite"
+}
+764 = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "dilmunite"
+}
+765 = {
+	name = "dynn_Hayani-Ereshkigal"
+	culture = "maganite"
+}
+766 = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "maganite"
+}
+767 = {
+	name = "dynn_Lullaya-Shamash"
+	culture = "dilmunite"
+}
+768 = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "dilmunite"
+}
+769 = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "dilmunite"
+}
+770 = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "dilmunite"
+}
+771 = {
+	name = "dynn_Limer-Adad"
+	culture = "dilmunite"
+}
+772 = {
+	name = "dynn_Hayani-Ereshkigal"
+	culture = "dilmunite"
+}
+773 = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "dilmunite"
+}
+774 = {
+	name = "dynn_Suhlamu-Inzak"
+	culture = "dilmunite"
+}
+775 = {
+	name = "dynn_Jushur-Sin"
+	culture = "dilmunite"
+}
+776 = {
+	name = "dynn_Ahiram-Baalah"
+	culture = "amoritic"
+}
+777 = {
+	name = "dynn_Zakarba_al-Azizos"
+	culture = "amoritic"
+}
+778 = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "assyrian"
+}
+779 = {
+	name = "dynn_Suhlamu-Inzak"
+	culture = "lullubi"
+}
+780 = {
+	name = "dynn_Shima-Hudha"
+	culture = "gutian"
+}
+781 = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "lullubi"
+}
+782 = {
+	name = "dynn_Zitu-ya-Hutelluri"
+	culture = "tukri"
+}
+783 = {
+	name = "dynn_Hurba-Bugash"
+	culture = "lullubi"
+}
+784 = {
+	name = "dynn_Tushratta-Ningal"
+	culture = "tukri"
+}
+785 = {
+	name = "dynn_Asu-zi-Hutelluri"
+	culture = "tukri"
+}
+786 = {
+	name = "dynn_Hazip-Nawar-Hutelluri"
+	culture = "tukri"
+}
+787 = {
+	name = "dynn_Tahi-Shimegi"
+	culture = "tukri"
+}
+788 = {
+	name = "dynn_Zaza-naya-Teshub"
+	culture = "tukri"
+}
+789 = {
+	name = "dynn_Nubar-wari-Nubadig"
+	culture = "tukri"
+}
+790 = {
+	name = "dynn_Limer-Adad"
+	culture = "assyrian"
+}
+791 = {
+	name = "dynn_Hayani-Ereshkigal"
+	culture = "assyrian"
+}
+792 = {
+	name = "dynn_Izzu-nni-Kushuh"
+	culture = "tukri"
+}
+793 = {
+	name = "dynn_Zaza-naya-Teshub"
+	culture = "haburi"
+}
+794 = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "assyrian"
+}
+795 = {
+	name = "dynn_Suhlamu-Inzak"
+	culture = "assyrian"
+}
+796 = {
+	name = "dynn_Nubar-wari-Nubadig"
+	culture = "haburi"
+}
+797 = {
+	name = "dynn_Turip-seni-Ashtabil"
+	culture = "tukri"
+}
+798 = {
+	name = "dynn_Izzu-nni-Kushuh"
+	culture = "haburi"
+}
+799 = {
+	name = "dynn_Turip-seni-Ashtabil"
+	culture = "haburi"
+}
+800 = {
+	name = "dynn_Allai-tatta-Hebat"
+	culture = "tukri"
+}
+801 = {
+	name = "dynn_Aradnethe"
+	culture = "cypriot"
+}
+802 = {
+	name = "dynn_Aziottenathe"
+	culture = "cypriot"
+}
+803 = {
+	name = "dynn_Nelinthos"
+	culture = "cypriot"
+}
+804 = {
+	name = "dynn_Astupalathe"
+	culture = "cypriot"
+}
+805 = {
+	name = "dynn_Pandarna"
+	culture = "cypriot"
+}
+806 = {
+	name = "dynn_Epidaurathe"
+	culture = "cypriot"
+}
+807 = {
+	name = "dynn_Baaliaton-Azizos"
+	culture = "phoenician"
+}
+808 = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "eblaite"
+}
+809 = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "eblaite"
+}
+810 = {
+	name = "dynn_Eugoras-Chemosh"
+	culture = "eblaite"
+}
+811 = {
+	name = "dynn_Gisgo-Shadrafa"
+	culture = "eblaite"
+}
+812 = {
+	name = "dynn_Iphurkura-Adonis"
+	culture = "eblaite"
+}
+813 = {
+	name = "dynn_Urumilki-Astoreth"
+	culture = "amoritic"
+}
+814 = {
+	name = "dynn_Adonibaal-Eshmun"
+	culture = "amoritic"
+}
+815 = {
+	name = "dynn_Baaliaton-Azizos"
+	culture = "eblaite"
+}
+816 = {
+	name = "dynn_Hiempsal-Lotan"
+	culture = "amoritic"
+}
+817 = {
+	name = "dynn_Luli-Arsay"
+	culture = "eblaite"
+}
+818 = {
+	name = "dynn_Yada_milk-Yam"
+	culture = "amoritic"
+}
+819 = {
+	name = "dynn_Metallo-Misor"
+	culture = "amoritic"
+}
+820 = {
+	name = "dynn_Urumilki-Astoreth"
+	culture = "amoritic"
+}
+821 = {
+	name = "dynn_Boulomenus-Hadad"
+	culture = "amoritic"
+}
+822 = {
+	name = "dynn_Milkherem-Moloch"
+	culture = "amoritic"
+}
+823 = {
+	name = "dynn_Chelbes-Shamin"
+	culture = "amoritic"
+}
+824 = {
+	name = "dynn_Pala-mi-Ningal"
+	culture = "zalwari"
+}
+825 = {
+	name = "dynn_Pir-kinnu-Teshub"
+	culture = "zalwari"
+}
+826 = {
+	name = "dynn_Memen-kanazi-Adamma"
+	culture = "zalwari"
+}
+827 = {
+	name = "dynn_Sazum-sarri-Kumarbi"
+	culture = "zalwari"
+}
+828 = {
+	name = "dynn_Kuzi-Allani"
+	culture = "harrani"
+}
+829 = {
+	name = "dynn_Sur-siya-Shalash"
+	culture = "harrani"
+}
+830 = {
+	name = "dynn_Zitu-ya-Hutelluri"
+	culture = "harrani"
+}
+831 = {
+	name = "dynn_Mattan-Manuzi"
+	culture = "amoritic"
+}
+832 = {
+	name = "dynn_Tushratta-Ningal"
+	culture = "harrani"
+}
+833 = {
+	name = "dynn_Asu-zi-Hutelluri"
+	culture = "harrani"
+}
+834 = {
+	name = "dynn_Ittoba_al-Shachar"
+	culture = "amoritic"
+}
+835 = {
+	name = "dynn_Ormilk-Shamin"
+	culture = "amoritic"
+}
+836 = {
+	name = "dynn_Himilco-Kotharat"
+	culture = "amoritic"
+}
+837 = {
+	name = "dynn_Yanud-Lim-El"
+	culture = "amoritic"
+}
+838 = {
+	name = "dynn_Chelbes-Shamin"
+	culture = "amoritic"
+}
+839 = {
+	name = "dynn_Ahirom-Horon"
+	culture = "amoritic"
+}
+840 = {
+	name = "dynn_Yutpan-Zephon"
+	culture = "amoritic"
+}
+841 = {
+	name = "dynn_Gerimilki-Hadad"
+	culture = "amoritic"
+}
+842 = {
+	name = "dynn_Phelles-Shadrafa"
+	culture = "amoritic"
+}
+843 = {
+	name = "dynn_Iptur-Dagan-Aglibol"
+	culture = "amoritic"
+}
+844 = {
+	name = "dynn_Allai-tatta-Hebat"
+	culture = "haburi"
+}
+845 = {
+	name = "dynn_Sena-ya-Hutena"
+	culture = "haburi"
+}
+846 = {
+	name = "dynn_Kari-ya-Nubadig"
+	culture = "haburi"
+}
+847 = {
+	name = "dynn_Azzu-nni-Shalash"
+	culture = "haburi"
+}
+848 = {
+	name = "dynn_Tahi-ya-Kushuh"
+	culture = "shubrian"
+}
+849 = {
+	name = "dynn_Azzu-kki-Rashap"
+	culture = "shubrian"
+}
+850 = {
+	name = "dynn_Hazip-Nawar-Hutelluri"
+	culture = "harrani"
+}
+851 = {
+	name = "dynn_Tahi-Shimegi"
+	culture = "harrani"
+}
+852 = {
+	name = "dynn_Zaza-naya-Teshub"
+	culture = "harrani"
+}
+853 = {
+	name = "dynn_Nubar-wari-Nubadig"
+	culture = "harrani"
+}
+854 = {
+	name = "dynn_Izzu-nni-Kushuh"
+	culture = "harrani"
+}
+855 = {
+	name = "dynn_Turip-seni-Ashtabil"
+	culture = "harrani"
+}
+856 = {
+	name = "dynn_Allai-tatta-Hebat"
+	culture = "harrani"
+}
+857 = {
+	name = "dynn_Sena-ya-Hutena"
+	culture = "harrani"
+}
+858 = {
+	name = "dynn_Taku-na-Ningal"
+	culture = "haburi"
+}
+859 = {
+	name = "dynn_Tata-ra-Shalash"
+	culture = "haburi"
+}
+860 = {
+	name = "dynn_Azzu-nni-Shalash"
+	culture = "haburi"
+}
+861 = {
+	name = "dynn_Taku-na-Ningal"
+	culture = "haburi"
+}
+862 = {
+	name = "dynn_Sama-hul-Kubaba"
+	culture = "haburi"
+}
+863 = {
+	name = "dynn_Taki-ya-Hayya"
+	culture = "haburi"
+}
+864 = {
+	name = "dynn_Pisr-uhli-Hebat"
+	culture = "haburi"
+}
+865 = {
+	name = "dynn_Kattaziti"
+	culture = "tarhuntassan"
+}
+866 = {
+	name = "dynn_Taruntiya"
+	culture = "tarhuntassan"
+}
+867 = {
+	name = "dynn_Ara-zah-Sherri"
+	culture = "kizzuni"
+}
+868 = {
+	name = "dynn_Tahi-ya-Kushuh"
+	culture = "kizzuni"
+}
+869 = {
+	name = "dynn_Azzu-kki-Rashap"
+	culture = "kizzuni"
+}
+870 = {
+	name = "dynn_Tarkasa"
+	culture = "tarhuntassan"
+}
+871 = {
+	name = "dynn_Sehrum-nirzi-Shimegi"
+	culture = "kizzuni"
+}
+872 = {
+	name = "dynn_Papu-zi-Tashmisu"
+	culture = "kizzuni"
+}
+873 = {
+	name = "dynn_Kuzi-Allani"
+	culture = "kizzuni"
+}
+874 = {
+	name = "dynn_Sur-siya-Shalash"
+	culture = "kizzuni"
+}
+875 = {
+	name = "dynn_Taruntiya"
+	culture = "tarhuntassan"
+}
+876 = {
+	name = "dynn_Asinamuna"
+	culture = "tarhuntassan"
+}
+877 = {
+	name = "dynn_Asinamuna"
+	culture = "tarhuntassan"
+}
+878 = {
+	name = "dynn_Pala-mi-Ningal"
+	culture = "ishuwan"
+}
+879 = {
+	name = "dynn_Tarhunatala"
+	culture = "nesili"
+}
+880 = {
+	name = "dynn_Anaramati"
+	culture = "hattian"
+}
+881 = {
+	name = "dynn_Anatar"
+	culture = "nesili"
+}
+882 = {
+	name = "dynn_Tuwaruntiya"
+	culture = "nesili"
+}
+883 = {
+	name = "dynn_Tarkasziti"
+	culture = "hattian"
+}
+884 = {
+	name = "dynn_Zitu-ya-Hutelluri"
+	culture = "kizzuni"
+}
+885 = {
+	name = "dynn_Tuwar"
+	culture = "nesili"
+}
+886 = {
+	name = "dynn_Tushratta-Ningal"
+	culture = "kizzuni"
+}
+887 = {
+	name = "dynn_S_atar-mat-Nabarbi"
+	culture = "zalwari"
+}
+888 = {
+	name = "dynn_Tuwaruntiya"
+	culture = "hattian"
+}
+889 = {
+	name = "dynn_Tupanamuta"
+	culture = "nesili"
+}
+890 = {
+	name = "dynn_Kattaziti"
+	culture = "hapallan"
+}
+891 = {
+	name = "dynn_Kattaziti"
+	culture = "palaic"
+}
+892 = {
+	name = "dynn_Taruntiya"
+	culture = "nesili"
+}
+893 = {
+	name = "dynn_Asinamuna"
+	culture = "nesili"
+}
+894 = {
+	name = "dynn_Tarhunatala"
+	culture = "palaic"
+}
+895 = {
+	name = "dynn_Anatar"
+	culture = "palaic"
+}
+896 = {
+	name = "dynn_Tuwaruntiya"
+	culture = "palaic"
+}
+897 = {
+	name = "dynn_Tarhunatala"
+	culture = "hapallan"
+}
+898 = {
+	name = "dynn_Tuwar"
+	culture = "palaic"
+}
+899 = {
+	name = "dynn_Tupanamuta"
+	culture = "palaic"
+}
+900 = {
+	name = "dynn_Taruntiya"
+	culture = "palaic"
+}
+901 = {
+	name = "dynn_Pir-kinnu-Teshub"
+	culture = "ishuwan"
+}
+902 = {
+	name = "dynn_Memen-kanazi-Adamma"
+	culture = "ishuwan"
+}
+903 = {
+	name = "dynn_Sazum-sarri-Kumarbi"
+	culture = "ishuwan"
+}
+904 = {
+	name = "dynn_S_atar-mat-Nabarbi"
+	culture = "ishuwan"
+}
+905 = {
+	name = "dynn_Zirri-Hutena"
+	culture = "ishuwan"
+}
+906 = {
+	name = "dynn_Anaramati"
+	culture = "tarhuntassan"
+}
+907 = {
+	name = "dynn_Anatar"
+	culture = "tarhuntassan"
+}
+908 = {
+	name = "dynn_Anatar"
+	culture = "tarhuntassan"
+}
+909 = {
+	name = "dynn_Anatar"
+	culture = "miran"
+}
+910 = {
+	name = "dynn_Anatar"
+	culture = "hapallan"
+}
+911 = {
+	name = "dynn_Tuwaruntiya"
+	culture = "hapallan"
+}
+912 = {
+	name = "dynn_Anatar"
+	culture = "hattian"
+}
+913 = {
+	name = "dynn_Tarkasa"
+	culture = "hattian"
+}
+914 = {
+	name = "dynn_Tupanamuta"
+	culture = "hattian"
+}
+915 = {
+	name = "dynn_Tarkasziti"
+	culture = "hattian"
+}
+916 = {
+	name = "dynn_Tuwaruntiya"
+	culture = "hattian"
+}
+917 = {
+	name = "dynn_Kattaziti"
+	culture = "hattian"
+}
+918 = {
+	name = "dynn_Asinamuna"
+	culture = "hattian"
+}
+919 = {
+	name = "dynn_Taruntiya"
+	culture = "hattian"
+}
+922 = {
+	name = "dynn_Malchus-Shachar"
+	culture = "hyksos"
+}
+923 = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "hyksos"
+}
+924 = {
+	name = "dynn_Imhotep-Bastet"
+	culture = "upper_egyptian"
+}
+925 = {
+	name = "dynn_Dagi-Maahes"
+	culture = "upper_egyptian"
+}
+926 = {
+	name = "dynn_Wetka-Khepri"
+	culture = "upper_egyptian"
+}
+927 = {
+	name = "dynn_Khamudi-Sopdu"
+	culture = "lower_egyptian"
+}
+928 = {
+	name = "dynn_Inenek-Inti-Nefertum"
+	culture = "lower_egyptian"
+}
+929 = {
+	name = "dynn_Tao-Bat"
+	culture = "lower_egyptian"
+}
+930 = {
+	name = "dynn_Neferkare-Nepit"
+	culture = "lower_egyptian"
+}
+931 = {
+	name = "dynn_Qenna-Hesat"
+	culture = "lower_egyptian"
+}
+932 = {
+	name = "dynn_Imhotep-Bastet"
+	culture = "lower_egyptian"
+}
+933 = {
+	name = "dynn_Dagi-Maahes"
+	culture = "lower_egyptian"
+}
+934 = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "hyksos"
+}
+935 = {
+	name = "dynn_Wetka-Khepri"
+	culture = "lower_egyptian"
+}
+936 = {
+	name = "dynn_Pummay-Yam"
+	culture = "hyksos"
+}
+937 = {
+	name = "dynn_Shosqenq-Shu"
+	culture = "lower_egyptian"
+}
+938 = {
+	name = "dynn_Dagi-Maahes"
+	culture = "lower_egyptian"
+}
+939 = {
+	name = "dynn_Wentawet-Horus"
+	culture = "lower_egyptian"
+}
+940 = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "hyksos"
+}
+941 = {
+	name = "dynn_Teritnide-Hrkebe"
+	culture = "nubian"
+}
+942 = {
+	name = "dynn_Shosqenq-Shu"
+	culture = "upper_egyptian"
+}
+943 = {
+	name = "dynn_Dagi-Maahes"
+	culture = "upper_egyptian"
+}
+944 = {
+	name = "dynn_Wentawet-Horus"
+	culture = "upper_egyptian"
+}
+945 = {
+	name = "dynn_Neferkare-Ptah"
+	culture = "upper_egyptian"
+}
+946 = {
+	name = "dynn_Weni-Hapi"
+	culture = "upper_egyptian"
+}
+947 = {
+	name = "dynn_Nakhtnebef-Atum"
+	culture = "upper_egyptian"
+}
+948 = {
+	name = "dynn_Iry-Hor-Bat"
+	culture = "upper_egyptian"
+}
+949 = {
+	name = "dynn_Tefnakht-Ra"
+	culture = "upper_egyptian"
+}
+950 = {
+	name = "dynn_Khabash-Amunet"
+	culture = "upper_egyptian"
+}
+951 = {
+	name = "dynn_Osorkon-Sopdu"
+	culture = "upper_egyptian"
+}
+952 = {
+	name = "dynn_Djedkare-Khnum"
+	culture = "upper_egyptian"
+}
+953 = {
+	name = "dynn_Qen-Heqet"
+	culture = "upper_egyptian"
+}
+954 = {
+	name = "dynn_Unas-Isis"
+	culture = "upper_egyptian"
+}
+955 = {
+	name = "dynn_Nebet-Nekbhet"
+	culture = "upper_egyptian"
+}
+956 = {
+	name = "dynn_Minkhaf-Mut"
+	culture = "upper_egyptian"
+}
+957 = {
+	name = "dynn_Henuttawy-Bat"
+	culture = "upper_egyptian"
+}
+958 = {
+	name = "dynn_Webensenu-Amun"
+	culture = "upper_egyptian"
+}
+959 = {
+	name = "dynn_Nasakhma-Delikrer"
+	culture = "nubian"
+}
+961 = {
+	name = "dynn_Tamelerdeamani-Amnxedele"
+	culture = "nubian"
+}
+962 = {
+	name = "dynn_Yesbokheamani-Xdekmli"
+	culture = "nubian"
+}
+963 = {
+	name = "dynn_Teritnide-Hrkebe"
+	culture = "nubian"
+}
+964 = {
+	name = "dynn_Talakhamani-Arty"
+	culture = "nubian"
+}
+965 = {
+	name = "dynn_Wegaf"
+	culture = "upper_egyptian"
+}
+966 = {
+	name = "dynn_Teqerideamani-Xresye"
+	culture = "nubian"
+}
+967 = {
+	name = "dynn_Aqemleye-Amanitakaye"
+	culture = "nubian"
+}
+969 = {
+	name = "dynn_Tarma-ri-s-Adamma"
+	culture = "haburi"
+}
+970 = {
+	name = "dynn_Nupa-tiya-Rashap"
+	culture = "haburi"
+}
+971 = {
+	name = "dynn_Satta-kiyazi-Rashap"
+	culture = "haburi"
+}
+972 = {
+	name = "dynn_Azzu-eli-Pirinki"
+	culture = "haburi"
+}
+973 = {
+	name = "dynn_Kari-ya-Nubadig"
+	culture = "harrani"
+}
+974 = {
+	name = "dynn_Seh-saya-Kushuh"
+	culture = "haburi"
+}
+975 = {
+	name = "dynn_Senip-sarri-Hutelluri"
+	culture = "haburi"
+}
+976 = {
+	name = "dynn_Kiyazi-Hutena"
+	culture = "haburi"
+}
+977 = {
+	name = "dynn_Paki-la-Sumuqan"
+	culture = "haburi"
+}
+979 = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "amoritic"
+}
+980 = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "amoritic"
+}
+981 = {
+	name = "dynn_Ittoba_al-Shachar"
+	culture = "amoritic"
+}
+982 = {
+	name = "dynn_Qareh-Bat"
+	culture = "wahenian"
+}
+983 = {
+	name = "dynn_Adherba"
+	culture = "berber"
+}
+984 = {
+	name = "dynn_Senua"
+	culture = "berber"
+}
+985 = {
+	name = "dynn_Tacfarina"
+	culture = "berber"
+}
+986 = {
+	name = "dynn_Galid"
+	culture = "berber"
+}
+987 = {
+	name = "dynn_Ahmid"
+	culture = "berber"
+}
+988 = {
+	name = "dynn_Kenamid"
+	culture = "berber"
+}
+989 = {
+	name = "dynn_Narava"
+	culture = "berber"
+}
+990 = {
+	name = "dynn_Tacfarina"
+	culture = "berber"
+}
+992 = {
+	name = "dynn_Sabit-Nanshe"
+	culture = "sumerian"
+}
+993 = {
+	name = "dynn_Sabit-Nanshe"
+	culture = "neo_sumerian"
+}
+994 = {
+	name = "dynn_Puzur-Nintinugga"
+	culture = "neo_sumerian"
+}
+996 = {
+	name = "dynn_Limer-Adad"
+	culture = "neo_sumerian"
+}
+997 = {
+	name = "dynn_Aba-Lim-Anat"
+	culture = "amoritic"
+}
+998 = {
+	name = "dynn_Eugoras-Chemosh"
+	culture = "amoritic"
+}
+999 = {
+	name = "dynn_Sargon-Ea"
+	culture = "south_akkadian"
+}
+1000 = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "south_akkadian"
+}
+1001 = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "south_akkadian"
+}
+1002 = {
+	name = "dynn_Puannum-Ningal"
+	culture = "south_akkadian"
+}
+1003 = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "south_akkadian"
+}
+1004 = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "south_akkadian"
+}
+1005 = {
+	name = "dynn_Rimush-Tishpak"
+	culture = "south_akkadian"
+}
+1006 = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "south_akkadian"
+}
+1007 = {
+	name = "dynn_Limer-Adad"
+	culture = "south_akkadian"
+}
+1008 = {
+	name = "dynn_Hana-Tammuz"
+	culture = "south_akkadian"
+}
+1009 = {
+	name = "dynn_Puannum-Ningal"
+	culture = "south_akkadian"
+}
+1010 = {
+	name = "dynn_Zuqaqip-Bau"
+	culture = "south_akkadian"
+}
+1011 = {
+	name = "dynn_Rimush-Tishpak"
+	culture = "south_akkadian"
+}
+1012 = {
+	name = "dynn_Untash-Nahhunte"
+	culture = "ellipian"
+}
+1014 = {
+	name = "dynn_Jushur-Sin"
+	culture = "maganite"
+}
+1015 = {
+	name = "dynn_Suhlamu-Inzak"
+	culture = "maganite"
+}
+1016 = {
+	name = "dynn_Samani-Enlil"
+	culture = "maganite"
+}
+1017 = {
+	name = "dynn_Iltasadum-Nabu"
+	culture = "maganite"
+}
+1018 = {
+	name = "dynn_Kulumum-Ninurta"
+	culture = "dilmunite"
+}
+1019 = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "dilmunite"
+}
+1020 = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "sinaian"
+}
+1021 = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "sinaian"
+}
+1022 = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "sinaian"
+}
+1023 = {
+	name = "dynn_Eugoras-Chemosh"
+	culture = "sinaian"
+}
+1024 = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "moabite"
+}
+1025 = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "edomite"
+}
+1026 = {
+	name = "dynn_Luli-Arsay"
+	culture = "phoenician"
+}
+1027 = {
+	name = "dynn_Yehomilk-Ashtar"
+	culture = "canaanite"
+}
+1028 = {
+	name = "dynn_Melqartshama-Arsu"
+	culture = "canaanite"
+}
+1029 = {
+	name = "dynn_Melqartpilles-Horon"
+	culture = "canaanite"
+}
+1030 = {
+	name = "dynn_Azimilik-Athirat"
+	culture = "canaanite"
+}
+1031 = {
+	name = "dynn_Bomilcar-Baalah"
+	culture = "canaanite"
+}
+1032 = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "ammonite"
+}
+1033 = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "moabite"
+}
+1034 = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "ammonite"
+}
+1035 = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "ammonite"
+}
+1036 = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "ammonite"
+}
+1037 = {
+	name = "dynn_Hadda-ahu-Arsay"
+	culture = "canaanite"
+}
+1038 = {
+	name = "dynn_Ahiram-Baalah"
+	culture = "canaanite"
+}
+1039 = {
+	name = "dynn_Pummay-Yam"
+	culture = "bedu"
+}
+1040 = {
+	name = "dynn_Zakarba_al-Azizos"
+	culture = "canaanite"
+}
+1041 = {
+	name = "dynn_Urumilki-Astoreth"
+	culture = "canaanite"
+}
+1042 = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "golanite"
+}
+1043 = {
+	name = "dynn_Hamilcar-El"
+	culture = "phoenician"
+}
+1044 = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "aramean"
+}
+1045 = {
+	name = "dynn_Eugoras-Chemosh"
+	culture = "aramean"
+}
+1046 = {
+	name = "dynn_Abdmelqart-Aglibol"
+	culture = "amoritic"
+}
+1047 = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "amoritic"
+}
+1048 = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "golanite"
+}
+1049 = {
+	name = "dynn_Gisgo-Shadrafa"
+	culture = "aramean"
+}
+1050 = {
+	name = "dynn_Iphurkura-Adonis"
+	culture = "aramean"
+}
+1051 = {
+	name = "dynn_Astartos-Qadeshtu"
+	culture = "amoritic"
+}
+1052 = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "golanite"
+}
+1053 = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "golanite"
+}
+1054 = {
+	name = "dynn_Baaliaton-Azizos"
+	culture = "aramean"
+}
+1055 = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "edomite"
+}
+1056 = {
+	name = "dynn_Adonibaal-Eshmun"
+	culture = "canaanite"
+}
+1057 = {
+	name = "dynn_Tuwaruntiya"
+	culture = "tarhuntassan"
+}
+1058 = {
+	name = "dynn_Asu-zi-Hutelluri"
+	culture = "kizzuni"
+}
+1059 = {
+	name = "dynn_Hazip-Nawar-Hutelluri"
+	culture = "kizzuni"
+}
+1060 = {
+	name = "dynn_Tahi-Shimegi"
+	culture = "kizzuni"
+}
+1061 = {
+	name = "dynn_Zaza-naya-Teshub"
+	culture = "kizzuni"
+}
+1062 = {
+	name = "dynn_Nubar-wari-Nubadig"
+	culture = "kizzuni"
+}
+1064 = {
+	name = "dynn_Turip-seni-Ashtabil"
+	culture = "kizzuni"
+}
+1065 = {
+	name = "dynn_Allai-tatta-Hebat"
+	culture = "kizzuni"
+}
+1066 = {
+	name = "dynn_Tarhunatala"
+	culture = "tarhuntassan"
+}
+1067 = {
+	name = "dynn_Tarhunatala"
+	culture = "tarhuntassan"
+}
+1068 = {
+	name = "dynn_Asinamuna"
+	culture = "tarhuntassan"
+}
+1069 = {
+	name = "dynn_Tarkasziti"
+	culture = "tarhuntassan"
+}
+1070 = {
+	name = "dynn_Kattaziti"
+	culture = "tarhuntassan"
+}
+1071 = {
+	name = "dynn_Taruntiya"
+	culture = "lukkan"
+}
+1072 = {
+	name = "dynn_Taruntiya"
+	culture = "tarhuntassan"
+}
+1073 = {
+	name = "dynn_Tarkasa"
+	culture = "lukkan"
+}
+1074 = {
+	name = "dynn_Taruntiya"
+	culture = "lukkan"
+}
+1075 = {
+	name = "dynn_Asinamuna"
+	culture = "lukkan"
+}
+1076 = {
+	name = "dynn_Asinamuna"
+	culture = "lukkan"
+}
+1077 = {
+	name = "dynn_Tarkasa"
+	culture = "tarhuntassan"
+}
+1078 = {
+	name = "dynn_Asinamuna"
+	culture = "tarhuntassan"
+}
+1079 = {
+	name = "dynn_Tuwar"
+	culture = "tarhuntassan"
+}
+1080 = {
+	name = "dynn_Anaramati"
+	culture = "lukkan"
+}
+1081 = {
+	name = "dynn_Anatar"
+	culture = "lukkan"
+}
+1082 = {
+	name = "dynn_Aradnethe"
+	culture = "telchines"
+}
+1083 = {
+	name = "dynn_Nelinthos"
+	culture = "cypriot"
+}
+1085 = {
+	name = "dynn_Kissamathe"
+	culture = "cypriot"
+}
+1086 = {
+	name = "dynn_Onkestathe"
+	culture = "cypriot"
+}
+1088 = {
+	name = "dynn_Kadmale"
+	culture = "minoan"
+}
+1089 = {
+	name = "dynn_Abna"
+	culture = "minoan"
+}
+1090 = {
+	name = "dynn_Labdakale"
+	culture = "minoan"
+}
+1091 = {
+	name = "dynn_Kalydna"
+	culture = "karpathan"
+}
+1092 = {
+	name = "dynn_Tenedathe"
+	culture = "minoan"
+}
+1093 = {
+	name = "dynn_Tulisathe"
+	culture = "minoan"
+}
+1094 = {
+	name = "dynn_Mathumnathe"
+	culture = "minoan"
+}
+1095 = {
+	name = "dynn_Epopale"
+	culture = "minoan"
+}
+1096 = {
+	name = "dynn_Kalydnale"
+	culture = "minoan"
+}
+1097 = {
+	name = "dynn_Epidaurathe"
+	culture = "minoan"
+}
+1098 = {
+	name = "dynn_Mathumnathe"
+	culture = "minoan"
+}
+1099 = {
+	name = "dynn_Patmathe"
+	culture = "minoan"
+}
+1100 = {
+	name = "dynn_Pholegandrathe"
+	culture = "leleges"
+}
+1101 = {
+	name = "dynn_Dandexathe"
+	culture = "cycladic"
+}
+1102 = {
+	name = "dynn_Aziottenathe"
+	culture = "telchines"
+}
+1103 = {
+	name = "dynn_Taruntiya"
+	culture = "carian"
+}
+1104 = {
+	name = "dynn_Asinamuna"
+	culture = "carian"
+}
+1105 = {
+	name = "dynn_Asinamuna"
+	culture = "carian"
+}
+1106 = {
+	name = "dynn_Anaramati"
+	culture = "carian"
+}
+1107 = {
+	name = "dynn_Anatar"
+	culture = "carian"
+}
+1108 = {
+	name = "dynn_Anatar"
+	culture = "carian"
+}
+1109 = {
+	name = "dynn_Patmathe"
+	culture = "tyrsenian"
+}
+1111 = {
+	name = "dynn_Tuwaruntiya"
+	culture = "wilusan"
+}
+1112 = {
+	name = "dynn_Tulisathe"
+	culture = "leleges"
+}
+1113 = {
+	name = "dynn_Anatar"
+	culture = "sehan"
+}
+1114 = {
+	name = "dynn_Nirna"
+	culture = "leleges"
+}
+1115 = {
+	name = "dynn_Kastabathe"
+	culture = "leleges"
+}
+1116 = {
+	name = "dynn_Tarhunatala"
+	culture = "lydian"
+}
+1117 = {
+	name = "dynn_Tuwar"
+	culture = "wilusan"
+}
+1118 = {
+	name = "dynn_Tupanamuta"
+	culture = "wilusan"
+}
+1119 = {
+	name = "dynn_Taruntiya"
+	culture = "wilusan"
+}
+1120 = {
+	name = "dynn_Anatar"
+	culture = "lukkan"
+}
+1121 = {
+	name = "dynn_Tuwaruntiya"
+	culture = "carian"
+}
+1122 = {
+	name = "dynn_Anatar"
+	culture = "lydian"
+}
+1123 = {
+	name = "dynn_Tuwaruntiya"
+	culture = "lydian"
+}
+1124 = {
+	name = "dynn_Tuwaruntiya"
+	culture = "miran"
+}
+1125 = {
+	name = "dynn_Epopale"
+	culture = "leleges"
+}
+1126 = {
+	name = "dynn_Tarhunatala"
+	culture = "carian"
+}
+1127 = {
+	name = "dynn_Tuwaruntiya"
+	culture = "lukkan"
+}
+1128 = {
+	name = "dynn_Ata-Halki"
+	culture = "anshanian"
+}
+1129 = {
+	name = "dynn_Kidin-Ishshan"
+	culture = "anshanian"
+}
+1130 = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "anshanian"
+}
+1131 = {
+	name = "dynn_Temti-Inshushinak"
+	culture = "anshanian"
+}
+1132 = {
+	name = "dynn_Napi-Nashur"
+	culture = "liyan"
+}
+1133 = {
+	name = "dynn_Kutir-Napirisha"
+	culture = "anshanian"
+}
+1134 = {
+	name = "dynn_Pahir-Hutran"
+	culture = "anshanian"
+}
+1135 = {
+	name = "dynn_Ukku-Tarana"
+	culture = "anshanian"
+}
+1137 = {
+	name = "dynn_Numena-Humban"
+	culture = "susanian"
+}
+1138 = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "susanian"
+}
+1139 = {
+	name = "dynn_Temti-Inshushinak"
+	culture = "susanian"
+}
+1140 = {
+	name = "dynn_Attar-Halki"
+	culture = "susanian"
+}
+1141 = {
+	name = "dynn_Ata-Halki"
+	culture = "susanian"
+}
+1142 = {
+	name = "dynn_Kidin-Ishshan"
+	culture = "susanian"
+}
+1143 = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "susanian"
+}
+1144 = {
+	name = "dynn_Qareh-Bat"
+	culture = "mu_kedi"
+}
+1145 = {
+	name = "dynn_Baskakeren-Heqet"
+	culture = "mu_kedi"
+}
+1146 = {
+	name = "dynn_Ramose-Nut"
+	culture = "upper_egyptian"
+}
+1147 = {
+	name = "dynn_Wegaf"
+	culture = "mu_kedi"
+}
+1148 = {
+	name = "dynn_Menkheperre-Neith"
+	culture = "upper_egyptian"
+}
+1149 = {
+	name = "dynn_Shemai-Khonsu"
+	culture = "mu_kedi"
+}
+1150 = {
+	name = "dynn_Temti-Inshushinak"
+	culture = "susanian"
+}
+1151 = {
+	name = "dynn_Kutir-Napirisha"
+	culture = "susanian"
+}
+1152 = {
+	name = "dynn_Shipta-Alban"
+	culture = "gutian"
+}
+1153 = {
+	name = "dynn_Hurba-Bugash"
+	culture = "gutian"
+}
+1154 = {
+	name = "dynn_Purna-Sah"
+	culture = "gutian"
+}
+1155 = {
+	name = "dynn_Numena-Humban"
+	culture = "ellipian"
+}
+1156 = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "ellipian"
+}
+1157 = {
+	name = "dynn_Samani-Enlil"
+	culture = "gutian"
+}
+1158 = {
+	name = "dynn_Kulumum-Ninurta"
+	culture = "gutian"
+}
+1159 = {
+	name = "dynn_Uzunnu-Buriash"
+	culture = "gutian"
+}
+1160 = {
+	name = "dynn_Temti-Inshushinak"
+	culture = "ellipian"
+}
+1161 = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "south_akkadian"
+}
+1162 = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "south_akkadian"
+}
+1163 = {
+	name = "dynn_Kutik-Hutran"
+	culture = "anshanian"
+}
+1164 = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "anshanian"
+}
+1165 = {
+	name = "dynn_Attar-Halki"
+	culture = "ellipian"
+}
+1166 = {
+	name = "dynn_Milkyaton-Kotharat"
+	culture = "phoenician"
+}
+1169 = {
+	name = "dynn_Kattaziti"
+	culture = "nesili"
+}
+1170 = {
+	name = "dynn_Ari-tupki-Ebrimusha"
+	culture = "ishuwan"
+}
+1171 = {
+	name = "dynn_Taruntiya"
+	culture = "nesili"
+}
+1172 = {
+	name = "dynn_Tarkasa"
+	culture = "nesili"
+}
+1173 = {
+	name = "dynn_Tuwar"
+	culture = "miran"
+}
+1174 = {
+	name = "dynn_Tupanamuta"
+	culture = "miran"
+}
+1175 = {
+	name = "dynn_Taruntiya"
+	culture = "miran"
+}
+1176 = {
+	name = "dynn_Tuwar"
+	culture = "hapallan"
+}
+1177 = {
+	name = "dynn_Tupanamuta"
+	culture = "hapallan"
+}
+1178 = {
+	name = "dynn_Tarkasa"
+	culture = "tarhuntassan"
+}
+1179 = {
+	name = "dynn_Tuwar"
+	culture = "tarhuntassan"
+}
+1180 = {
+	name = "dynn_Tarkasa"
+	culture = "tarhuntassan"
+}
+1181 = {
+	name = "dynn_Anawatta"
+	culture = "tarhuntassan"
+}
+1182 = {
+	name = "dynn_Tarkasziti"
+	culture = "tarhuntassan"
+}
+1183 = {
+	name = "dynn_Tarkasa"
+	culture = "tarhuntassan"
+}
+1184 = {
+	name = "dynn_Taruntiya"
+	culture = "nesili"
+}
+1185 = {
+	name = "dynn_Asinamuna"
+	culture = "palaic"
+}
+1186 = {
+	name = "dynn_Taruntiya"
+	culture = "hapallan"
+}
+1187 = {
+	name = "dynn_Asinamuna"
+	culture = "hapallan"
+}
+1188 = {
+	name = "dynn_Tarhunatala"
+	culture = "hapallan"
+}
+1189 = {
+	name = "dynn_Tarhunatala"
+	culture = "palaic"
+}
+1190 = {
+	name = "dynn_Tuwar"
+	culture = "hapallan"
+}
+1191 = {
+	name = "dynn_Tuwar"
+	culture = "palaic"
+}
+1192 = {
+	name = "dynn_Kattaziti"
+	culture = "palaic"
+}
+1193 = {
+	name = "dynn_Anataruntiya"
+	culture = "hattian"
+}
+1194 = {
+	name = "dynn_Asinamuna"
+	culture = "nesili"
+}
+1195 = {
+	name = "dynn_Asinamuna"
+	culture = "nesili"
+}
+1196 = {
+	name = "dynn_Tarkasziti"
+	culture = "hattian"
+}
+1198 = {
+	name = "dynn_Anatar"
+	culture = "nesili"
+}
+1199 = {
+	name = "dynn_Anaramati"
+	culture = "hattian"
+}
+1200 = {
+	name = "dynn_Anatar"
+	culture = "nesili"
+}
+1201 = {
+	name = "dynn_Tuwaruntiya"
+	culture = "nesili"
+}
+1202 = {
+	name = "dynn_Tarhunatala"
+	culture = "nesili"
+}
+1203 = {
+	name = "dynn_Tarhunatala"
+	culture = "nesili"
+}
+1204 = {
+	name = "dynn_Ewe-Kubaba"
+	culture = "ishuwan"
+}
+1206 = {
+	name = "dynn_Sena-ya-Hutena"
+	culture = "kizzuni"
+}
+1207 = {
+	name = "dynn_Kattaziti"
+	culture = "hapallan"
+}
+1209 = {
+	name = "dynn_Urumilki-Astoreth"
+	culture = "amoritic"
+}
+1210 = {
+	name = "dynn_Hiram-Nikkal"
+	culture = "amoritic"
+}
+1211 = {
+	name = "dynn_Zirri-Hutena"
+	culture = "zalwari"
+}
+1212 = {
+	name = "dynn_Ari-tupki-Ebrimusha"
+	culture = "zalwari"
+}
+1213 = {
+	name = "dynn_Ba_aleser-Shapash"
+	culture = "amoritic"
+}
+1214 = {
+	name = "dynn_Ewe-Kubaba"
+	culture = "zalwari"
+}
+1215 = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "amoritic"
+}
+1216 = {
+	name = "dynn_Azzu-nni-Shalash"
+	culture = "harrani"
+}
+1217 = {
+	name = "dynn_Taku-na-Ningal"
+	culture = "harrani"
+}
+1218 = {
+	name = "dynn_Luli-Arsay"
+	culture = "amoritic"
+}
+1219 = {
+	name = "dynn_Paltibaal-Anat"
+	culture = "amoritic"
+}
+1220 = {
+	name = "dynn_Eshmouniaton-Nikkal"
+	culture = "amoritic"
+}
+1221 = {
+	name = "dynn_Tabnit-Shamin"
+	culture = "amoritic"
+}
+1222 = {
+	name = "dynn_Maharbaal-Eshmun"
+	culture = "amoritic"
+}
+1223 = {
+	name = "dynn_Abiba_al-Mot"
+	culture = "amoritic"
+}
+1224 = {
+	name = "dynn_Tata-ra-Shalash"
+	culture = "harrani"
+}
+1227 = {
+	name = "dynn_Eni-ya-Hurri"
+	culture = "haburi"
+}
+1228 = {
+	name = "dynn_Samani-Enlil"
+	culture = "assyrian"
+}
+1229 = {
+	name = "dynn_Tagis-nati-e-Hebat"
+	culture = "haburi"
+}
+1230 = {
+	name = "dynn_Sena-ya-Hutena"
+	culture = "tukri"
+}
+1231 = {
+	name = "dynn_Gabnila-Sah"
+	culture = "lullubi"
+}
+1232 = {
+	name = "dynn_Kari-ya-Nubadig"
+	culture = "tukri"
+}
+1233 = {
+	name = "dynn_Azzu-nni-Shalash"
+	culture = "tukri"
+}
+1234 = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "south_akkadian"
+}
+1235 = {
+	name = "dynn_Taku-na-Ningal"
+	culture = "tukri"
+}
+1236 = {
+	name = "dynn_Tata-ra-Shalash"
+	culture = "tukri"
+}
+1237 = {
+	name = "dynn_Azzu-nni-Shalash"
+	culture = "tukri"
+}
+1238 = {
+	name = "dynn_Taku-na-Ningal"
+	culture = "tukri"
+}
+1239 = {
+	name = "dynn_Sama-hul-Kubaba"
+	culture = "tukri"
+}
+1240 = {
+	name = "dynn_Taki-ya-Hayya"
+	culture = "tukri"
+}
+1241 = {
+	name = "dynn_Kulumum-Ninurta"
+	culture = "assyrian"
+}
+1242 = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "assyrian"
+}
+1243 = {
+	name = "dynn_Babum-Geshtinanna"
+	culture = "assyrian"
+}
+1244 = {
+	name = "dynn_Pisr-uhli-Hebat"
+	culture = "tukri"
+}
+1245 = {
+	name = "dynn_Hana-Tammuz"
+	culture = "south_akkadian"
+}
+1246 = {
+	name = "dynn_Limer-Adad"
+	culture = "south_akkadian"
+}
+1247 = {
+	name = "dynn_Iltasadum-Nabu"
+	culture = "south_akkadian"
+}
+1248 = {
+	name = "dynn_Katir-he-Pirinki"
+	culture = "tukri"
+}
+1249 = {
+	name = "dynn_Apa-Zini"
+	culture = "lullubi"
+}
+1250 = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "south_akkadian"
+}
+1251 = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "south_akkadian"
+}
+1252 = {
+	name = "dynn_Babum-Geshtinanna"
+	culture = "dilmunite"
+}
+1253 = {
+	name = "dynn_Tarma-ri-s-Adamma"
+	culture = "tukri"
+}
+1254 = {
+	name = "dynn_Zuqaqip-Bau"
+	culture = "assyrian"
+}
+1255 = {
+	name = "dynn_Sargon-Ea"
+	culture = "assyrian"
+}
+1256 = {
+	name = "dynn_Tahi-Shimegi"
+	culture = "haburi"
+}
+1257 = {
+	name = "dynn_Ilulu-Sin"
+	culture = "south_akkadian"
+}
+1258 = {
+	name = "dynn_Puannum-Ningal"
+	culture = "assyrian"
+}
+1259 = {
+	name = "dynn_Abibaal-Dagon"
+	culture = "amoritic"
+}
+1260 = {
+	name = "dynn_Azzu-nni-Shalash"
+	culture = "harrani"
+}
+1261 = {
+	name = "dynn_Paltibaal-Shadrafa"
+	culture = "amoritic"
+}
+1262 = {
+	name = "dynn_Taku-na-Ningal"
+	culture = "harrani"
+}
+1263 = {
+	name = "dynn_Sama-hul-Kubaba"
+	culture = "harrani"
+}
+1264 = {
+	name = "dynn_Taki-ya-Hayya"
+	culture = "harrani"
+}
+1266 = {
+	name = "dynn_Astharymos-Resheph"
+	culture = "amoritic"
+}
+1267 = {
+	name = "dynn_Ittoba_al-Shachar"
+	culture = "amoritic"
+}
+1268 = {
+	name = "dynn_Bomical-Resheph"
+	culture = "amoritic"
+}
+1269 = {
+	name = "dynn_Una-tis-Shalash"
+	culture = "haburi"
+}
+1270 = {
+	name = "dynn_Pisr-uhli-Hebat"
+	culture = "harrani"
+}
+1271 = {
+	name = "dynn_Katir-he-Pirinki"
+	culture = "harrani"
+}
+1272 = {
+	name = "dynn_Tarma-ri-s-Adamma"
+	culture = "harrani"
+}
+1273 = {
+	name = "dynn_Sehrum-nirzi-Shimegi"
+	culture = "shubrian"
+}
+1274 = {
+	name = "dynn_Papu-zi-Tashmisu"
+	culture = "shubrian"
+}
+1275 = {
+	name = "dynn_Kuzi-Allani"
+	culture = "shubrian"
+}
+1276 = {
+	name = "dynn_Sur-siya-Shalash"
+	culture = "shubrian"
+}
+1277 = {
+	name = "dynn_Kipu-seni-Nabarbi"
+	culture = "haburi"
+}
+1278 = {
+	name = "dynn_Muzu-m-Shimegi"
+	culture = "haburi"
+}
+1279 = {
+	name = "dynn_Azu-na-n-Allani"
+	culture = "haburi"
+}
+1280 = {
+	name = "dynn_Nani-ku-Hutelluri"
+	culture = "haburi"
+}
+1281 = {
+	name = "dynn_Nupa-tiya-Rashap"
+	culture = "tukri"
+}
+1282 = {
+	name = "dynn_Satta-kiyazi-Rashap"
+	culture = "tukri"
+}
+1283 = {
+	name = "dynn_Baaliahon-Lotan"
+	culture = "amoritic"
+}
+1284 = {
+	name = "dynn_Malchus-Shachar"
+	culture = "amoritic"
+}
+1285 = {
+	name = "dynn_Knidia"
+	culture = "proto_greek"
+}
+1286 = {
+	name = "dynn_Kyparisioi"
+	culture = "achaian"
+}
+1287 = {
+	name = "dynn_Lakedamnios"
+	culture = "achaian"
+}
+1288 = {
+	name = "dynn_Dynios"
+	culture = "achaian"
+}
+1289 = {
+	name = "dynn_Petonios"
+	culture = "proto_greek"
+}
+1290 = {
+	name = "dynn_Kerawios"
+	culture = "proto_greek"
+}
+1291 = {
+	name = "dynn_Zakynsios"
+	culture = "proto_greek"
+}
+1293 = {
+	name = "dynn_Aigyptios"
+	culture = "proto_greek"
+}
+1294 = {
+	name = "dynn_Zagreid"
+	culture = "bryges"
+}
+1295 = {
+	name = "dynn_Sphakosios"
+	culture = "proto_greek"
+}
+1296 = {
+	name = "dynn_Lynkinthos"
+	culture = "helladic"
+}
+1297 = {
+	name = "dynn_Malthiwios"
+	culture = "proto_greek"
+}
+1298 = {
+	name = "dynn_Keios"
+	culture = "proto_greek"
+}
+1299 = {
+	name = "dynn_Xivia"
+	culture = "proto_greek"
+}
+1300 = {
+	name = "dynn_Sywerios"
+	culture = "proto_greek"
+}
+1301 = {
+	name = "dynn_Philonid"
+	culture = "bryges"
+}
+1302 = {
+	name = "dynn_Kephistodid"
+	culture = "bryges"
+}
+1303 = {
+	name = "dynn_Karsid"
+	culture = "bryges"
+}
+1304 = {
+	name = "dynn_Lawranthios"
+	culture = "proto_greek"
+}
+1305 = {
+	name = "dynn_Philonid"
+	culture = "bryges"
+}
+1306 = {
+	name = "dynn_Kephistodid"
+	culture = "bryges"
+}
+1307 = {
+	name = "dynn_Leonidid"
+	culture = "bryges"
+}
+1308 = {
+	name = "dynn_Phaistathe"
+	culture = "tyrsenian"
+}
+1309 = {
+	name = "dynn_Kephistodid"
+	culture = "bryges"
+}
+1310 = {
+	name = "dynn_Pyhrrid"
+	culture = "bryges"
+}
+1311 = {
+	name = "dynn_Epidaurathe"
+	culture = "tyrsenian"
+}
+1312 = {
+	name = "dynn_Patmathe"
+	culture = "tyrsenian"
+}
+1313 = {
+	name = "dynn_Mosukhlathe"
+	culture = "tyrsenian"
+}
+1314 = {
+	name = "dynn_Patmathe"
+	culture = "tyrsenian"
+}
+1315 = {
+	name = "dynn_Malathiwes"
+	culture = "achaian"
+}
+1316 = {
+	name = "dynn_Dywoios"
+	culture = "achaian"
+}
+1317 = {
+	name = "dynn_Kerkios"
+	culture = "achaian"
+}
+1318 = {
+	name = "dynn_Metapios"
+	culture = "proto_greek"
+}
+1319 = {
+	name = "dynn_Kerkios"
+	culture = "proto_greek"
+}
+1320 = {
+	name = "dynn_Kelchides"
+	culture = "proto_greek"
+}
+1321 = {
+	name = "dynn_Lynkinthos"
+	culture = "tyrsenian"
+}
+1322 = {
+	name = "dynn_Astupalathe"
+	culture = "kuretes"
+}
+1323 = {
+	name = "dynn_Lykinthios"
+	culture = "proto_greek"
+}
+1324 = {
+	name = "dynn_Odrywia"
+	culture = "proto_greek"
+}
+1325 = {
+	name = "dynn_Knidia"
+	culture = "proto_greek"
+}
+1326 = {
+	name = "dynn_Zagreid"
+	culture = "bryges"
+}
+1327 = {
+	name = "dynn_Karsid"
+	culture = "bryges"
+}
+1328 = {
+	name = "dynn_Krokylaioi"
+	culture = "proto_greek"
+}
+1329 = {
+	name = "dynn_Zenonid"
+	culture = "bryges"
+}
+1330 = {
+	name = "dynn_Lousios"
+	culture = "proto_greek"
+}
+1331 = {
+	name = "dynn_Malthiwios"
+	culture = "achaian"
+}
+1332 = {
+	name = "dynn_Idomeneios"
+	culture = "achaian"
+}
+1335 = {
+	name = "dynn_Sphakosios"
+	culture = "achaian"
+}
+1336 = {
+	name = "dynn_Perraibothe"
+	culture = "helladic"
+}
+1337 = {
+	name = "dynn_Malthiwios"
+	culture = "achaian"
+}
+1338 = {
+	name = "dynn_Labdakna"
+	culture = "helladic"
+}
+1339 = {
+	name = "dynn_Korinsios"
+	culture = "achaian"
+}
+1340 = {
+	name = "dynn_Esalewia"
+	culture = "achaian"
+}
+1341 = {
+	name = "dynn_Odrywia"
+	culture = "achaian"
+}
+1342 = {
+	name = "dynn_Pandarna"
+	culture = "kuretes"
+}
+1343 = {
+	name = "dynn_Lousios"
+	culture = "achaian"
+}
+1344 = {
+	name = "dynn_Amnisios"
+	culture = "achaian"
+}
+1347 = {
+	name = "dynn_Oichaleai"
+	culture = "achaian"
+}
+1348 = {
+	name = "dynn_Epidaurathe"
+	culture = "kuretes"
+}
+1349 = {
+	name = "dynn_Nelinthos"
+	culture = "kuretes"
+}
+1350 = {
+	name = "dynn_Leukopale"
+	culture = "kuretes"
+}
+1351 = {
+	name = "dynn_Kissamathe"
+	culture = "kuretes"
+}
+1352 = {
+	name = "dynn_Onkestathe"
+	culture = "kuretes"
+}
+1353 = {
+	name = "dynn_Erumanthe"
+	culture = "minoan"
+}
+1354 = {
+	name = "dynn_Kadmale"
+	culture = "cycladic"
+}
+1355 = {
+	name = "dynn_Pandarle"
+	culture = "cycladic"
+}
+1356 = {
+	name = "dynn_Tegurathe"
+	culture = "cycladic"
+}
+1357 = {
+	name = "dynn_Labdakale"
+	culture = "cycladic"
+}
+1358 = {
+	name = "dynn_Kantanathe"
+	culture = "cycladic"
+}
+1359 = {
+	name = "dynn_Pholegandrathe"
+	culture = "cycladic"
+}
+1360 = {
+	name = "dynn_Tulisathe"
+	culture = "cycladic"
+}
+1361 = {
+	name = "dynn_Nirna"
+	culture = "cycladic"
+}
+1362 = {
+	name = "dynn_Kastabathe"
+	culture = "cycladic"
+}
+1363 = {
+	name = "dynn_Epopale"
+	culture = "cycladic"
+}
+1364 = {
+	name = "dynn_Patmathe"
+	culture = "cycladic"
+}
+1365 = {
+	name = "dynn_Phaistathe"
+	culture = "cycladic"
+}
+1366 = {
+	name = "dynn_Epidaurathe"
+	culture = "cycladic"
+}
+1367 = {
+	name = "dynn_Patmathe"
+	culture = "cycladic"
+}
+1368 = {
+	name = "dynn_Mosukhlathe"
+	culture = "cycladic"
+}
+1369 = {
+	name = "dynn_Patmathe"
+	culture = "cycladic"
+}
+1370 = {
+	name = "dynn_Lawranthios"
+	culture = "achaian"
+}
+1371 = {
+	name = "dynn_Xivia"
+	culture = "achaian"
+}
+1372 = {
+	name = "dynn_Naruxathe"
+	culture = "hektenas"
+}
+1373 = {
+	name = "dynn_Atreiwios"
+	culture = "achaian"
+}
+1374 = {
+	name = "dynn_Sphagianiai"
+	culture = "achaian"
+}
+1375 = {
+	name = "dynn_Tylisios"
+	culture = "achaian"
+}
+1376 = {
+	name = "dynn_Naruxathe"
+	culture = "dryopes"
+}
+1377 = {
+	name = "dynn_Malitas"
+	culture = "achaian"
+}
+1378 = {
+	name = "dynn_Mukalessathe"
+	culture = "helladic"
+}
+1379 = {
+	name = "dynn_Elurathe"
+	culture = "helladic"
+}
+1380 = {
+	name = "dynn_Nirale"
+	culture = "helladic"
+}
+1381 = {
+	name = "dynn_Nirna"
+	culture = "helladic"
+}
+1382 = {
+	name = "dynn_Kelousathe"
+	culture = "helladic"
+}
+1383 = {
+	name = "dynn_Dawios"
+	culture = "achaian"
+}
+1384 = {
+	name = "dynn_Sphakosios"
+	culture = "achaian"
+}
+1385 = {
+	name = "dynn_Lebedathe"
+	culture = "helladic"
+}
+1386 = {
+	name = "dynn_Nelinthos"
+	culture = "kranaoi"
+}
+1387 = {
+	name = "dynn_Owitonioi"
+	culture = "achaian"
+}
+1388 = {
+	name = "dynn_Phasgianiai"
+	culture = "achaian"
+}
+1389 = {
+	name = "dynn_Sphakosios"
+	culture = "achaian"
+}
+1390 = {
+	name = "dynn_Gunale"
+	culture = "helladic"
+}
+1391 = {
+	name = "dynn_Aziottenathe"
+	culture = "athamanes"
+}
+1392 = {
+	name = "dynn_Nelinthos"
+	culture = "athamanes"
+}
+1393 = {
+	name = "dynn_Kastabathe"
+	culture = "tyrsenian"
+}
+1394 = {
+	name = "dynn_Perraibothe"
+	culture = "tyrsenian"
+}
+1395 = {
+	name = "dynn_Owitonioi"
+	culture = "achaian"
+}
+1396 = {
+	name = "dynn_Astupalathe"
+	culture = "athamanes"
+}
+1397 = {
+	name = "dynn_Lamniai"
+	culture = "proto_greek"
+}
+1398 = {
+	name = "dynn_Dywoios"
+	culture = "proto_greek"
+}
+1399 = {
+	name = "dynn_Sphakosios"
+	culture = "proto_greek"
+}
+1400 = {
+	name = "dynn_Owitonioi"
+	culture = "proto_greek"
+}
+1401 = {
+	name = "dynn_Xivia"
+	culture = "proto_greek"
+}
+1402 = {
+	name = "dynn_Maranenioi"
+	culture = "proto_greek"
+}
+1403 = {
+	name = "dynn_Witylios"
+	culture = "proto_greek"
+}
+1404 = {
+	name = "dynn_Idomeneios"
+	culture = "proto_greek"
+}
+1405 = {
+	name = "dynn_Sphagianiai"
+	culture = "proto_greek"
+}
+1406 = {
+	name = "dynn_Keios"
+	culture = "proto_greek"
+}
+1407 = {
+	name = "dynn_Amnisios"
+	culture = "proto_greek"
+}
+1408 = {
+	name = "dynn_Malathiwes"
+	culture = "proto_greek"
+}
+1409 = {
+	name = "dynn_Lepeurios"
+	culture = "proto_greek"
+}
+1410 = {
+	name = "dynn_Korinsia"
+	culture = "proto_greek"
+}
+1411 = {
+	name = "dynn_Pleuonios"
+	culture = "proto_greek"
+}
+1412 = {
+	name = "dynn_Kerawios"
+	culture = "proto_greek"
+}
+1413 = {
+	name = "dynn_Wrypiaioi"
+	culture = "proto_greek"
+}
+1414 = {
+	name = "dynn_Kyprios"
+	culture = "proto_greek"
+}
+1415 = {
+	name = "dynn_Kytaisios"
+	culture = "proto_greek"
+}
+1416 = {
+	name = "dynn_Harisios"
+	culture = "proto_greek"
+}
+1417 = {
+	name = "dynn_Zephyreai"
+	culture = "proto_greek"
+}
+1418 = {
+	name = "dynn_Knosios"
+	culture = "proto_greek"
+}
+1419 = {
+	name = "dynn_Tethrywes"
+	culture = "proto_greek"
+}
+1420 = {
+	name = "dynn_Metapios"
+	culture = "proto_greek"
+}
+1421 = {
+	name = "dynn_Amnisios"
+	culture = "proto_greek"
+}
+1422 = {
+	name = "dynn_Dywoios"
+	culture = "proto_greek"
+}
+1423 = {
+	name = "dynn_Malthiwios"
+	culture = "proto_greek"
+}
+1424 = {
+	name = "dynn_Knosia"
+	culture = "proto_greek"
+}
+1425 = {
+	name = "dynn_Tylisios"
+	culture = "proto_greek"
+}
+1426 = {
+	name = "dynn_Kerawios"
+	culture = "proto_greek"
+}
+1427 = {
+	name = "dynn_Malthiwios"
+	culture = "proto_greek"
+}
+1428 = {
+	name = "dynn_Killistratid"
+	culture = "bryges"
+}
+1429 = {
+	name = "dynn_Philonid"
+	culture = "bryges"
+}
+1430 = {
+	name = "dynn_Nikoklid"
+	culture = "bryges"
+}
+1431 = {
+	name = "dynn_Nikoklid"
+	culture = "bryges"
+}
+1432 = {
+	name = "dynn_Zosimid"
+	culture = "bryges"
+}
+1433 = {
+	name = "dynn_Tauriskid"
+	culture = "bryges"
+}
+1434 = {
+	name = "dynn_Pytheid"
+	culture = "bryges"
+}
+1435 = {
+	name = "dynn_Onomastid"
+	culture = "bryges"
+}
+1436 = {
+	name = "dynn_Onomastid"
+	culture = "bryges"
+}
+1437 = {
+	name = "dynn_Hippostratid"
+	culture = "bryges"
+}
+1438 = {
+	name = "dynn_Labdakna"
+	culture = "tyrsenian"
+}
+1439 = {
+	name = "dynn_Mukalessathe"
+	culture = "tyrsenian"
+}
+1440 = {
+	name = "dynn_Elurathe"
+	culture = "tyrsenian"
+}
+1441 = {
+	name = "dynn_Zosimid"
+	culture = "bryges"
+}
+1442 = {
+	name = "dynn_Philetid"
+	culture = "bryges"
+}
+1443 = {
+	name = "dynn_Philonid"
+	culture = "bryges"
+}
+1444 = {
+	name = "dynn_Philetid"
+	culture = "bryges"
+}
+1445 = {
+	name = "dynn_Nirale"
+	culture = "tyrsenian"
+}
+1446 = {
+	name = "dynn_Nirna"
+	culture = "tyrsenian"
+}
+1447 = {
+	name = "dynn_Kelousathe"
+	culture = "tyrsenian"
+}
+1448 = {
+	name = "dynn_Lebedathe"
+	culture = "tyrsenian"
+}
+1449 = {
+	name = "dynn_Gunale"
+	culture = "tyrsenian"
+}
+1450 = {
+	name = "dynn_Pandarle"
+	culture = "tyrsenian"
+}
+1451 = {
+	name = "dynn_Pandarle"
+	culture = "tyrsenian"
+}
+1452 = {
+	name = "dynn_Saransathe"
+	culture = "tyrsenian"
+}
+1453 = {
+	name = "dynn_Kekropna"
+	culture = "tyrsenian"
+}
+1454 = {
+	name = "dynn_Kothokidaithe"
+	culture = "tyrsenian"
+}
+1455 = {
+	name = "dynn_Ekhthina"
+	culture = "tyrsenian"
+}
+1456 = {
+	name = "dynn_Kuardathe"
+	culture = "tyrsenian"
+}
+1457 = {
+	name = "dynn_Saransathe"
+	culture = "tyrsenian"
+}
+1458 = {
+	name = "dynn_Sibullathe"
+	culture = "tyrsenian"
+}
+1459 = {
+	name = "dynn_Kuthnathe"
+	culture = "tyrsenian"
+}
+1460 = {
+	name = "dynn_Purasathe"
+	culture = "tyrsenian"
+}
+1461 = {
+	name = "dynn_Asinamuna"
+	culture = "wilusan"
+}
+1462 = {
+	name = "dynn_Tarhunatala"
+	culture = "wilusan"
+}
+1463 = {
+	name = "dynn_Patmathe"
+	culture = "leleges"
+}
+1464 = {
+	name = "dynn_Phaistathe"
+	culture = "leleges"
+}
+1465 = {
+	name = "dynn_Epidaurathe"
+	culture = "leleges"
+}
+1466 = {
+	name = "dynn_Nelinthos"
+	culture = "telchines"
+}
+1467 = {
+	name = "dynn_Patmathe"
+	culture = "leleges"
+}
+1468 = {
+	name = "dynn_Mosukhlathe"
+	culture = "leleges"
+}
+1469 = {
+	name = "dynn_Astupalathe"
+	culture = "telchines"
+}
+1470 = {
+	name = "dynn_Patmathe"
+	culture = "leleges"
+}
+1471 = {
+	name = "dynn_Lynkinthos"
+	culture = "leleges"
+}
+1472 = {
+	name = "dynn_Kastabathe"
+	culture = "leleges"
+}
+1473 = {
+	name = "dynn_Perraibothe"
+	culture = "leleges"
+}
+1474 = {
+	name = "dynn_Labdakna"
+	culture = "leleges"
+}
+1475 = {
+	name = "dynn_Mukalessathe"
+	culture = "leleges"
+}
+1476 = {
+	name = "dynn_Elurathe"
+	culture = "leleges"
+}
+1477 = {
+	name = "dynn_Nirale"
+	culture = "leleges"
+}
+1478 = {
+	name = "dynn_Nirna"
+	culture = "leleges"
+}
+1479 = {
+	name = "dynn_Kelousathe"
+	culture = "leleges"
+}
+1480 = {
+	name = "dynn_Lebedathe"
+	culture = "leleges"
+}
+1481 = {
+	name = "dynn_Gunale"
+	culture = "leleges"
+}
+1482 = {
+	name = "dynn_Tuwar"
+	culture = "lydian"
+}
+1483 = {
+	name = "dynn_Tuwar"
+	culture = "wilusan"
+}
+1484 = {
+	name = "dynn_Tuwaruntiya"
+	culture = "sehan"
+}
+1485 = {
+	name = "dynn_Tuwar"
+	culture = "sehan"
+}
+1486 = {
+	name = "dynn_Tupanamuta"
+	culture = "sehan"
+}
+1487 = {
+	name = "dynn_Taruntiya"
+	culture = "sehan"
+}
+1488 = {
+	name = "dynn_Asinamuna"
+	culture = "sehan"
+}
+1489 = {
+	name = "dynn_Tarhunatala"
+	culture = "sehan"
+}
+1490 = {
+	name = "dynn_Tuwar"
+	culture = "sehan"
+}
+1491 = {
+	name = "dynn_Tarhunatala"
+	culture = "carian"
+}
+1492 = {
+	name = "dynn_Asinamuna"
+	culture = "carian"
+}
+1493 = {
+	name = "dynn_Tarkasziti"
+	culture = "carian"
+}
+1494 = {
+	name = "dynn_Kattaziti"
+	culture = "carian"
+}
+1495 = {
+	name = "dynn_Taruntiya"
+	culture = "carian"
+}
+1496 = {
+	name = "dynn_Tarhunatala"
+	culture = "lukkan"
+}
+1497 = {
+	name = "dynn_Tarhunatala"
+	culture = "lukkan"
+}
+1498 = {
+	name = "dynn_Asinamuna"
+	culture = "lukkan"
+}
+1499 = {
+	name = "dynn_Tarkasziti"
+	culture = "lukkan"
+}
+1500 = {
+	name = "dynn_Kattaziti"
+	culture = "lukkan"
+}
+1501 = {
+	name = "dynn_Taruntiya"
+	culture = "lukkan"
+}
+1502 = {
+	name = "dynn_Tarkasa"
+	culture = "carian"
+}
+1503 = {
+	name = "dynn_Asinamuna"
+	culture = "carian"
+}
+1504 = {
+	name = "dynn_Tuwar"
+	culture = "carian"
+}
+1505 = {
+	name = "dynn_Tarkasa"
+	culture = "carian"
+}
+1506 = {
+	name = "dynn_Tupanamuta"
+	culture = "lydian"
+}
+1507 = {
+	name = "dynn_Taruntiya"
+	culture = "lydian"
+}
+1508 = {
+	name = "dynn_Asinamuna"
+	culture = "miran"
+}
+1509 = {
+	name = "dynn_Tarhunatala"
+	culture = "miran"
+}
+1510 = {
+	name = "dynn_Tuwar"
+	culture = "miran"
+}
+1511 = {
+	name = "dynn_Hiempsal-Lotan"
+	culture = "canaanite"
+}
+1512 = {
+	name = "dynn_Yada_milk-Yam"
+	culture = "canaanite"
+}
+1513 = {
+	name = "dynn_Metallo-Misor"
+	culture = "canaanite"
+}
+1514 = {
+	name = "dynn_Urumilki-Astoreth"
+	culture = "canaanite"
+}
+1515 = {
+	name = "dynn_Boulomenus-Hadad"
+	culture = "canaanite"
+}
+1516 = {
+	name = "dynn_Milkherem-Moloch"
+	culture = "canaanite"
+}
+1517 = {
+	name = "dynn_Chelbes-Shamin"
+	culture = "canaanite"
+}
+1518 = {
+	name = "dynn_Mattan-Manuzi"
+	culture = "canaanite"
+}
+1519 = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "ammonite"
+}
+1520 = {
+	name = "dynn_Ittoba_al-Shachar"
+	culture = "canaanite"
+}
+1521 = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "moabite"
+}
+1522 = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "moabite"
+}
+1523 = {
+	name = "dynn_Eugoras-Chemosh"
+	culture = "moabite"
+}
+1524 = {
+	name = "dynn_Gisgo-Shadrafa"
+	culture = "moabite"
+}
+1525 = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "edomite"
+}
+1526 = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "bedu"
+}
+1527 = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "bedu"
+}
+1528 = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "edomite"
+}
+1529 = {
+	name = "dynn_Eugoras-Chemosh"
+	culture = "edomite"
+}
+1530 = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "bedu"
+}
+1531 = {
+	name = "dynn_Gisgo-Shadrafa"
+	culture = "sinaian"
+}
+1532 = {
+	name = "dynn_Iphurkura-Adonis"
+	culture = "phoenician"
+}
+1533 = {
+	name = "dynn_Mattan-Manuzi"
+	culture = "phoenician"
+}
+1534 = {
+	name = "dynn_Ormilk-Shamin"
+	culture = "amoritic"
+}
+1535 = {
+	name = "dynn_Paltibaal-Shadrafa"
+	culture = "phoenician"
+}
+1536 = {
+	name = "dynn_Yehomilk-Ashtar"
+	culture = "phoenician"
+}
+1537 = {
+	name = "dynn_Ormilk-Shamin"
+	culture = "canaanite"
+}
+1538 = {
+	name = "dynn_Melqartshama-Arsu"
+	culture = "phoenician"
+}
+1539 = {
+	name = "dynn_Melqartpilles-Horon"
+	culture = "phoenician"
+}
+1540 = {
+	name = "dynn_Luli-Arsay"
+	culture = "aramean"
+}
+1541 = {
+	name = "dynn_Hamilcar-El"
+	culture = "aramean"
+}
+1542 = {
+	name = "dynn_Milkyaton-Kotharat"
+	culture = "aramean"
+}
+1543 = {
+	name = "dynn_Eugoras-Chemosh"
+	culture = "golanite"
+}
+1544 = {
+	name = "dynn_Gisgo-Shadrafa"
+	culture = "golanite"
+}
+1545 = {
+	name = "dynn_Galid"
+	culture = "berber"
+}
+1546 = {
+	name = "dynn_Setna"
+	culture = "berber"
+}
+1547 = {
+	name = "dynn_Penamid"
+	culture = "berber"
+}
+1548 = {
+	name = "dynn_Vermina"
+	culture = "berber"
+}
+1549 = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "hyksos"
+}
+1550 = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "hyksos"
+}
+1551 = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "hyksos"
+}
+1552 = {
+	name = "dynn_Khenthap-Horus"
+	culture = "upper_egyptian"
+}
+1553 = {
+	name = "dynn_Minmose-Pakhet"
+	culture = "wahenian"
+}
+1554 = {
+	name = "dynn_Kakhent-Wosret"
+	culture = "wahenian"
+}
+1555 = {
+	name = "dynn_Wakhare-Wosret"
+	culture = "wahenian"
+}
+1556 = {
+	name = "dynn_Senusret-Wadj-wer"
+	culture = "wahenian"
+}
+1557 = {
+	name = "dynn_Wahibre-Geb"
+	culture = "wahenian"
+}
+1558 = {
+	name = "dynn_Nebwy-Wadjet"
+	culture = "wahenian"
+}
+1559 = {
+	name = "dynn_Huni-Renenutet"
+	culture = "wahenian"
+}
+1560 = {
+	name = "dynn_Wegaf-Anhur"
+	culture = "wahenian"
+}
+1561 = {
+	name = "dynn_Sekhemib-Neper"
+	culture = "wahenian"
+}
+1562 = {
+	name = "dynn_Khamudi-Sopdu"
+	culture = "wahenian"
+}
+1563 = {
+	name = "dynn_Qareh-Bat"
+	culture = "mu_kedi"
+}
+1564 = {
+	name = "dynn_Minmose-Pakhet"
+	culture = "mu_kedi"
+}
+1565 = {
+	name = "dynn_Iphurkura-Adonis"
+	culture = "sinaian"
+}
+1566 = {
+	name = "dynn_Kakhent-Wosret"
+	culture = "mu_kedi"
+}
+1567 = {
+	name = "dynn_Ige-Kittah"
+	culture = "liyan"
+}
+1568 = {
+	name = "dynn_Ige-Kittah"
+	culture = "liyan"
+}
+1569 = {
+	name = "dynn_Napi-Nashur"
+	culture = "liyan"
+}
+1570 = {
+	name = "dynn_Numena-Humban"
+	culture = "anshanian"
+}
+1571 = {
+	name = "dynn_Ata-Halki"
+	culture = "anshanian"
+}
+1572 = {
+	name = "dynn_Pahir-Hutran"
+	culture = "susanian"
+}
+1573 = {
+	name = "dynn_Ukku-Tarana"
+	culture = "susanian"
+}
+1574 = {
+	name = "dynn_Shushun-Tanhish"
+	culture = "anshanian"
+}
+1575 = {
+	name = "dynn_Shushun-Tanhish"
+	culture = "anshanian"
+}
+1576 = {
+	name = "dynn_Ata-Halki"
+	culture = "ellipian"
+}
+1577 = {
+	name = "dynn_Kidin-Ishshan"
+	culture = "ellipian"
+}
+1578 = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "ellipian"
+}
+1579 = {
+	name = "dynn_Ulam-Kassu"
+	culture = "gutian"
+}
+1580 = {
+	name = "dynn_Hana-Tammuz"
+	culture = "south_akkadian"
+}
+1581 = {
+	name = "dynn_Temti-Inshushinak"
+	culture = "ellipian"
+}
+1582 = {
+	name = "dynn_Hayani-Ereshkigal"
+	culture = "south_akkadian"
+}
+1583 = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "south_akkadian"
+}
+1584 = {
+	name = "dynn_Kutir-Napirisha"
+	culture = "ellipian"
+}
+1585 = {
+	name = "dynn_Hayani-Ereshkigal"
+	culture = "south_akkadian"
+}
+1586 = {
+	name = "dynn_Udul-Utu"
+	culture = "neo_sumerian"
+}
+1587 = {
+	name = "dynn_Samani-Enlil"
+	culture = "neo_sumerian"
+}
+1588 = {
+	name = "dynn_Iltasadum-Nabu"
+	culture = "neo_sumerian"
+}
+1589 = {
+	name = "dynn_Udul-Utu"
+	culture = "neo_sumerian"
+}
+1590 = {
+	name = "dynn_Ilulu-Sin"
+	culture = "south_akkadian"
+}
+1591 = {
+	name = "dynn_Ilulu-Sin"
+	culture = "south_akkadian"
+}
+1592 = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "neo_sumerian"
+}
+1593 = {
+	name = "dynn_Nanni-Enlil"
+	culture = "neo_sumerian"
+}
+1594 = {
+	name = "dynn_Sargon-Ea"
+	culture = "neo_sumerian"
+}
+1595 = {
+	name = "dynn_Zuqaqip-Bau"
+	culture = "south_akkadian"
+}
+1596 = {
+	name = "dynn_Ilulu-Sin"
+	culture = "south_akkadian"
+}
+1597 = {
+	name = "dynn_Samani-Enlil"
+	culture = "south_akkadian"
+}
+1598 = {
+	name = "dynn_Samani"
+	culture = "south_akkadian"
+}
+1599 = {
+	name = "dynn_Jushur-Sin"
+	culture = "south_akkadian"
+}
+1600 = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "south_akkadian"
+}
+1601 = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "south_akkadian"
+}
+1602 = {
+	name = "dynn_Pahir-Hutran"
+	culture = "ellipian"
+}
+1603 = {
+	name = "dynn_Hayani-Ereshkigal"
+	culture = "south_akkadian"
+}
+1604 = {
+	name = "dynn_Zuqaqip-Bau"
+	culture = "south_akkadian"
+}
+1605 = {
+	name = "dynn_Suhlamu-Inzak"
+	culture = "south_akkadian"
+}
+1606 = {
+	name = "dynn_Babum-Geshtinanna"
+	culture = "south_akkadian"
+}
+1607 = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "south_akkadian"
+}
+1608 = {
+	name = "dynn_Samani-Enlil"
+	culture = "south_akkadian"
+}
+1609 = {
+	name = "dynn_Zuqaqip-Bau"
+	culture = "south_akkadian"
+}
+1610 = {
+	name = "dynn_Suhlamu-Inzak"
+	culture = "south_akkadian"
+}
+1611 = {
+	name = "dynn_Ilulu-Sin"
+	culture = "maganite"
+}
+1612 = {
+	name = "dynn_Sargon-Ea"
+	culture = "maganite"
+}
+1613 = {
+	name = "dynn_Zuqaqip-Bau"
+	culture = "dilmunite"
+}
+1614 = {
+	name = "dynn_Sargon-Ea"
+	culture = "dilmunite"
+}
+1615 = {
+	name = "dynn_Puannum-Ningal"
+	culture = "dilmunite"
+}
+1616 = {
+	name = "dynn_Rimush-Tishpak"
+	culture = "maganite"
+}
+1617 = {
+	name = "dynn_Samani-Enlil"
+	culture = "maganite"
+}
+1618 = {
+	name = "dynn_Samani"
+	culture = "dilmunite"
+}
+1619 = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "dilmunite"
+}
+1620 = {
+	name = "dynn_Sargon-Ea"
+	culture = "dilmunite"
+}
+1621 = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "dilmunite"
+}
+1622 = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "dilmunite"
+}
+1623 = {
+	name = "dynn_Puannum-Ningal"
+	culture = "dilmunite"
+}
+1624 = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "dilmunite"
+}
+1625 = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "south_akkadian"
+}
+1626 = {
+	name = "dynn_Samani"
+	culture = "assyrian"
+}
+1627 = {
+	name = "dynn_Ipashi-Sali"
+	culture = "lullubi"
+}
+1628 = {
+	name = "dynn_Zuqaqip-Bau"
+	culture = "south_akkadian"
+}
+1629 = {
+	name = "dynn_Hameru-Shipak"
+	culture = "lullubi"
+}
+1630 = {
+	name = "dynn_Ulam-Kassu"
+	culture = "gutian"
+}
+1631 = {
+	name = "dynn_Lullaya-Shamash"
+	culture = "lullubi"
+}
+1632 = {
+	name = "dynn_Azzu-eli-Pirinki"
+	culture = "tukri"
+}
+1633 = {
+	name = "dynn_Hala-Duniash"
+	culture = "lullubi"
+}
+1634 = {
+	name = "dynn_Seh-saya-Kushuh"
+	culture = "tukri"
+}
+1635 = {
+	name = "dynn_Senip-sarri-Hutelluri"
+	culture = "tukri"
+}
+1636 = {
+	name = "dynn_Kiyazi-Hutena"
+	culture = "tukri"
+}
+1637 = {
+	name = "dynn_Paki-la-Sumuqan"
+	culture = "tukri"
+}
+1638 = {
+	name = "dynn_Eni-ya-Hurri"
+	culture = "tukri"
+}
+1639 = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "assyrian"
+}
+1640 = {
+	name = "dynn_Tagis-nati-e-Hebat"
+	culture = "tukri"
+}
+1641 = {
+	name = "dynn_Sargon-Ea"
+	culture = "assyrian"
+}
+1642 = {
+	name = "dynn_Tahi-Shimegi"
+	culture = "tukri"
+}
+1643 = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "assyrian"
+}
+1644 = {
+	name = "dynn_Una-tis-Shalash"
+	culture = "tukri"
+}
+1645 = {
+	name = "dynn_Unap-tagi-Rashap"
+	culture = "haburi"
+}
+1646 = {
+	name = "dynn_Urra-n-Shimegi"
+	culture = "haburi"
+}
+1647 = {
+	name = "dynn_Kipu-seni-Nabarbi"
+	culture = "tukri"
+}
+1648 = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "assyrian"
+}
+1649 = {
+	name = "dynn_Muzu-m-Shimegi"
+	culture = "tukri"
+}
+1650 = {
+	name = "dynn_Nubar-ela-Allani"
+	culture = "haburi"
+}
+1651 = {
+	name = "dynn_Una-kka-Nubadig"
+	culture = "haburi"
+}
+1652 = {
+	name = "dynn_Teutamna"
+	culture = "cypriot"
+}
+1653 = {
+	name = "dynn_Alasarnathe"
+	culture = "cypriot"
+}
+1654 = {
+	name = "dynn_Dandexathe"
+	culture = "cypriot"
+}
+1655 = {
+	name = "dynn_Kadmale"
+	culture = "cypriot"
+}
+1656 = {
+	name = "dynn_Pandarle"
+	culture = "cypriot"
+}
+1657 = {
+	name = "dynn_Tegurathe"
+	culture = "cypriot"
+}
+1658 = {
+	name = "dynn_Eloulaios-Yarhibol"
+	culture = "amoritic"
+}
+1659 = {
+	name = "dynn_Pummay-Yam"
+	culture = "amoritic"
+}
+1660 = {
+	name = "dynn_Eshmounhilles-Mot"
+	culture = "amoritic"
+}
+1661 = {
+	name = "dynn_Abdhamon-Shapash"
+	culture = "amoritic"
+}
+1662 = {
+	name = "dynn_Maharbaal-Eshmun"
+	culture = "amoritic"
+}
+1663 = {
+	name = "dynn_Metallo-Misor"
+	culture = "amoritic"
+}
+1664 = {
+	name = "dynn_Nupa-tiya-Rashap"
+	culture = "harrani"
+}
+1665 = {
+	name = "dynn_Azmelqart-Ishara"
+	culture = "amoritic"
+}
+1666 = {
+	name = "dynn_Uski-za-n-Nabarbi"
+	culture = "zalwari"
+}
+1667 = {
+	name = "dynn_Astartos-Qadeshtu"
+	culture = "amoritic"
+}
+1668 = {
+	name = "dynn_Kabi-ta-Sumuqan"
+	culture = "zalwari"
+}
+1669 = {
+	name = "dynn_Pthu-na-Sharruma"
+	culture = "zalwari"
+}
+1670 = {
+	name = "dynn_Aru-pa-Shalash"
+	culture = "zalwari"
+}
+1671 = {
+	name = "dynn_Kuza-ri-Pirinki"
+	culture = "zalwari"
+}
+1672 = {
+	name = "dynn_Ussu-ultu-Hutena"
+	culture = "zalwari"
+}
+1673 = {
+	name = "dynn_Azzu-eli-Pirinki"
+	culture = "zalwari"
+}
+1674 = {
+	name = "dynn_Tuza-ya-Sherri"
+	culture = "zalwari"
+}
+1675 = {
+	name = "dynn_Satta-kiyazi-Rashap"
+	culture = "harrani"
+}
+1676 = {
+	name = "dynn_Azzu-eli-Pirinki"
+	culture = "harrani"
+}
+1677 = {
+	name = "dynn_Seh-saya-Kushuh"
+	culture = "harrani"
+}
+1678 = {
+	name = "dynn_Senip-sarri-Hutelluri"
+	culture = "harrani"
+}
+1679 = {
+	name = "dynn_Kiyazi-Hutena"
+	culture = "harrani"
+}
+1680 = {
+	name = "dynn_Paki-la-Sumuqan"
+	culture = "harrani"
+}
+1681 = {
+	name = "dynn_Eni-ya-Hurri"
+	culture = "harrani"
+}
+1682 = {
+	name = "dynn_Tagis-nati-e-Hebat"
+	culture = "harrani"
+}
+1683 = {
+	name = "dynn_Ribaddi-Ashtar"
+	culture = "amoritic"
+}
+1684 = {
+	name = "dynn_Hiram-Nikkal"
+	culture = "amoritic"
+}
+1685 = {
+	name = "dynn_Aba-Lim-Anat"
+	culture = "amoritic"
+}
+1686 = {
+	name = "dynn_Mago-Lotan"
+	culture = "amoritic"
+}
+1687 = {
+	name = "dynn_Tahi-Shimegi"
+	culture = "harrani"
+}
+1688 = {
+	name = "dynn_Una-tis-Shalash"
+	culture = "harrani"
+}
+1689 = {
+	name = "dynn_Sipitba_al-Hermon"
+	culture = "amoritic"
+}
+1690 = {
+	name = "dynn_Yantin-Haddu-Zephon"
+	culture = "amoritic"
+}
+1691 = {
+	name = "dynn_Maharbaal-Eshmun"
+	culture = "amoritic"
+}
+1692 = {
+	name = "dynn_Ba_al-Yarikh"
+	culture = "amoritic"
+}
+1693 = {
+	name = "dynn_Yada_milk-Yam"
+	culture = "amoritic"
+}
+1694 = {
+	name = "dynn_Abbar-Adonis"
+	culture = "amoritic"
+}
+1695 = {
+	name = "dynn_Paltibaal-Anat"
+	culture = "amoritic"
+}
+1696 = {
+	name = "dynn_Eshmouniaton-Adonis"
+	culture = "amoritic"
+}
+1697 = {
+	name = "dynn_Arzi-hip-Kumarbi"
+	culture = "haburi"
+}
+1698 = {
+	name = "dynn_Halb-abusa-Shuwaliyatti"
+	culture = "haburi"
+}
+1699 = {
+	name = "dynn_Sattawaza-Hutena"
+	culture = "haburi"
+}
+1700 = {
+	name = "dynn_Azzu-kki-Rashap"
+	culture = "haburi"
+}
+1701 = {
+	name = "dynn_Sehrum-nirzi-Shimegi"
+	culture = "haburi"
+}
+1702 = {
+	name = "dynn_Kipu-seni-Nabarbi"
+	culture = "harrani"
+}
+1703 = {
+	name = "dynn_Nanip-naya-Sumuqan"
+	culture = "haburi"
+}
+1704 = {
+	name = "dynn_Zitu-ya-Hutelluri"
+	culture = "shubrian"
+}
+1705 = {
+	name = "dynn_Tushratta-Ningal"
+	culture = "shubrian"
+}
+1706 = {
+	name = "dynn_Asu-zi-Hutelluri"
+	culture = "shubrian"
+}
+1707 = {
+	name = "dynn_Hazip-Nawar-Hutelluri"
+	culture = "shubrian"
+}
+1708 = {
+	name = "dynn_Tahi-Shimegi"
+	culture = "shubrian"
+}
+1709 = {
+	name = "dynn_Zaza-naya-Teshub"
+	culture = "shubrian"
+}
+1710 = {
+	name = "dynn_Nubar-wari-Nubadig"
+	culture = "shubrian"
+}
+1711 = {
+	name = "dynn_Izzu-nni-Kushuh"
+	culture = "shubrian"
+}
+1712 = {
+	name = "dynn_Turip-seni-Ashtabil"
+	culture = "shubrian"
+}
+1713 = {
+	name = "dynn_Muzu-m-Shimegi"
+	culture = "harrani"
+}
+1714 = {
+	name = "dynn_Azu-na-n-Allani"
+	culture = "harrani"
+}
+1715 = {
+	name = "dynn_Nani-ku-Hutelluri"
+	culture = "harrani"
+}
+1716 = {
+	name = "dynn_Unap-tagi-Rashap"
+	culture = "harrani"
+}
+1717 = {
+	name = "dynn_Urra-n-Shimegi"
+	culture = "harrani"
+}
+1718 = {
+	name = "dynn_Nubar-ela-Allani"
+	culture = "harrani"
+}
+1719 = {
+	name = "dynn_Una-kka-Nubadig"
+	culture = "harrani"
+}
+1720 = {
+	name = "dynn_Nupu-ri-Shalash"
+	culture = "haburi"
+}
+1721 = {
+	name = "dynn_Zunzu-m-Sherri"
+	culture = "haburi"
+}
+1722 = {
+	name = "dynn_Wari-taldu-Rashap"
+	culture = "haburi"
+}
+1723 = {
+	name = "dynn_Ser-za-n-Ningal"
+	culture = "haburi"
+}
+1724 = {
+	name = "dynn_Arip-an-Adamma"
+	culture = "haburi"
+}
+1725 = {
+	name = "dynn_Anataruntiya"
+	culture = "tarhuntassan"
+}
+1726 = {
+	name = "dynn_Tuwar"
+	culture = "tarhuntassan"
+}
+1727 = {
+	name = "dynn_Kari-ya-Nubadig"
+	culture = "kizzuni"
+}
+1728 = {
+	name = "dynn_Azzu-nni-Shalash"
+	culture = "kizzuni"
+}
+1729 = {
+	name = "dynn_Tarkasziti"
+	culture = "tarhuntassan"
+}
+1730 = {
+	name = "dynn_Taku-na-Ningal"
+	culture = "kizzuni"
+}
+1731 = {
+	name = "dynn_Tata-ra-Shalash"
+	culture = "kizzuni"
+}
+1732 = {
+	name = "dynn_Anaramati"
+	culture = "tarhuntassan"
+}
+1733 = {
+	name = "dynn_Anaramati"
+	culture = "tarhuntassan"
+}
+1734 = {
+	name = "dynn_Anawatta"
+	culture = "tarhuntassan"
+}
+1735 = {
+	name = "dynn_Kabi-ta-Sumuqan"
+	culture = "ishuwan"
+}
+1736 = {
+	name = "dynn_Asinamuna"
+	culture = "nesili"
+}
+1737 = {
+	name = "dynn_Tarkasziti"
+	culture = "nesili"
+}
+1738 = {
+	name = "dynn_Kattaziti"
+	culture = "nesili"
+}
+1739 = {
+	name = "dynn_Taruntiya"
+	culture = "nesili"
+}
+1740 = {
+	name = "dynn_Tarkasa"
+	culture = "nesili"
+}
+1741 = {
+	name = "dynn_Izzu-nni-Kushuh"
+	culture = "zalwari"
+}
+1742 = {
+	name = "dynn_Asinamuna"
+	culture = "nesili"
+}
+1743 = {
+	name = "dynn_Tuwar"
+	culture = "nesili"
+}
+1744 = {
+	name = "dynn_Taruntiya"
+	culture = "palaic"
+}
+1745 = {
+	name = "dynn_Tarkasa"
+	culture = "nesili"
+}
+1746 = {
+	name = "dynn_Tuwar"
+	culture = "nesili"
+}
+1747 = {
+	name = "dynn_Tarkasa"
+	culture = "nesili"
+}
+1748 = {
+	name = "dynn_Taruntiya"
+	culture = "tarhuntassan"
+}
+1749 = {
+	name = "dynn_Tarkasa"
+	culture = "palaic"
+}
+1750 = {
+	name = "dynn_Taruntiya"
+	culture = "palaic"
+}
+1751 = {
+	name = "dynn_Asinamuna"
+	culture = "palaic"
+}
+1752 = {
+	name = "dynn_Taruntiya"
+	culture = "hapallan"
+}
+1753 = {
+	name = "dynn_Asinamuna"
+	culture = "palaic"
+}
+1754 = {
+	name = "dynn_Anaramati"
+	culture = "palaic"
+}
+1755 = {
+	name = "dynn_Anatar"
+	culture = "palaic"
+}
+1756 = {
+	name = "dynn_Pthu-na-Sharruma"
+	culture = "ishuwan"
+}
+1757 = {
+	name = "dynn_Aru-pa-Shalash"
+	culture = "ishuwan"
+}
+1758 = {
+	name = "dynn_Kuza-ri-Pirinki"
+	culture = "ishuwan"
+}
+1759 = {
+	name = "dynn_Ussu-ultu-Hutena"
+	culture = "ishuwan"
+}
+1760 = {
+	name = "dynn_Azzu-eli-Pirinki"
+	culture = "ishuwan"
+}
+1761 = {
+	name = "dynn_Kattaziti"
+	culture = "tarhuntassan"
+}
+1762 = {
+	name = "dynn_Asinamuna"
+	culture = "tarhuntassan"
+}
+1763 = {
+	name = "dynn_Kattaziti"
+	culture = "miran"
+}
+1764 = {
+	name = "dynn_Tarkasa"
+	culture = "hattian"
+}
+1765 = {
+	name = "dynn_Tupanasalli"
+	culture = "hattian"
+}
+1766 = {
+	name = "dynn_Tupanasalli"
+	culture = "hattian"
+}
+1767 = {
+	name = "dynn_Tarkasa"
+	culture = "hattian"
+}
+1768 = {
+	name = "dynn_Anawatta"
+	culture = "nesili"
+}
+1769 = {
+	name = "dynn_Tupanasalli"
+	culture = "hattian"
+}
+1770 = {
+	name = "dynn_Tarkasziti"
+	culture = "nesili"
+}
+1771 = {
+	name = "dynn_Tarkasa"
+	culture = "nesili"
+}

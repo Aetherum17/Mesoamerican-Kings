@@ -1,0 +1,879 @@
+﻿
+clay_pits_01 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_1_cost
+	
+	county_modifier = {
+		development_growth = normal_building_development_tier_1
+		tax_mult = good_building_ba_tax_mult_tier_1
+	}
+	
+	next_building = clay_pits_02
+
+	type_icon = "icon_building_peat_quarries.dds"
+	
+	ai_value = { 
+		base = 10
+	}
+}
+
+clay_pits_02 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 } 
+		economic_building_requirement_tier_1 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_2_cost
+	
+	county_modifier = {
+		development_growth = normal_building_development_tier_2
+		tax_mult = good_building_ba_tax_mult_tier_2
+	}
+	
+	next_building = clay_pits_03
+	ai_value = { 
+		base = 9
+	}
+}
+
+clay_pits_03 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		economic_building_requirement_tier_2 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_3_cost
+	
+	county_modifier = {
+		development_growth = normal_building_development_tier_3
+		tax_mult = good_building_ba_tax_mult_tier_3
+	}
+	
+	next_building = clay_pits_04
+	ai_value = { 
+		base = 8
+	}
+}
+
+clay_pits_04 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		economic_building_requirement_tier_2 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_4_cost
+	
+	county_modifier = {
+		development_growth = normal_building_development_tier_4
+		tax_mult = good_building_ba_tax_mult_tier_4
+	}
+	
+	next_building = clay_pits_05
+	ai_value = { 
+		base = 7
+	}
+}
+
+clay_pits_05 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		economic_building_requirement_tier_3 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_5_cost
+	
+	county_modifier = {
+		development_growth = normal_building_development_tier_5
+		tax_mult = good_building_ba_tax_mult_tier_5
+	}
+	
+	next_building = clay_pits_06
+	ai_value = { 
+		base = 6
+	}
+}
+
+clay_pits_06 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		economic_building_requirement_tier_3 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_6_cost
+	
+	county_modifier = {
+		development_growth = normal_building_development_tier_6
+		tax_mult = good_building_ba_tax_mult_tier_6
+	}
+	
+	next_building = clay_pits_07
+	ai_value = { 
+		base = 5
+	}
+}
+
+clay_pits_07 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		economic_building_requirement_tier_4 = yes
+
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_7_cost
+	
+	county_modifier = {
+		development_growth = normal_building_development_tier_7
+		tax_mult = good_building_ba_tax_mult_tier_7
+	}
+	
+	next_building = clay_pits_08
+	ai_value = {
+		base = 4
+	}
+}
+
+clay_pits_08 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		economic_building_requirement_tier_4 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_8_cost
+	
+	county_modifier = {
+		development_growth = normal_building_development_tier_8
+		tax_mult = good_building_ba_tax_mult_tier_8
+	}
+	
+	ai_value = {
+		base = 3
+	}
+}
+
+papyrus_farms_01 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		scope:holder.culture = {
+			has_innovation = innovation_papyrus
+		}
+		terrain = floodplains
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = expensive_building_tier_1_cost
+	
+	province_modifier = {
+		monthly_income = excellent_building_ba_tax_tier_1
+	}
+	county_modifier = { 
+		development_growth = good_building_development_tier_1
+	}
+	
+	next_building = papyrus_farms_02
+
+	type_icon = "icon_building_papyrus_farms.dds"
+	
+	ai_value = { 
+		base = 20
+	}
+}
+
+papyrus_farms_02 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 } 
+		agricultural_building_requirement_tier_1 = yes
+		scope:holder.culture = {
+			has_innovation = innovation_papyrus
+		}
+		terrain = floodplains
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = expensive_building_tier_2_cost
+	
+	province_modifier = {
+		monthly_income = excellent_building_ba_tax_tier_2
+	}
+	county_modifier = { 
+		development_growth = good_building_development_tier_2
+	}
+	
+	next_building = papyrus_farms_03
+	ai_value = { 
+		base = 9
+	}
+}
+
+papyrus_farms_03 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		agricultural_building_requirement_tier_2 = yes
+		scope:holder.culture = {
+			has_innovation = innovation_papyrus
+		}
+		terrain = floodplains
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = expensive_building_tier_3_cost
+	
+	province_modifier = {
+		monthly_income = excellent_building_ba_tax_tier_3
+	}
+	county_modifier = { 
+		development_growth = good_building_development_tier_3
+	}
+	
+	next_building = papyrus_farms_04
+	ai_value = { 
+		base = 8
+	}
+}
+
+papyrus_farms_04 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		agricultural_building_requirement_tier_2 = yes
+		scope:holder.culture = {
+			has_innovation = innovation_papyrus
+		}
+		terrain = floodplains
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = expensive_building_tier_4_cost
+	
+	province_modifier = {
+		monthly_income = excellent_building_ba_tax_tier_4
+	}
+	county_modifier = { 
+		development_growth = good_building_development_tier_4
+	}
+	
+	next_building = papyrus_farms_05
+	ai_value = { 
+		base = 7
+	}
+}
+
+papyrus_farms_05 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		agricultural_building_requirement_tier_3 = yes
+		scope:holder.culture = {
+			has_innovation = innovation_papyrus
+		}
+		terrain = floodplains
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = expensive_building_tier_5_cost
+	
+	province_modifier = {
+		monthly_income = excellent_building_ba_tax_tier_5
+	}
+	county_modifier = { 
+		development_growth = good_building_development_tier_5
+	}
+	
+	next_building = papyrus_farms_06
+	ai_value = { 
+		base = 6
+	}
+}
+
+papyrus_farms_06 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		agricultural_building_requirement_tier_3 = yes
+		scope:holder.culture = {
+			has_innovation = innovation_papyrus
+		}
+		terrain = floodplains
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = expensive_building_tier_6_cost
+	
+	province_modifier = {
+		monthly_income = excellent_building_ba_tax_tier_6
+	}
+	county_modifier = { 
+		development_growth = good_building_development_tier_6
+	}
+	
+	next_building = papyrus_farms_07
+	ai_value = { 
+		base = 5
+	}
+}
+
+papyrus_farms_07 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		agricultural_building_requirement_tier_4 = yes
+		scope:holder.culture = {
+			has_innovation = innovation_papyrus
+		}
+		terrain = floodplains
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = expensive_building_tier_7_cost
+	
+	province_modifier = {
+		monthly_income = excellent_building_ba_tax_tier_7
+	}
+	county_modifier = { 
+		development_growth = good_building_development_tier_7
+	}
+	
+	next_building = papyrus_farms_08
+	ai_value = {
+		base = 4
+	}
+}
+
+papyrus_farms_08 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		agricultural_building_requirement_tier_4 = yes
+		scope:holder.culture = {
+			has_innovation = innovation_papyrus
+		}
+		terrain = floodplains
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = expensive_building_tier_8_cost
+	
+	province_modifier = {
+		monthly_income = excellent_building_ba_tax_tier_8
+	}
+	county_modifier = { 
+		development_growth = good_building_development_tier_8
+	}
+	
+	ai_value = {
+		base = 3
+	}
+}
+
+fisheries_01 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		is_coastal = yes
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_1_cost
+
+	levy = normal_building_ba_levy_tier_1
+	
+	province_modifier = {
+		monthly_income = poor_building_ba_tax_tier_1
+	}
+
+	next_building = fisheries_02
+
+	type_icon = "icon_building_fisheries.dds"
+	
+	ai_value = { 
+		base = 10
+	}
+}
+
+fisheries_02 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 } 
+		agricultural_building_requirement_tier_1 = yes
+		is_coastal = yes
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_2_cost
+	
+	levy = normal_building_ba_levy_tier_2
+	
+	province_modifier = {
+		monthly_income = poor_building_ba_tax_tier_2
+	}
+
+	next_building = fisheries_03
+	ai_value = { 
+		base = 9
+	}
+}
+
+fisheries_03 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		agricultural_building_requirement_tier_2 = yes
+		is_coastal = yes
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_3_cost
+	
+	levy = normal_building_ba_levy_tier_3
+	
+	province_modifier = {
+		monthly_income = poor_building_ba_tax_tier_3
+	}
+
+	next_building = fisheries_04
+	ai_value = { 
+		base = 8
+	}
+}
+
+fisheries_04 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		agricultural_building_requirement_tier_2 = yes
+		is_coastal = yes
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_4_cost
+	
+	levy = normal_building_ba_levy_tier_4
+	
+	province_modifier = {
+		monthly_income = poor_building_ba_tax_tier_4
+	}
+
+	next_building = fisheries_05
+	ai_value = { 
+		base = 7
+	}
+}
+
+fisheries_05 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		agricultural_building_requirement_tier_3 = yes
+		is_coastal = yes
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_5_cost
+	
+	levy = normal_building_ba_levy_tier_5
+	
+	province_modifier = {
+		monthly_income = poor_building_ba_tax_tier_5
+	}
+
+	next_building = fisheries_06
+	ai_value = { 
+		base = 6
+	}
+}
+
+fisheries_06 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		agricultural_building_requirement_tier_3 = yes
+		is_coastal = yes
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_6_cost
+	
+	levy = normal_building_ba_levy_tier_6
+	
+	province_modifier = {
+		monthly_income = poor_building_ba_tax_tier_6
+	}
+
+	next_building = fisheries_07
+	ai_value = { 
+		base = 5
+	}
+}
+
+fisheries_07 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		agricultural_building_requirement_tier_4 = yes
+		is_coastal = yes
+
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_7_cost
+	
+	levy = normal_building_ba_levy_tier_7
+	
+	province_modifier = {
+		monthly_income = poor_building_ba_tax_tier_7
+	}
+
+	next_building = fisheries_08
+	ai_value = {
+		base = 4
+	}
+}
+
+fisheries_08 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		agricultural_building_requirement_tier_4 = yes
+		is_coastal = yes
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_8_cost
+	
+	levy = normal_building_ba_levy_tier_8
+	
+	province_modifier = {
+		monthly_income = poor_building_ba_tax_tier_8
+	}
+
+	ai_value = {
+		base = 3
+	}
+}
+
+tribal_envoys_01 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_1_cost
+	
+	levy = good_building_ba_levy_tier_1
+	
+	county_modifier = {
+		development_growth_factor = -0.02
+	}
+
+	next_building = tribal_envoys_02
+
+	type_icon = "icon_building_tribal_envoys.dds"
+	
+	ai_value = { 
+		base = 10
+	}
+}
+
+tribal_envoys_02 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 } 
+		military_building_requirement_tier_1 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_2_cost
+	
+	levy = good_building_ba_levy_tier_2
+	
+	county_modifier = {
+		development_growth_factor = -0.03
+	}
+	
+	next_building = tribal_envoys_03
+	ai_value = { 
+		base = 9
+	}
+}
+
+tribal_envoys_03 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		military_building_requirement_tier_2 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_3_cost
+	
+	levy = good_building_ba_levy_tier_3
+	
+	county_modifier = {
+		development_growth_factor = -0.04
+	}
+	
+	next_building = tribal_envoys_04
+	ai_value = { 
+		base = 8
+	}
+}
+
+tribal_envoys_04 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		military_building_requirement_tier_2 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_4_cost
+	
+	levy = good_building_ba_levy_tier_4
+	
+	county_modifier = {
+		development_growth_factor = -0.05
+	}
+	
+	next_building = tribal_envoys_05
+	ai_value = { 
+		base = 7
+	}
+}
+
+tribal_envoys_05 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		military_building_requirement_tier_3 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_5_cost
+	
+	levy = good_building_ba_levy_tier_5
+	
+	county_modifier = {
+		development_growth_factor = -0.06
+	}
+	
+	next_building = tribal_envoys_06
+	ai_value = { 
+		base = 6
+	}
+}
+
+tribal_envoys_06 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		military_building_requirement_tier_3 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_6_cost
+	
+	levy = good_building_ba_levy_tier_6
+	
+	county_modifier = {
+		development_growth_factor = -0.07
+	}
+	
+	next_building = tribal_envoys_07
+	ai_value = { 
+		base = 5
+	}
+}
+
+tribal_envoys_07 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		military_building_requirement_tier_4 = yes
+
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_7_cost
+	
+	levy = good_building_ba_levy_tier_7
+	
+	county_modifier = {
+		development_growth_factor = -0.08
+	}
+	
+	next_building = tribal_envoys_08
+	ai_value = {
+		base = 4
+	}
+}
+
+tribal_envoys_08 = {
+	construction_time = standard_construction_time
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		military_building_requirement_tier_4 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_8_cost
+	
+	levy = good_building_ba_levy_tier_8
+	
+	county_modifier = {
+		development_growth_factor = -0.09
+	}
+	
+	ai_value = {
+		base = 3
+	}
+}

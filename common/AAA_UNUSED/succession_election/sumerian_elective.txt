@@ -1,0 +1,128 @@
+﻿# The entry should be named in the same way that the elective succession law is named to define it's voter's logic.
+# Root scope - Elector, the character voting in the election.
+# scope:candidate scope - Candidate, Character considered for the title.
+# scope:title scope - Title, The title the nomination is for.
+# scope:holder scope - Ruler, The ruler currently holding the title.
+# scope:holder_candidate scope - Favored Candidate, The title owner's candidate.
+# The voter will vote for the top score candidate calculated from this script.
+
+sumerian_elective = {
+	elector_vote_strength = {
+		base = 0
+		modifier = {
+			desc = tooltip_elective_de_jure_cities_in_sumer
+			add = {
+				value = 0
+				every_held_title = {
+					limit = {
+						tier = tier_barony
+						title_province = {
+							has_holding_type = city_holding
+							geographical_region = world_sumerian_elective_region
+						}
+					}
+					add = 1
+				}
+			}
+		}
+		modifier = { #Clerical Influence
+			desc = tooltip_elective_priesthood_of_nippur
+			add = 10
+			NOT = { this = scope:holder }
+			has_government = theocracy_government
+			this = title:b_6000.holder
+			any_held_title = { #Each city in Sumeria/Akkad gets a vote
+				tier = tier_barony
+				title_province = {
+					has_holding_type = city_holding
+					geographical_region = world_sumerian_elective_region 
+				}
+			}
+		}
+	}
+	
+	electors = {
+		add = holder
+		add = {
+			type = title_dejure_vassals
+			limit = {
+				has_government = theocracy_government
+				this = title:b_6000.holder
+			}
+		}
+		add = {
+			type = title_dejure_vassals
+			limit = {
+				any_held_title = { #Each city in Sumeria/Akkad gets a vote
+					tier = tier_barony
+					title_province = {
+						has_holding_type = city_holding
+						geographical_region = world_sumerian_elective_region
+					}
+				}
+			}
+		}
+	}
+
+	candidate_score = {
+		base = 0
+		######################	Elector self-voting pattern	##########################
+		elector_self_voting_pattern_feudal_elective_modifier = yes
+
+		##########################	Holder voting pattern	##########################
+		holder_voting_pattern_feudal_elective_modifier = yes
+
+		##########################	Elector voting patterns (circumstances)	##########################
+		elector_voting_pattern_circumstances_feudal_elective_modifier = yes
+
+		##########################	Elector voting patterns (prestige/piety)	##########################
+		elector_voting_pattern_prestige_piety_feudal_elective_modifier = yes
+
+		##########################	Elector voting patterns (traits)	##########################
+		elector_voting_pattern_traits_feudal_elective_modifier = yes
+
+		##########################	Elector voting patterns (opinion)	##########################
+		elector_voting_pattern_opinion_feudal_elective_modifier = yes
+	}
+	
+	#scope:candidate = Candidate, scope:title = Title, scope:holder_candidate = Candidate currently selected by ruler.
+	candidates = {
+		add = {
+			type = title_dejure_vassals
+			limit = {
+				OR = {
+					AND = {
+						is_independent_ruler = yes
+						highest_held_title_tier >= tier_duchy
+					}
+					AND = {
+						is_independent_ruler = no
+						highest_held_title_tier >= tier_duchy
+						trigger_if = {
+							limit = { exists = liege }
+							liege = scope:holder
+						}
+					}
+				}
+				capital_province = {
+					has_holding_type = city_holding
+					geographical_region = world_sumerian_elective_region 
+				}
+			}
+		}
+		add = {
+			type = title_claimants
+			limit = {
+				feudal_elective_potential_landless_claimant_candidate_trigger = yes
+			}
+		}
+		add = {
+			type = holder_close_or_extended_family
+			limit = {
+				is_close_family_of = scope:holder
+				dynasty = scope:holder.dynasty
+				feudal_elective_potential_landless_dynastic_candidate_trigger = yes
+			}
+		}
+	}
+}

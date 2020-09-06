@@ -1,0 +1,124 @@
+﻿castle_holding = {
+	primary_building = castle_01
+	buildings = {
+		curtain_walls_01
+		watchtowers_01
+		outposts_01
+		hill_forts_01
+		ramparts_01
+		farm_estates_01
+		cereal_fields_01
+		pastures_01
+		peat_quarries_01
+		hill_farms_01
+		logging_camps_01
+		plantations_01
+		quarries_01
+		orchards_01
+		elephant_pens_01
+		hunting_grounds_01
+		regimental_grounds_01
+		barracks_01
+		military_camps_01
+		camel_farms_01
+
+		common_tradeport_01
+	}
+}
+
+tribal_holding = {
+	primary_building = tribe_01
+
+	buildings = {
+		palisades_01
+		war_camps_01
+		longhouses_01
+		market_villages_01
+	}
+
+	flag = tribal
+}
+
+city_holding = {
+	primary_building = city_01
+	buildings = {
+		#outposts_01
+		#regimental_grounds_01
+		barracks_01
+		#military_camps_01
+
+		market_01
+		potters_01
+		scribal_school_01
+		horse_breeder_01
+		tolling_station_01
+		smithy_01
+		papyrus_press_01
+		city_walls_01
+		citadel_01
+		smeltworks_01
+		workshops_01
+		
+		common_tradeport_01
+	}
+
+	can_be_inherited = yes
+}
+
+church_holding = {
+	primary_building = temple_01
+	buildings = {
+		#outposts_01
+		#farm_estates_01
+		cereal_fields_01
+		pastures_01
+		#peat_quarries_01
+		hill_farms_01
+		logging_camps_01
+		plantations_01
+		quarries_01
+		orchards_01
+		hunting_grounds_01
+		#regimental_grounds_01
+		military_camps_01
+		
+		monastic_schools_01
+		
+		clay_pits_01
+		fisheries_01
+		papyrus_farms_01
+		tribal_envoys_01
+
+		common_tradeport_01
+	}
+
+	can_be_inherited = yes
+}
+
+estate_holding = {
+	primary_building = estate_01
+	buildings = {
+		#outposts_01
+		#farm_estates_01
+		cereal_fields_01
+		pastures_01
+		#peat_quarries_01
+		hill_farms_01
+		logging_camps_01
+		plantations_01
+		quarries_01
+		orchards_01
+		hunting_grounds_01
+		#regimental_grounds_01
+		military_camps_01
+
+		clay_pits_01
+		fisheries_01
+		papyrus_farms_01
+		tribal_envoys_01
+
+		common_tradeport_01
+	}
+
+	can_be_inherited = yes
+}

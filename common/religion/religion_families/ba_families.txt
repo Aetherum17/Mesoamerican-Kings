@@ -1,0 +1,5 @@
+﻿rf_all = {
+	piety_icon_group = "pagan"
+	hostility_doctrine = ba_default_hostility_doctrine
+	doctrine_background_icon = core_tenet_banner_islam.dds
+}

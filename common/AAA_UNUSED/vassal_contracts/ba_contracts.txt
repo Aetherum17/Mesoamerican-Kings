@@ -1,0 +1,35 @@
+﻿tributary_status = {
+	obligation_levels = {
+		special_contract_tributary = {
+			
+			vassal_opinion = 25
+			
+			tax = 0.05
+			levies = 0
+
+			tax_factor = ba_tributary_tax_factor
+
+			vassal_modifier = {
+				monthly_prestige_gain_mult = -0.2
+				fellow_vassal_opinion = -15
+			}
+			
+			liege_modifier = {
+				monthly_prestige_gain_mult = 0.05
+			}
+			
+			flag = religiously_protected
+			flag = vassal_contract_cannot_revoke_titles
+			flag = vassal_contract_war_override
+			flag = culture_protected
+		}
+	}
+}
+normal_vassal_obligations = {
+	obligation_levels = {
+		default = {
+			tax_factor = ba_vassal_tax_factor
+			levies_factor = ba_vassal_tax_factor
+		}
+	}
+}

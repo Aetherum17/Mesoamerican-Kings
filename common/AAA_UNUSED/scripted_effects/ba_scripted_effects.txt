@@ -1,0 +1,730 @@
+﻿ba_impact_from_unkilled_deformed_effect = { # Root is the character and CHILD is the scope (like scope:child)
+	if = {
+		limit = {
+			faith = { has_doctrine_parameter = infanticide_any }
+			$CHILD$ = {
+				ba_has_deformity_trigger = yes
+			}
+		}
+		add_piety = didnt_kill_deformed_piety_loss
+		add_piety_level = -1
+		stress_impact = {
+			base = minor_stress_impact_gain
+			zealous = major_stress_impact_gain
+			callous = major_stress_impact_gain
+			sadistic = massive_stress_impact_gain
+			compassionate = major_stress_impact_loss
+		}
+	}
+}
+ba_impact_from_infanticide_effect = { # Same as above
+	if = {
+		limit = {
+			faith = { has_doctrine_parameter = infanticide_any }
+			$CHILD$ = {
+				ba_has_deformity_trigger = yes
+			}
+		}
+		add_piety = killed_deformed_piety_gain
+		stress_impact = {
+			compassionate = major_stress_impact_gain
+		}
+	}
+	else = {
+		add_piety = killed_nondeformed_piety_gain
+		stress_impact = {
+			base = minor_stress_gain
+			compassionate = massive_stress_impact_gain
+		}
+	}
+}
+ba_culture_exposure_effect = { #NAME is the name in innovation_NAME and the variable NAME_exposure
+	# CULTURE_TAKER is the culture recieving the innovation, CULTURE_GIVER gives it
+	if = {
+		limit = { # Holder gives the subject exposure to innovation
+			$CULTURE_GIVER$ = { has_innovation = innovation_$NAME$ }
+			$CULTURE_TAKER$ = { NOT = { has_variable = $NAME$_exposure } }
+		}
+		$CULTURE_TAKER$ = {
+			set_variable = {
+				name = $NAME$_exposure
+				value = 1
+			}
+		}
+		#Player Alerts
+		$CULTURE_TAKER$ = { save_scope_as = culture_reciever }
+		every_player = {
+			limit = {
+				culture = scope:culture_reciever
+			}
+			trigger_event = {
+				id = $NAME$_alert.0001
+			}
+		}
+	}
+}
+ba_add_innovation_with_exposure_effect = { #Start scope is culture and NAME is the innovation_NAME
+	set_variable = {
+		name = $NAME$_exposure
+		value = 1
+	}
+	add_innovation = innovation_$NAME$
+}
+change_tributary_to_feudal_effect = {
+	if = {
+		limit = { has_government = tributary_government }
+		change_government = feudal_government
+	}
+}
+#Egyptian Dynasty stuff
+
+ba_found_dynasty_effect = {
+	custom_tooltip = create_new_kingdom
+
+	hidden_effect = {
+		save_scope_as = founder
+		primary_title = {
+			save_scope_as = old_title
+		}
+		
+		create_dynamic_title = {
+			tier = kingdom
+			name = NEW_CREATED_TITLE_NAME
+		}
+		create_title_and_vassal_change = change
+		scope:change = {
+			set_title_and_vassal_change_type = created
+		}
+		
+		scope:new_title = {
+			change_title_holder = {
+				holder = root
+				change = scope:change
+			}
+		}
+		
+		resolve_title_and_vassal_change = scope:change
+
+		scope:new_title = {
+			set_coa = scope:old_title
+			set_color_from_title = scope:old_title
+			set_capital_county = scope:old_title.title_capital_county
+		}
+		set_primary_title_to = scope:new_title
+		
+		trigger_event = major_decisions.1101 #Make event for new dynasty
+	}
+}
+
+ba_set_development_decay = {
+	set_variable = {
+		name = decay_stack_size
+		value = development_decay_level
+	}
+	if = { limit = { var:decay_stack_size = 1}
+		add_county_modifier = { modifier = ba_development_decay_1 }
+	}
+	else_if = { limit = { var:decay_stack_size = 2}
+		add_county_modifier = { modifier = ba_development_decay_2 }
+	}
+	else_if = { limit = { var:decay_stack_size = 3}
+		add_county_modifier = { modifier = ba_development_decay_3 }
+	}
+	else_if = { limit = { var:decay_stack_size = 4}
+		add_county_modifier = { modifier = ba_development_decay_4 }
+	}
+	else_if = { limit = { var:decay_stack_size = 5}
+		add_county_modifier = { modifier = ba_development_decay_5 }
+	}
+	else_if = { limit = { var:decay_stack_size = 6}
+		add_county_modifier = { modifier = ba_development_decay_6 }
+	}
+	else_if = { limit = { var:decay_stack_size = 7}
+		add_county_modifier = { modifier = ba_development_decay_7 }
+	}
+	else_if = { limit = { var:decay_stack_size = 8}
+		add_county_modifier = { modifier = ba_development_decay_8 }
+	}
+	else_if = { limit = { var:decay_stack_size = 9}
+		add_county_modifier = { modifier = ba_development_decay_9 }
+	}
+	else_if = { limit = { var:decay_stack_size = 10}
+		add_county_modifier = { modifier = ba_development_decay_10 }
+	}
+	else_if = { limit = { var:decay_stack_size = 11}
+		add_county_modifier = { modifier = ba_development_decay_11 }
+	}
+	else_if = { limit = { var:decay_stack_size = 12}
+		add_county_modifier = { modifier = ba_development_decay_12 }
+	}
+	else_if = { limit = { var:decay_stack_size = 13}
+		add_county_modifier = { modifier = ba_development_decay_13 }
+	}
+	else_if = { limit = { var:decay_stack_size = 14}
+		add_county_modifier = { modifier = ba_development_decay_14 }
+	}
+	else_if = { limit = { var:decay_stack_size = 15}
+		add_county_modifier = { modifier = ba_development_decay_15 }
+	}
+	else_if = { limit = { var:decay_stack_size = 16}
+		add_county_modifier = { modifier = ba_development_decay_16 }
+	}
+	else_if = { limit = { var:decay_stack_size = 17}
+		add_county_modifier = { modifier = ba_development_decay_17 }
+	}
+	else_if = { limit = { var:decay_stack_size = 18}
+		add_county_modifier = { modifier = ba_development_decay_18 }
+	}
+	else_if = { limit = { var:decay_stack_size = 19}
+		add_county_modifier = { modifier = ba_development_decay_19 }
+	}
+	else_if = { limit = { var:decay_stack_size = 20}
+		add_county_modifier = { modifier = ba_development_decay_20 }
+	}
+	else_if = { limit = { var:decay_stack_size = 21}
+		add_county_modifier = { modifier = ba_development_decay_21 }
+	}
+	else_if = { limit = { var:decay_stack_size = 22}
+		add_county_modifier = { modifier = ba_development_decay_22 }
+	}
+	else_if = { limit = { var:decay_stack_size = 23}
+		add_county_modifier = { modifier = ba_development_decay_23 }
+	}
+	else_if = { limit = { var:decay_stack_size = 24}
+		add_county_modifier = { modifier = ba_development_decay_24 }
+	}
+	else_if = { limit = { var:decay_stack_size = 25}
+		add_county_modifier = { modifier = ba_development_decay_25 }
+	}
+	else_if = { limit = { var:decay_stack_size = 26}
+		add_county_modifier = { modifier = ba_development_decay_26 }
+	}
+	else_if = { limit = { var:decay_stack_size = 27}
+		add_county_modifier = { modifier = ba_development_decay_27 }
+	}
+	else_if = { limit = { var:decay_stack_size = 28}
+		add_county_modifier = { modifier = ba_development_decay_28 }
+	}
+	else_if = { limit = { var:decay_stack_size = 29}
+		add_county_modifier = { modifier = ba_development_decay_29 }
+	}
+	else_if = { limit = { var:decay_stack_size = 30}
+		add_county_modifier = { modifier = ba_development_decay_30 }
+	}
+	else_if = { limit = { var:decay_stack_size = 31}
+		add_county_modifier = { modifier = ba_development_decay_31 }
+	}
+	else_if = { limit = { var:decay_stack_size = 32}
+		add_county_modifier = { modifier = ba_development_decay_32 }
+	}
+	else_if = { limit = { var:decay_stack_size = 33}
+		add_county_modifier = { modifier = ba_development_decay_33 }
+	}
+	else_if = { limit = { var:decay_stack_size = 34}
+		add_county_modifier = { modifier = ba_development_decay_34 }
+	}
+	else_if = { limit = { var:decay_stack_size = 35}
+		add_county_modifier = { modifier = ba_development_decay_35 }
+	}
+	else_if = { limit = { var:decay_stack_size = 36}
+		add_county_modifier = { modifier = ba_development_decay_36 }
+	}
+	else_if = { limit = { var:decay_stack_size = 37}
+		add_county_modifier = { modifier = ba_development_decay_37 }
+	}
+	else_if = { limit = { var:decay_stack_size = 38}
+		add_county_modifier = { modifier = ba_development_decay_38 }
+	}
+	else_if = { limit = { var:decay_stack_size = 39}
+		add_county_modifier = { modifier = ba_development_decay_39 }
+	}
+	else_if = { limit = { var:decay_stack_size = 40}
+		add_county_modifier = { modifier = ba_development_decay_40 }
+	}
+	else_if = { limit = { var:decay_stack_size = 41}
+		add_county_modifier = { modifier = ba_development_decay_41 }
+	}
+	else_if = { limit = { var:decay_stack_size = 42}
+		add_county_modifier = { modifier = ba_development_decay_42 }
+	}
+	else_if = { limit = { var:decay_stack_size = 43}
+		add_county_modifier = { modifier = ba_development_decay_43 }
+	}
+	else_if = { limit = { var:decay_stack_size = 44}
+		add_county_modifier = { modifier = ba_development_decay_44 }
+	}
+	else_if = { limit = { var:decay_stack_size = 45}
+		add_county_modifier = { modifier = ba_development_decay_45 }
+	}
+	else_if = { limit = { var:decay_stack_size = 46}
+		add_county_modifier = { modifier = ba_development_decay_46 }
+	}
+	else_if = { limit = { var:decay_stack_size = 47}
+		add_county_modifier = { modifier = ba_development_decay_47 }
+	}
+	else_if = { limit = { var:decay_stack_size = 48}
+		add_county_modifier = { modifier = ba_development_decay_48 }
+	}
+	else_if = { limit = { var:decay_stack_size = 49}
+		add_county_modifier = { modifier = ba_development_decay_49 }
+	}
+	else_if = { limit = { var:decay_stack_size = 50}
+		add_county_modifier = { modifier = ba_development_decay_50 }
+	}
+	else_if = { limit = { var:decay_stack_size = 51}
+		add_county_modifier = { modifier = ba_development_decay_51 }
+	}
+	else_if = { limit = { var:decay_stack_size = 52}
+		add_county_modifier = { modifier = ba_development_decay_52 }
+	}
+	else_if = { limit = { var:decay_stack_size = 53}
+		add_county_modifier = { modifier = ba_development_decay_53 }
+	}
+	else_if = { limit = { var:decay_stack_size = 54}
+		add_county_modifier = { modifier = ba_development_decay_54 }
+	}
+	else_if = { limit = { var:decay_stack_size = 55}
+		add_county_modifier = { modifier = ba_development_decay_55 }
+	}
+	else_if = { limit = { var:decay_stack_size = 56}
+		add_county_modifier = { modifier = ba_development_decay_56 }
+	}
+	else_if = { limit = { var:decay_stack_size = 57}
+		add_county_modifier = { modifier = ba_development_decay_57 }
+	}
+	else_if = { limit = { var:decay_stack_size = 58}
+		add_county_modifier = { modifier = ba_development_decay_58 }
+	}
+	else_if = { limit = { var:decay_stack_size = 59}
+		add_county_modifier = { modifier = ba_development_decay_59 }
+	}
+	else_if = { limit = { var:decay_stack_size = 60}
+		add_county_modifier = { modifier = ba_development_decay_60 }
+	}
+	else_if = { limit = { var:decay_stack_size = 61}
+		add_county_modifier = { modifier = ba_development_decay_61 }
+	}
+	else_if = { limit = { var:decay_stack_size = 62}
+		add_county_modifier = { modifier = ba_development_decay_62 }
+	}
+	else_if = { limit = { var:decay_stack_size = 63}
+		add_county_modifier = { modifier = ba_development_decay_63 }
+	}
+	else_if = { limit = { var:decay_stack_size = 64}
+		add_county_modifier = { modifier = ba_development_decay_64 }
+	}
+	else_if = { limit = { var:decay_stack_size = 65}
+		add_county_modifier = { modifier = ba_development_decay_65 }
+	}
+	else_if = { limit = { var:decay_stack_size = 66}
+		add_county_modifier = { modifier = ba_development_decay_66 }
+	}
+	else_if = { limit = { var:decay_stack_size = 67}
+		add_county_modifier = { modifier = ba_development_decay_67 }
+	}
+	else_if = { limit = { var:decay_stack_size = 68}
+		add_county_modifier = { modifier = ba_development_decay_68 }
+	}
+	else_if = { limit = { var:decay_stack_size = 69}
+		add_county_modifier = { modifier = ba_development_decay_69 }
+	}
+	else_if = { limit = { var:decay_stack_size = 70}
+		add_county_modifier = { modifier = ba_development_decay_70 }
+	}
+	else_if = { limit = { var:decay_stack_size = 71}
+		add_county_modifier = { modifier = ba_development_decay_71 }
+	}
+	else_if = { limit = { var:decay_stack_size = 72}
+		add_county_modifier = { modifier = ba_development_decay_72 }
+	}
+	else_if = { limit = { var:decay_stack_size = 73}
+		add_county_modifier = { modifier = ba_development_decay_73 }
+	}
+	else_if = { limit = { var:decay_stack_size = 74}
+		add_county_modifier = { modifier = ba_development_decay_74 }
+	}
+	else_if = { limit = { var:decay_stack_size = 75}
+		add_county_modifier = { modifier = ba_development_decay_75 }
+	}
+	else_if = { limit = { var:decay_stack_size = 76}
+		add_county_modifier = { modifier = ba_development_decay_76 }
+	}
+	else_if = { limit = { var:decay_stack_size = 77}
+		add_county_modifier = { modifier = ba_development_decay_77 }
+	}
+	else_if = { limit = { var:decay_stack_size = 78}
+		add_county_modifier = { modifier = ba_development_decay_78 }
+	}
+	else_if = { limit = { var:decay_stack_size = 79}
+		add_county_modifier = { modifier = ba_development_decay_79 }
+	}
+	else_if = { limit = { var:decay_stack_size = 80}
+		add_county_modifier = { modifier = ba_development_decay_80 }
+	}
+	else_if = { limit = { var:decay_stack_size = 81}
+		add_county_modifier = { modifier = ba_development_decay_81 }
+	}
+	else_if = { limit = { var:decay_stack_size = 82}
+		add_county_modifier = { modifier = ba_development_decay_82 }
+	}
+	else_if = { limit = { var:decay_stack_size = 83}
+		add_county_modifier = { modifier = ba_development_decay_83 }
+	}
+	else_if = { limit = { var:decay_stack_size = 84}
+		add_county_modifier = { modifier = ba_development_decay_84 }
+	}
+	else_if = { limit = { var:decay_stack_size = 85}
+		add_county_modifier = { modifier = ba_development_decay_85 }
+	}
+	else_if = { limit = { var:decay_stack_size = 86}
+		add_county_modifier = { modifier = ba_development_decay_86 }
+	}
+	else_if = { limit = { var:decay_stack_size = 87}
+		add_county_modifier = { modifier = ba_development_decay_87 }
+	}
+	else_if = { limit = { var:decay_stack_size = 88}
+		add_county_modifier = { modifier = ba_development_decay_88 }
+	}
+	else_if = { limit = { var:decay_stack_size = 89}
+		add_county_modifier = { modifier = ba_development_decay_89 }
+	}
+	else_if = { limit = { var:decay_stack_size = 90}
+		add_county_modifier = { modifier = ba_development_decay_90 }
+	}
+	else_if = { limit = { var:decay_stack_size = 91}
+		add_county_modifier = { modifier = ba_development_decay_91 }
+	}
+	else_if = { limit = { var:decay_stack_size = 92}
+		add_county_modifier = { modifier = ba_development_decay_92 }
+	}
+	else_if = { limit = { var:decay_stack_size = 93}
+		add_county_modifier = { modifier = ba_development_decay_93 }
+	}
+	else_if = { limit = { var:decay_stack_size = 94}
+		add_county_modifier = { modifier = ba_development_decay_94 }
+	}
+	else_if = { limit = { var:decay_stack_size = 95}
+		add_county_modifier = { modifier = ba_development_decay_95 }
+	}
+	else_if = { limit = { var:decay_stack_size = 96}
+		add_county_modifier = { modifier = ba_development_decay_96 }
+	}
+	else_if = { limit = { var:decay_stack_size = 97}
+		add_county_modifier = { modifier = ba_development_decay_97 }
+	}
+	else_if = { limit = { var:decay_stack_size = 98}
+		add_county_modifier = { modifier = ba_development_decay_98 }
+	}
+	else_if = { limit = { var:decay_stack_size = 99}
+		add_county_modifier = { modifier = ba_development_decay_99 }
+	}
+	else_if = { limit = { var:decay_stack_size = 100}
+		add_county_modifier = { modifier = ba_development_decay_100 }
+	}
+	set_variable = {
+		name = old_development
+		value = development_level
+	}
+}
+remove_old_decay_modififer_effect = {
+	if = { limit = { var:decay_stack_size = 1}
+		remove_county_modifier = ba_development_decay_1
+	}
+	else_if = { limit = { var:decay_stack_size = 2}
+		remove_county_modifier = ba_development_decay_2
+	}
+	else_if = { limit = { var:decay_stack_size = 3}
+		remove_county_modifier = ba_development_decay_3
+	}
+	else_if = { limit = { var:decay_stack_size = 4}
+		remove_county_modifier = ba_development_decay_4
+	}
+	else_if = { limit = { var:decay_stack_size = 5}
+		remove_county_modifier = ba_development_decay_5
+	}
+	else_if = { limit = { var:decay_stack_size = 6}
+		remove_county_modifier = ba_development_decay_6
+	}
+	else_if = { limit = { var:decay_stack_size = 7}
+		remove_county_modifier = ba_development_decay_7
+	}
+	else_if = { limit = { var:decay_stack_size = 8}
+		remove_county_modifier = ba_development_decay_8
+	}
+	else_if = { limit = { var:decay_stack_size = 9}
+		remove_county_modifier = ba_development_decay_9
+	}
+	else_if = { limit = { var:decay_stack_size = 10}
+		remove_county_modifier = ba_development_decay_10
+	}
+	else_if = { limit = { var:decay_stack_size = 11}
+		remove_county_modifier = ba_development_decay_11
+	}
+	else_if = { limit = { var:decay_stack_size = 12}
+		remove_county_modifier = ba_development_decay_12
+	}
+	else_if = { limit = { var:decay_stack_size = 13}
+		remove_county_modifier = ba_development_decay_13
+	}
+	else_if = { limit = { var:decay_stack_size = 14}
+		remove_county_modifier = ba_development_decay_14
+	}
+	else_if = { limit = { var:decay_stack_size = 15}
+		remove_county_modifier = ba_development_decay_15
+	}
+	else_if = { limit = { var:decay_stack_size = 16}
+		remove_county_modifier = ba_development_decay_16
+	}
+	else_if = { limit = { var:decay_stack_size = 17}
+		remove_county_modifier = ba_development_decay_17
+	}
+	else_if = { limit = { var:decay_stack_size = 18}
+		remove_county_modifier = ba_development_decay_18
+	}
+	else_if = { limit = { var:decay_stack_size = 19}
+		remove_county_modifier = ba_development_decay_19
+	}
+	else_if = { limit = { var:decay_stack_size = 20}
+		remove_county_modifier = ba_development_decay_20
+	}
+	else_if = { limit = { var:decay_stack_size = 21}
+		remove_county_modifier = ba_development_decay_21
+	}
+	else_if = { limit = { var:decay_stack_size = 22}
+		remove_county_modifier = ba_development_decay_22
+	}
+	else_if = { limit = { var:decay_stack_size = 23}
+		remove_county_modifier = ba_development_decay_23
+	}
+	else_if = { limit = { var:decay_stack_size = 24}
+		remove_county_modifier = ba_development_decay_24
+	}
+	else_if = { limit = { var:decay_stack_size = 25}
+		remove_county_modifier = ba_development_decay_25
+	}
+	else_if = { limit = { var:decay_stack_size = 26}
+		remove_county_modifier = ba_development_decay_26
+	}
+	else_if = { limit = { var:decay_stack_size = 27}
+		remove_county_modifier = ba_development_decay_27
+	}
+	else_if = { limit = { var:decay_stack_size = 28}
+		remove_county_modifier = ba_development_decay_28
+	}
+	else_if = { limit = { var:decay_stack_size = 29}
+		remove_county_modifier = ba_development_decay_29
+	}
+	else_if = { limit = { var:decay_stack_size = 30}
+		remove_county_modifier = ba_development_decay_30
+	}
+	else_if = { limit = { var:decay_stack_size = 31}
+		remove_county_modifier = ba_development_decay_31
+	}
+	else_if = { limit = { var:decay_stack_size = 32}
+		remove_county_modifier = ba_development_decay_32
+	}
+	else_if = { limit = { var:decay_stack_size = 33}
+		remove_county_modifier = ba_development_decay_33
+	}
+	else_if = { limit = { var:decay_stack_size = 34}
+		remove_county_modifier = ba_development_decay_34
+	}
+	else_if = { limit = { var:decay_stack_size = 35}
+		remove_county_modifier = ba_development_decay_35
+	}
+	else_if = { limit = { var:decay_stack_size = 36}
+		remove_county_modifier = ba_development_decay_36
+	}
+	else_if = { limit = { var:decay_stack_size = 37}
+		remove_county_modifier = ba_development_decay_37
+	}
+	else_if = { limit = { var:decay_stack_size = 38}
+		remove_county_modifier = ba_development_decay_38
+	}
+	else_if = { limit = { var:decay_stack_size = 39}
+		remove_county_modifier = ba_development_decay_39
+	}
+	else_if = { limit = { var:decay_stack_size = 40}
+		remove_county_modifier = ba_development_decay_40
+	}
+	else_if = { limit = { var:decay_stack_size = 41}
+		remove_county_modifier = ba_development_decay_41
+	}
+	else_if = { limit = { var:decay_stack_size = 42}
+		remove_county_modifier = ba_development_decay_42
+	}
+	else_if = { limit = { var:decay_stack_size = 43}
+		remove_county_modifier = ba_development_decay_43
+	}
+	else_if = { limit = { var:decay_stack_size = 44}
+		remove_county_modifier = ba_development_decay_44
+	}
+	else_if = { limit = { var:decay_stack_size = 45}
+		remove_county_modifier = ba_development_decay_45
+	}
+	else_if = { limit = { var:decay_stack_size = 46}
+		remove_county_modifier = ba_development_decay_46
+	}
+	else_if = { limit = { var:decay_stack_size = 47}
+		remove_county_modifier = ba_development_decay_47
+	}
+	else_if = { limit = { var:decay_stack_size = 48}
+		remove_county_modifier = ba_development_decay_48
+	}
+	else_if = { limit = { var:decay_stack_size = 49}
+		remove_county_modifier = ba_development_decay_49
+	}
+	else_if = { limit = { var:decay_stack_size = 50}
+		remove_county_modifier = ba_development_decay_50
+	}
+	else_if = { limit = { var:decay_stack_size = 51}
+		remove_county_modifier = ba_development_decay_51
+	}
+	else_if = { limit = { var:decay_stack_size = 52}
+		remove_county_modifier = ba_development_decay_52
+	}
+	else_if = { limit = { var:decay_stack_size = 53}
+		remove_county_modifier = ba_development_decay_53
+	}
+	else_if = { limit = { var:decay_stack_size = 54}
+		remove_county_modifier = ba_development_decay_54
+	}
+	else_if = { limit = { var:decay_stack_size = 55}
+		remove_county_modifier = ba_development_decay_55
+	}
+	else_if = { limit = { var:decay_stack_size = 56}
+		remove_county_modifier = ba_development_decay_56
+	}
+	else_if = { limit = { var:decay_stack_size = 57}
+		remove_county_modifier = ba_development_decay_57
+	}
+	else_if = { limit = { var:decay_stack_size = 58}
+		remove_county_modifier = ba_development_decay_58
+	}
+	else_if = { limit = { var:decay_stack_size = 59}
+		remove_county_modifier = ba_development_decay_59
+	}
+	else_if = { limit = { var:decay_stack_size = 60}
+		remove_county_modifier = ba_development_decay_60
+	}
+	else_if = { limit = { var:decay_stack_size = 61}
+		remove_county_modifier = ba_development_decay_61
+	}
+	else_if = { limit = { var:decay_stack_size = 62}
+		remove_county_modifier = ba_development_decay_62
+	}
+	else_if = { limit = { var:decay_stack_size = 63}
+		remove_county_modifier = ba_development_decay_63
+	}
+	else_if = { limit = { var:decay_stack_size = 64}
+		remove_county_modifier = ba_development_decay_64
+	}
+	else_if = { limit = { var:decay_stack_size = 65}
+		remove_county_modifier = ba_development_decay_65
+	}
+	else_if = { limit = { var:decay_stack_size = 66}
+		remove_county_modifier = ba_development_decay_66
+	}
+	else_if = { limit = { var:decay_stack_size = 67}
+		remove_county_modifier = ba_development_decay_67
+	}
+	else_if = { limit = { var:decay_stack_size = 68}
+		remove_county_modifier = ba_development_decay_68
+	}
+	else_if = { limit = { var:decay_stack_size = 69}
+		remove_county_modifier = ba_development_decay_69
+	}
+	else_if = { limit = { var:decay_stack_size = 70}
+		remove_county_modifier = ba_development_decay_70
+	}
+	else_if = { limit = { var:decay_stack_size = 71}
+		remove_county_modifier = ba_development_decay_71
+	}
+	else_if = { limit = { var:decay_stack_size = 72}
+		remove_county_modifier = ba_development_decay_72
+	}
+	else_if = { limit = { var:decay_stack_size = 73}
+		remove_county_modifier = ba_development_decay_73
+	}
+	else_if = { limit = { var:decay_stack_size = 74}
+		remove_county_modifier = ba_development_decay_74
+	}
+	else_if = { limit = { var:decay_stack_size = 75}
+		remove_county_modifier = ba_development_decay_75
+	}
+	else_if = { limit = { var:decay_stack_size = 76}
+		remove_county_modifier = ba_development_decay_76
+	}
+	else_if = { limit = { var:decay_stack_size = 77}
+		remove_county_modifier = ba_development_decay_77
+	}
+	else_if = { limit = { var:decay_stack_size = 78}
+		remove_county_modifier = ba_development_decay_78
+	}
+	else_if = { limit = { var:decay_stack_size = 79}
+		remove_county_modifier = ba_development_decay_79
+	}
+	else_if = { limit = { var:decay_stack_size = 80}
+		remove_county_modifier = ba_development_decay_80
+	}
+	else_if = { limit = { var:decay_stack_size = 81}
+		remove_county_modifier = ba_development_decay_81
+	}
+	else_if = { limit = { var:decay_stack_size = 82}
+		remove_county_modifier = ba_development_decay_82
+	}
+	else_if = { limit = { var:decay_stack_size = 83}
+		remove_county_modifier = ba_development_decay_83
+	}
+	else_if = { limit = { var:decay_stack_size = 84}
+		remove_county_modifier = ba_development_decay_84
+	}
+	else_if = { limit = { var:decay_stack_size = 85}
+		remove_county_modifier = ba_development_decay_85
+	}
+	else_if = { limit = { var:decay_stack_size = 86}
+		remove_county_modifier = ba_development_decay_86
+	}
+	else_if = { limit = { var:decay_stack_size = 87}
+		remove_county_modifier = ba_development_decay_87
+	}
+	else_if = { limit = { var:decay_stack_size = 88}
+		remove_county_modifier = ba_development_decay_88
+	}
+	else_if = { limit = { var:decay_stack_size = 89}
+		remove_county_modifier = ba_development_decay_89
+	}
+	else_if = { limit = { var:decay_stack_size = 90}
+		remove_county_modifier = ba_development_decay_90
+	}
+	else_if = { limit = { var:decay_stack_size = 91}
+		remove_county_modifier = ba_development_decay_91
+	}
+	else_if = { limit = { var:decay_stack_size = 92}
+		remove_county_modifier = ba_development_decay_92
+	}
+	else_if = { limit = { var:decay_stack_size = 93}
+		remove_county_modifier = ba_development_decay_93
+	}
+	else_if = { limit = { var:decay_stack_size = 94}
+		remove_county_modifier = ba_development_decay_94
+	}
+	else_if = { limit = { var:decay_stack_size = 95}
+		remove_county_modifier = ba_development_decay_95
+	}
+	else_if = { limit = { var:decay_stack_size = 96}
+		remove_county_modifier = ba_development_decay_96
+	}
+	else_if = { limit = { var:decay_stack_size = 97}
+		remove_county_modifier = ba_development_decay_97
+	}
+	else_if = { limit = { var:decay_stack_size = 98}
+		remove_county_modifier = ba_development_decay_98
+	}
+	else_if = { limit = { var:decay_stack_size = 99}
+		remove_county_modifier = ba_development_decay_99
+	}
+	else_if = { limit = { var:decay_stack_size = 100}
+		remove_county_modifier = ba_development_decay_100
+	}
+}

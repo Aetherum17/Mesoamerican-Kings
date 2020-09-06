@@ -1,0 +1,76 @@
+﻿#character
+found_kingdom_decision_two_duchies_held = {
+	global = HOLDS_TWO_OR_MORE_DUCHY_TITLES_TRIGGER
+	first = I_HOLD_TWO_OR_MORE_DUCHY_TITLES_TRIGGER
+	third = THEY_HOLD_TWO_OR_MORE_DUCHY_TITLES_TRIGGER
+}
+
+incompatible_doctrine_infanticide_trigger = {
+	first_not = incompatible_doctrine_infanticide_trigger
+	third_not = incompatible_doctrine_infanticide_trigger
+}
+requires_no_syncretism_trigger = {
+	first_not = requires_no_syncretism_trigger
+	third_not = requires_no_syncretism_trigger
+}
+requires_minoan_matriarchy_trigger = {
+	first_not = requires_minoan_matriarchy_trigger
+	third_not = requires_minoan_matriarchy_trigger
+}
+doctrine_not_ancestor_worship_trigger = {
+	first_not = doctrine_not_ancestor_worship_trigger
+	third_not = doctrine_not_ancestor_worship_trigger
+}
+incompatible_tenet_astrology_trigger = {
+	first_not = incompatible_tenet_astrology_trigger
+	third_not = incompatible_tenet_astrology_trigger
+}
+requires_doctrine_pluralism_fundamentalist_trigger = {
+	first_not = requires_doctrine_pluralism_fundamentalist_trigger
+	third_not = requires_doctrine_pluralism_fundamentalist_trigger
+}
+#Syncretisms
+requires_mesopotamian_syncretism_trigger = {
+	first_not = requires_mesopotamian_syncretism_trigger
+	third_not = requires_mesopotamian_syncretism_trigger
+}
+requires_egyptian_syncretism_trigger = {
+	first_not = requires_egyptian_syncretism_trigger
+	third_not = requires_egyptian_syncretism_trigger
+}
+requires_aegean_syncretism_trigger = {
+	first_not = requires_aegean_syncretism_trigger
+	third_not = requires_aegean_syncretism_trigger
+}
+requires_canaanite_syncretism_trigger = {
+	first_not = requires_canaanite_syncretism_trigger
+	third_not = requires_canaanite_syncretism_trigger
+}
+requires_elamite_syncretism_trigger = {
+	first_not = requires_elamite_syncretism_trigger
+	third_not = requires_elamite_syncretism_trigger
+}
+requires_hellenic_syncretism_trigger = {
+	first_not = requires_hellenic_syncretism_trigger
+	third_not = requires_hellenic_syncretism_trigger
+}
+requires_hurrian_syncretism_trigger = {
+	first_not = requires_hurrian_syncretism_trigger
+	third_not = requires_hurrian_syncretism_trigger
+}
+requires_kushite_syncretism_trigger = {
+	first_not = requires_kushite_syncretism_trigger
+	third_not = requires_kushite_syncretism_trigger
+}
+requires_hattian_syncretism_trigger = {
+	first_not = requires_hattian_syncretism_trigger
+	third_not = requires_hattian_syncretism_trigger
+}
+requires_luwian_syncretism_trigger = {
+	first_not = requires_luwian_syncretism_trigger
+	third_not = requires_luwian_syncretism_trigger
+}
+requires_zagrosian_syncretism_trigger = {
+	first_not = requires_zagrosian_syncretism_trigger
+	third_not = requires_zagrosian_syncretism_trigger
+}

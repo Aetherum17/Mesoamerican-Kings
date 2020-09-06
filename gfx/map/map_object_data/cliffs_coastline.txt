@@ -1,0 +1,40 @@
+﻿object={
+	name="cliff coastline 01"
+	clamp_to_water_level=no
+	render_under_water=yes
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="cliff_coastline_01_mesh"
+	count=1
+	transform="1.858887 -5.207947 1.674744 -0.000000 -0.375690 -0.000000 -0.926746 0.205334 0.205334 0.205334
+"}
+object={
+	name="cliff coastline 02"
+	clamp_to_water_level=no
+	render_under_water=yes
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="cliff_coastline_02_mesh"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="cliff coastline 03"
+	clamp_to_water_level=no
+	render_under_water=yes
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="cliff_coastline_03_mesh"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="cliff coastline 04"
+	clamp_to_water_level=no
+	render_under_water=yes
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="cliff_coastline_04_mesh"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+"}

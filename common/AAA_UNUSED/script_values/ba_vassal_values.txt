@@ -1,0 +1,291 @@
+﻿ba_raiding_development_change_svalue = { #scope is the top title to reduce development on, scope:attacker, scope:defender
+	value = ba_raiding_average_development_svalue
+	multiply = {
+		value = 0
+		if = {
+			limit = { ba_raiding_average_development_svalue >= 40 }
+			add = -0.3
+		}
+		else_if = {
+			limit = { ba_raiding_average_development_svalue >= 30 }
+			add = -0.2
+		}
+		else_if = {
+			limit = { ba_raiding_average_development_svalue >= 20 }
+			add = -0.2
+		}
+		else_if = {
+			limit = { ba_raiding_average_development_svalue >= 10 }
+			add = -0.1
+		}
+	}
+	add = -2
+}
+ba_raiding_average_development_svalue = {
+	value = ba_raiding_total_development_svalue
+	divide = ba_raiding_counties_in_svalue
+}
+ba_raiding_total_development_svalue = {
+	value = 0
+	scope:defender = {
+		every_realm_county = {
+			limit = {
+				kingdom = scope:target_title
+			}
+			add = development_level
+		}
+	}
+}
+ba_raiding_counties_in_svalue = { #scope is the top title to reduce development on, scope:attacker, scope:defender
+	value = 0
+	scope:defender = {
+		every_realm_county = {
+			limit = {
+				kingdom = scope:target_title
+			}
+			add = 1
+		}
+	}
+	min = 1
+}
+ba_raiding_gold_gain_svalue = {
+	value = 0
+	add = ba_raiding_total_development_svalue
+	#multiply = ba_raiding_counties_in_svalue
+	#multiply = 10
+	add = 25
+}
+ba_raiding_prestige_gain_svalue = {
+	value = 0
+	add = ba_raiding_total_development_svalue
+	multiply = 2
+	add = 50
+}
+ba_tributary_tax_factor = {
+	value = ba_vassal_distance_factor
+	multiply = 0.25
+}
+ba_vassal_tax_factor = {
+	value = ba_vassal_distance_factor
+}
+ba_vassal_distance_factor = { #scope:liege, scope:vassal
+	value = 0
+	scope:vassal = {
+		if = {
+			limit = { has_variable = liege_distance }
+			if = {
+				limit = {
+					var:liege_distance = 0
+				}
+				#Nothing baseline
+			}
+			else_if = {
+				limit = {
+					var:liege_distance = 8
+				}
+				add = ba_distance_7_multiplier
+			}
+			else_if = {
+				limit = {
+					var:liege_distance = 7
+				}
+				add = ba_distance_6_multiplier
+			}
+			else_if = {
+				limit = {
+					var:liege_distance = 6
+				}
+				add = ba_distance_5_multiplier
+			}
+			else_if = {
+				limit = {
+					var:liege_distance = 5
+				}
+				add = ba_distance_4_multiplier
+			}
+			else_if = {
+				limit = {
+					var:liege_distance = 4
+				}
+				add = ba_distance_3_multiplier
+			}
+			else_if = {
+				limit = {
+					var:liege_distance = 3
+				}
+				add = ba_distance_2_multiplier
+			}
+			else_if = {
+				limit = {
+					var:liege_distance = 2
+				}
+				add = ba_distance_1_multiplier
+			}
+			else_if = {
+				limit = {
+					var:liege_distance = 1
+				}
+				add = ba_distance_0_multiplier
+			}
+		}
+	}
+}
+ba_get_vassal_distance_svalue = { #scope:liege, scope:vassal
+	value = 0
+	scope:liege.capital_barony = {
+		if = {
+			limit = {
+				squared_distance = {
+					target = root.capital_barony
+					value < ba_distance_0
+				}
+			}
+			add = 0
+		}
+		else_if = {
+			limit = {
+				squared_distance = {
+					target = root.capital_barony
+					value > ba_distance_7
+				}
+			}
+			add = 8
+		}
+		else_if = {
+			limit = {
+				squared_distance = {
+					target = root.capital_barony
+					value > ba_distance_6
+				}
+			}
+			add = 7
+		}
+		else_if = {
+			limit = {
+				squared_distance = {
+					target = root.capital_barony
+					value > ba_distance_5
+				}
+			}
+			add = 6
+		}
+		else_if = {
+			limit = {
+				squared_distance = {
+					target = root.capital_barony
+					value > ba_distance_4
+				}
+			}
+			add = 5
+		}
+		else_if = {
+			limit = {
+				squared_distance = {
+					target = root.capital_barony
+					value > ba_distance_3
+				}
+			}
+			add = 4
+		}
+		else_if = {
+			limit = {
+				squared_distance = {
+					target = root.capital_barony
+					value > ba_distance_2
+				}
+			}
+			add = 3
+		}
+		else_if = {
+			limit = {
+				squared_distance = {
+					target = root.capital_barony
+					value > ba_distance_1
+				}
+			}
+			add = 2
+		}
+		else_if = {
+			limit = {
+				squared_distance = {
+					target = root.capital_barony
+					value > ba_distance_0
+				}
+			}
+			add = 1
+		}
+	}
+}
+ba_development_decay_svalue = {
+	value = -0.1
+	multiply = development_level
+}
+#distance_0 is the squared amount of pixels that there is no negative modifier, 3x^3 + 55x + 42
+ba_distance_0 = {
+	value = 6000
+	multiply = ba_distance_efficicency_multiplier
+	multiply = ba_distance_efficicency_multiplier #Twice because it is squared
+}
+ba_distance_0_multiplier = -0.1
+ba_distance_1 = {
+	value = 19000
+	multiply = ba_distance_efficicency_multiplier
+	multiply = ba_distance_efficicency_multiplier #Twice because it is squared
+}
+ba_distance_1_multiplier = -0.15
+ba_distance_2 = {
+	value = 50000
+	multiply = ba_distance_efficicency_multiplier
+	multiply = ba_distance_efficicency_multiplier #Twice because it is squared
+}
+ba_distance_2_multiplier = -0.25
+ba_distance_3 = {
+	value = 124000
+	multiply = ba_distance_efficicency_multiplier
+	multiply = ba_distance_efficicency_multiplier #Twice because it is squared
+}
+ba_distance_3_multiplier = -0.4
+ba_distance_4 = {
+	value = 288000
+	multiply = ba_distance_efficicency_multiplier
+	multiply = ba_distance_efficicency_multiplier #Twice because it is squared
+}
+ba_distance_4_multiplier = -0.6
+ba_distance_5 = {
+	value = 606000
+	multiply = ba_distance_efficicency_multiplier
+	multiply = ba_distance_efficicency_multiplier #Twice because it is squared
+}
+ba_distance_5_multiplier = -0.8
+ba_distance_6 = {
+	value = 1272000
+	multiply = ba_distance_efficicency_multiplier
+	multiply = ba_distance_efficicency_multiplier #Twice because it is squared
+}
+ba_distance_6_multiplier = -1
+ba_distance_7 = {
+	value = 2443000
+	multiply = ba_distance_efficicency_multiplier
+	multiply = ba_distance_efficicency_multiplier #Twice because it is squared
+}
+ba_distance_7_multiplier = -1.5
+
+ba_distance_efficicency_multiplier = { #scope:liege, root is vassal
+	value = 1
+	if = {
+		limit = { scope:liege.culture = { innovation_distance_efficiency_1_trigger = yes } }
+		add = 0.2
+	}
+	if = {
+		limit = { scope:liege.culture = { innovation_distance_efficiency_2_trigger = yes } }
+		add = 0.2
+	}
+	if = {
+		limit = { scope:liege.culture = { innovation_distance_efficiency_3_trigger = yes } }
+		add = 0.2
+	}
+	if = {
+		limit = { scope:liege.culture = { innovation_distance_efficiency_4_trigger = yes } }
+		add = 0.2
+	}
+}

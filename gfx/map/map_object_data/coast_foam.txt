@@ -1,0 +1,10 @@
+﻿object={
+	name="env_coast_foam_l"
+	clamp_to_water_level=yes
+	render_under_water=yes
+	generated_content=no
+	layer="coast_foam_layer"
+	entity="env_coast_foam_l"
+	count=1
+	transform="1.502808 0.000000 1.516357 0.000000 0.014931 0.000000 -0.999889 1.000000 1.000000 1.000000
+"}

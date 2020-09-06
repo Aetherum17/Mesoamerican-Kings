@@ -1,0 +1,3 @@
+﻿hurrian = {
+	template = "caucasian_dark_hair"
+}

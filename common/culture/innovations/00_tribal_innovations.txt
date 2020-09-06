@@ -1,0 +1,346 @@
+﻿#### Local Types ####
+@administration_1 = "gfx/interface/icons/culture_innovations/innovation_administration_01.dds"
+@administration_2 = "gfx/interface/icons/culture_innovations/innovation_administration_02.dds"
+@administration_3 = "gfx/interface/icons/culture_innovations/innovation_administration_03.dds"
+@civil_construction_1 = "gfx/interface/icons/culture_innovations/innovation_civil_construction_01.dds"
+@civil_construction_2 = "gfx/interface/icons/culture_innovations/innovation_civil_construction_02.dds"
+@leadership_1 = "gfx/interface/icons/culture_innovations/innovation_leadership_01.dds"
+@leadership_2 = "gfx/interface/icons/culture_innovations/innovation_leadership_02.dds"
+@raised_banner = "gfx/interface/icons/culture_innovations/innovation_raised_banner.dds"
+@fortifications = "gfx/interface/icons/culture_innovations/innovation_fortifications.dds"
+@siege_weapons = "gfx/interface/icons/culture_innovations/innovation_siege_weapons.dds"
+@levy_building = "gfx/interface/icons/culture_innovations/innovation_levy_building.dds"
+@maa_01 = "gfx/interface/icons/culture_innovations/innovation_maa_01.dds"
+@maa_02 = "gfx/interface/icons/culture_innovations/innovation_maa_02.dds"
+@weapons_and_armor_01 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_01.dds"
+@weapons_and_armor_02 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_02.dds"
+@knight = "gfx/interface/icons/culture_innovations/innovation_knight.dds"
+@majesty_01 = "gfx/interface/icons/culture_innovations/innovation_majesty_01.dds"
+@majesty_02 = "gfx/interface/icons/culture_innovations/innovation_majesty_02.dds"
+@majesty_03 = "gfx/interface/icons/culture_innovations/innovation_majesty_03.dds"
+@nobility_01 = "gfx/interface/icons/culture_innovations/innovation_nobility_01.dds"
+@nobility_02 = "gfx/interface/icons/culture_innovations/innovation_nobility_02.dds"
+@nobility_03 = "gfx/interface/icons/culture_innovations/innovation_nobility_03.dds"
+@nobility_04 = "gfx/interface/icons/culture_innovations/innovation_nobility_04.dds"
+@misc_inventions = "gfx/interface/icons/culture_innovations/innovation_misc_inventions.dds"
+
+@camel = "gfx/interface/icons/culture_innovations/innovation_camel.dds"
+@elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
+@special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
+@special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
+
+
+#culture_group_military
+innovation_earthworks = { #Fort 1
+	group = culture_group_military
+	culture_era = culture_era_tribal
+	icon = @fortifications
+
+	custom = unlock_early_bronze_age_fortification_buildings
+
+	flag = global_regular
+	flag = tribal_era_regular
+}
+
+innovation_barracks = { #Military 1
+	group = culture_group_military
+	culture_era = culture_era_tribal
+	icon = @levy_building
+
+	custom = unlock_early_bronze_age_military_buildings
+
+	flag = global_regular
+	flag = tribal_era_regular
+}
+
+innovation_raiding_parties = { # Misc
+	group = culture_group_military
+	culture_era = culture_era_tribal
+	icon = @raised_banner
+
+	unlock_building = tribe_02
+
+	unlock_casus_belli = raiding_party_cb
+
+	flag = global_regular
+	flag = tribal_era_regular
+}
+
+innovation_mustering_grounds = { # Maa cap 1
+	group = culture_group_military
+	culture_era = culture_era_tribal
+	icon = @leadership_2
+
+	modifier = {
+		men_at_arms_cap = 1
+		men_at_arms_limit = 2
+	}
+
+	flag = global_regular
+	flag = tribal_era_regular
+}
+
+innovation_tribal_vassals = { # Misc 
+	group = culture_group_military
+	culture_era = culture_era_tribal
+	icon = @administration_3
+
+	modifier = {
+		tribal_government_vassal_opinion = 10
+	}
+
+	flag = global_regular
+	flag = tribal_era_regular
+}
+innovation_bronze_socket_axe = { #Maa 1
+	group = culture_group_military
+	culture_era = culture_era_tribal
+	icon = @weapons_and_armor_02
+
+	unlock_maa = axemen
+
+	flag = global_regular
+	flag = tribal_era_regular
+}
+
+#Civic
+
+innovation_city_planning = { # Development 1
+	group = culture_group_civic
+	culture_era = culture_era_tribal
+	icon = @civil_construction_1
+
+	custom = development_1_base_development
+
+	flag = global_regular
+	flag = tribal_era_regular
+}
+
+innovation_early_palaces = { # Palatial 1
+	group = culture_group_civic
+	culture_era = culture_era_tribal
+	icon = @majesty_02
+
+	modifier = {
+	}
+
+	custom = unlocks_duchy_buildings
+	custom = less_negative_impact_from_distance_01
+
+	flag = global_regular
+	flag = tribal_era_regular
+}
+
+innovation_centralized_irrigation = { # Agri 1
+	group = culture_group_civic
+	culture_era = culture_era_tribal
+	icon = @levy_building
+
+	unlock_building = estate_01
+	unlock_building = temple_01
+
+	custom = unlock_early_bronze_age_agriculture_buildings
+
+	flag = global_regular
+	flag = tribal_era_regular
+}
+
+innovation_potters_wheel = { # Econ 1
+	group = culture_group_civic
+	culture_era = culture_era_tribal
+	icon = @civil_construction_2
+	
+	custom = unlock_early_bronze_age_economic_buildings
+
+	flag = global_regular
+	flag = tribal_era_regular
+}
+
+innovation_city_states = { # Misc
+	group = culture_group_civic
+	culture_era = culture_era_tribal
+	icon = @administration_3
+
+	unlock_building = city_01
+
+	custom = tribes_can_become_feudal
+
+	flag = global_regular
+	flag = tribal_era_regular
+}
+
+innovation_kingship = { # Misc
+	group = culture_group_civic
+	culture_era = culture_era_tribal
+	icon = @administration_1
+
+	unlock_law = single_heir_succession_law
+
+	modifier = {
+		domain_limit = 1
+	}
+
+	flag = global_regular
+	flag = tribal_era_regular
+}
+
+innovation_kings_justice = { # Law 1
+	group = culture_group_civic
+	culture_era = culture_era_tribal
+	icon = @leadership_1
+
+	unlock_law = crown_authority_1
+
+	flag = global_regular
+	flag = tribal_era_regular
+}
+
+innovation_border_stones = { # Misc
+	group = culture_group_civic
+	culture_era = culture_era_tribal
+	icon = @administration_2
+
+	modifier = {
+		domain_limit = 1
+	}
+
+	unlock_casus_belli = individual_duchy_de_jure_cb
+
+	custom = fabricate_claim_speed
+	custom = cb_discount_prestige_10
+
+	flag = global_regular
+	flag = tribal_era_regular
+}
+
+#Based on spread, non-region
+innovation_writing = {
+	group = culture_group_civic
+	culture_era = culture_era_tribal
+	icon = @administration_3
+
+	can_progress = {
+		custom_description = {
+			text = culture_exposed_to_writing
+			has_variable = writing_exposure
+		}
+	}
+	modifier = {
+	}
+
+	unlock_building = scribal_school_01
+
+	custom = enables_writing
+
+	flag = global_regional
+	flag = tribal_era_regional
+}
+innovation_spoked_wheel = {
+	group = culture_group_military
+	culture_era = culture_era_tribal
+	icon = @administration_3
+
+	can_progress = {
+		custom_description = {
+			text = culture_exposed_to_spoked_wheel
+			has_variable = spoked_wheel_exposure
+		}
+	}
+	modifier = {
+		knight_limit = 4
+		knight_effectiveness_mult = 0.2
+	}
+
+	unlock_building = horse_breeder_01
+
+	unlock_maa = light_chariot
+
+	custom = enables_charioteering
+
+	flag = global_regional
+	flag = tribal_era_regional
+}
+innovation_composite_bow = {
+	group = culture_group_military
+	culture_era = culture_era_tribal
+	icon = @administration_3
+
+	can_progress = {
+		custom_description = {
+			text = culture_exposed_to_composite_bows
+			has_variable = composite_bow_exposure
+		}
+	}
+	modifier = {
+		light_chariot_damage_mult = 0.1
+		archers_damage_mult = 0.1
+	}
+
+	flag = global_regional
+	flag = tribal_era_regional
+}
+
+#culture_group_regional
+innovation_aegean_raiders = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_aegean
+	icon = @misc_inventions
+
+	modifier = {
+		embarkation_cost_mult = -0.75
+		naval_movement_speed_mult = 0.25
+	}
+
+	custom = unlocks_naval_raiding
+	custom = unlocks_sailable_major_rivers
+
+	flag = global_regional
+	flag = tribal_era_regional
+}
+innovation_dilmun_magan_seafarers = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_persian_gulf
+	icon = @misc_inventions
+
+	modifier = {
+		embarkation_cost_mult = -0.75
+		naval_movement_speed_mult = 0.25
+	}
+
+	custom = unlocks_naval_raiding
+	custom = unlocks_sailable_major_rivers
+
+	flag = global_regional
+	flag = tribal_era_regional
+}
+innovation_papyrus = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_nile_valley
+	icon = @misc_inventions
+
+	unlock_building = papyrus_farms_01
+	unlock_building = papyrus_press_01
+
+	modifier = {
+		cultural_head_fascination_mult = 0.05
+	}
+
+	flag = global_regional
+	flag = tribal_era_regional
+}
+innovation_grain_rations = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_sumer
+	icon = @misc_inventions
+
+	modifier = {
+		county_opinion_add = 5
+	}
+
+	flag = global_regional
+	flag = tribal_era_regional
+}
