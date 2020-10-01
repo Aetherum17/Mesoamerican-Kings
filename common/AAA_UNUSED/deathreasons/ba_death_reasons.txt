@@ -1,5 +1,0 @@
-﻿
-death_infanticide = {
-	public_knowledge = yes
-	icon = "death_murder.dds"
-}

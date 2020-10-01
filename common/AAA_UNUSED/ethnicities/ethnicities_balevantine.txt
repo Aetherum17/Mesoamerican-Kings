@@ -1,3 +1,0 @@
-﻿balevantine = {
-    template = "arab"
-}

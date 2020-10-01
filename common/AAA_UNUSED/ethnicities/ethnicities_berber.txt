@@ -1,3 +1,0 @@
-﻿berber = {
-    template = "arab"
-}

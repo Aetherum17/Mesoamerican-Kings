@@ -1,3 +1,0 @@
-﻿greek = {
-	template = "caucasian_dark_hair"
-}

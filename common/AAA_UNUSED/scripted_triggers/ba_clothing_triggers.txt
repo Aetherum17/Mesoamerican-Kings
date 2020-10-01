@@ -1,6 +1,0 @@
-﻿portrait_egyptian_clothing_trigger = {
-	OR = {
-		culture = { has_graphical_culture = egyptian_clothing_gfx }
-		faith = { has_doctrine = tenet_pharaohs }
-	}
-}
